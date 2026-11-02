@@ -25,7 +25,10 @@ for f in $files; do
     fi
     echo "$f:$n: line over 80 characters (${#text})"
     status=1
-  done < <(awk 'length > 80 {print FNR": "$0}' "$f")
+  # Abstracts are prose, one sentence per line, so they are not wrapped.
+  done < <(awk '/^::: \{\.abstract\}/ {abs = 1; next}
+    abs && /^:::/ {abs = 0}
+    !abs && length > 80 {print FNR": "$0}' "$f")
 
   while IFS= read -r hit; do
     echo "$f:${hit%%:*}: trailing whitespace"

@@ -2,7 +2,7 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- A parsimonious representation of what we know about a disease
+- A parsimonious representation of what we know about disease transmission
 - Built to answer a question of interest
 - How infections spread, and how we observe them
 :::

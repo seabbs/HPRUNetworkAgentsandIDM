@@ -10,6 +10,7 @@
 - Ideally a local agent and a local model
 - Heavily subsidised for now
 - What happens when we pay the true cost?
+- Equity, when access to agents and compute is uneven
 - The field moves fast, and may be a bubble
 - What is true today may not hold next year
 :::

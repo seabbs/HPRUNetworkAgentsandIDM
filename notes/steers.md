@@ -188,3 +188,23 @@ plots from the dev report (data to 25 October).
 #5, Sam: "Yeah we need some kind of domain specific testing and eval, access, training yes"
 
 #4, Sam: "make sure its one sentence a line short and. concise not overblown and based on what we have in the slides"
+
+> Abstraxct is a gbit to sparse and not how a himan would write flowing texti
+> nwhislt being cvohncise
+
+Read as: flowing prose, still one sentence per line. Lint no longer wraps
+lines inside the abstract block.
+
+> I think how we use the time is part of using agents not ending on no?
+
+Read as: the freed-time slide moves to the end of the Where section, out of
+the talk plan, and the summary and abstract follow.
+
+> Equity is a chalenge
+
+> AH maybe I am wrong keep the how we should use the tiem story potn and slide
+
+Read as: undo the move. The freed-time slide is its own section again,
+before Summary.
+
+> w about a disease -> disdeasee transmission?

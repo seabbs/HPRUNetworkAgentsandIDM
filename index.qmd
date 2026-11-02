@@ -22,17 +22,12 @@ Health Analytics and Modelling HPRU network · 3 November 2026 ·
 ## Abstract
 
 ::: {.abstract}
-An infectious disease model is a parsimonious representation of what we know.
-It is built to answer a question.
-An AI agent is a language model that calls tools in a loop.
-Agents can do many of the tasks often given to early career researchers.
-They read data, implement and optimise models, build checks and review code.
-I will show this with our model of the 2026 Ebola outbreak in the DRC.
-I will then cover the challenges.
-Agents write complex code that is hard to review.
-They make errors people would not, and these can be hard to spot.
-Collaboration, training, cost and confidential data are open problems.
-I will end on how we should use the time agents free up.
+Infectious disease models are parsimonious representations of what we know about disease transmission, built to answer a specific question.
+AI agents, language models that call tools in a loop, can now do many of the tasks we used to give early career researchers.
+In our recent work, including our model of the 2026 Ebola outbreak in the Democratic Republic of the Congo, they have read data, implemented and optimised models, built the checks around them and reviewed code.
+Agents also push towards complex code that is hard to review, and make mistakes a person would not, which can be hard to spot.
+Collaborating when most changes come from agents is hard, and training, cost, equity and access to confidential data are all open questions.
+I will finish with how we should use the time agents free up, and what we think the field needs, from domain-specific evaluation to fair access and training.
 :::
 
 :::
