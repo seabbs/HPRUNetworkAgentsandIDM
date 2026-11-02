@@ -12,6 +12,7 @@
 **How much to hand over**
 
 - How much agents should do on their own is an open question
+- Models have improved rapidly in the last year
 - Most tasks still need a person closely in the loop
 - What should we train people to do, if agents do the early career tasks?
 ::::

@@ -318,3 +318,6 @@ Read as: cite the article on the freed-time slide.
 
 > "What should we be training people to do" is better than just "Training" as
 > a flat statement.
+
+> "How much to hand over" needs a models-changing-quickly bullet: rapid
+> improvement in the last year.
