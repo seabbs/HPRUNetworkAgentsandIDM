@@ -19,22 +19,22 @@ does the same for an earlier talk.
 
 ## How these slides were built
 
-One Claude Code session, running Claude Opus, built the deck on 2 November 2026 between about 12:50 and 17:00 UTC.
-I sent it about 46 messages.
-It replied in 643 turns and made 326 tool calls.
-Most were shell commands (222), to render the deck, take screenshots, query GitHub and commit.
-The rest were file reads (84), web fetches (5), file writes (4), messages to a subagent (5), subagent launches (4), one skill and one tool search.
+One Claude Code session, running Claude Opus, built the deck on 2 November 2026 between about 12:50 and 19:30 UTC.
+I sent it about 180 messages, most of them short steers sent while it was still working on the last one.
+It replied in about 510 model turns and made 576 tool calls.
+Most were shell commands (384), to render the deck, take screenshots, query GitHub and commit.
+The rest were file reads (160), web fetches (12), messages to a subagent (7), file writes (4), subagent launches (4), tool searches (2), questions back to me (2) and one skill.
 
-Four subagents did side jobs, with 197 tool calls between them.
+Four subagents did side jobs, with 210 tool calls between them.
 
 | Subagent | Tool calls |
 |---|---|
 | Find figures from other groups, including 19 web searches | 72 |
 | Review the first draft | 32 |
 | Review the second draft | 37 |
-| Draw the agent, multi-agent and time schematics | 56 |
+| Draw the agent, multi-agent and time schematics | 69 |
 
-The repository has 30 commits from the session, all by seabbs-bot with me as co-author.
+The repository has 88 commits from the session, all by seabbs-bot with me as co-author.
 These counts come from the session logs and are a snapshot from late in the build.
 
 {{< include notes/original-brief.md >}}

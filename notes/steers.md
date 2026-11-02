@@ -531,3 +531,5 @@ of the talk plan.
 > "Unequal access is still unsolved": we have an org or project level agent?
 
 > … vs personal ones.
+
+> Make sure the prompts that built these slides are up to date.
