@@ -50,6 +50,8 @@ I will finish with what we think the field needs, from domain-specific evaluatio
   The workflow the agents are asked to follow.
 - [Prompts](prompts.qmd).
   The brief and steers that built these slides.
+- [Video of the build](prompts.qmd#how-these-slides-were-built).
+  The finished slides beside a replay of how they were made.
 
 :::
 ::::

@@ -3,6 +3,8 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+  resources:
+    - figures/agents-deck.mp4
 
 website:
   title: "AI agents in infectious disease modelling"
@@ -13,6 +15,9 @@ website:
   repo-url: "https://github.com/seabbs/HPRUNetworkAgentsandIDM"
   favicon: figures/sam.jpg
   search: false
+  image: figures/agents-title.png
+  open-graph: true
+  twitter-card: true
   navbar:
     title: "AI agents in infectious disease modelling"
     left:

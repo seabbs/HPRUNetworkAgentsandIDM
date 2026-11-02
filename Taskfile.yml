@@ -41,3 +41,11 @@ tasks:
     desc: Screenshot every slide of the deck for layout review
     cmds:
       - ./scripts/shot-slides.py _shots
+
+  video:
+    desc: Build the video of the deck, which the prompts page embeds
+    cmds:
+      - task: default
+      - task: slides
+      - ./scripts/social-video.py
+      - "{{.QUARTO}} render prompts.qmd"

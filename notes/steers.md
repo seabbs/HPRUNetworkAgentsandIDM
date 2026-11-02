@@ -543,3 +543,7 @@ of the talk plan.
 > What is a fun way we can share these on social media? Put them into a GIF, i.e. going through the slides, or something, a collage, other ideas?
 
 > Hmm, something a bit cooler than that? What about a flip through the slides with a graph of making them on the right-hand side or similar, with prompts flashing up, but not showing the in-dev slides?
+
+> Should we have this on GitHub Pages in some way? That seems like a good idea.
+
+> Can we make it build in the deploy CI or similar?

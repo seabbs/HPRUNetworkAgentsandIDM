@@ -33,6 +33,22 @@ jobs:
       - name: Render slides
         run: quarto render
 
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install ffmpeg, fonts and a browser for the video
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core \
+            fonts-noto-color-emoji
+          uvx --from playwright playwright install --with-deps chromium
+
+      - name: Build the video of the deck
+        run: |
+          ./scripts/shot-slides.py _shots
+          ./scripts/social-video.py
+          cp figures/agents-deck.mp4 _site/figures/agents-deck.mp4
+
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3

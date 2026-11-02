@@ -8,7 +8,8 @@ The finished slides flip through on the left. On the right, the build
 plays back: a clock, commits climbing, and my steers popping up as they
 were sent. Long breaks are skipped. Ends on the how-it-was-built slide.
 Needs ffmpeg, _shots/ from "task slides" and notes/build-timeline.csv.
-Writes _social/agents-deck.mp4 and _social/agents-deck.gif.
+Writes figures/agents-deck.mp4, which the prompts page embeds, and
+_social/agents-deck.gif.
 """
 
 import csv
@@ -221,11 +222,11 @@ for k in range(n_end):
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS),
                 "-i", str(frames / "f%04d.png"), "-c:v", "libx264",
                 "-pix_fmt", "yuv420p", "-crf", "20",
-                str(out / "agents-deck.mp4")], check=True)
+                str(Path("figures/agents-deck.mp4"))], check=True)
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i",
-                str(out / "agents-deck.mp4"), "-vf",
+                "figures/agents-deck.mp4", "-vf",
                 "fps=12,scale=960:-1:flags=lanczos,split[a][b];"
                 "[a]palettegen=max_colors=128[p];[b][p]paletteuse=dither=bayer",
                 str(out / "agents-deck.gif")], check=True)
 shutil.rmtree(frames)
-print("wrote _social/agents-deck.mp4 and _social/agents-deck.gif")
+print("wrote figures/agents-deck.mp4 and _social/agents-deck.gif")
