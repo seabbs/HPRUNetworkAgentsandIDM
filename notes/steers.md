@@ -174,3 +174,9 @@ Read as: the summary says collaborating through agents is hard, and stops there.
 > Cut:  They get things wrong, and retrospective scores can leak new bulleet
 > They get things wrogn in ways that humans wouldn't and these errors can be
 > hard to spot.
+
+> Look at the latest bvdoutbreak work look at remote nadd uipdate htis box
+> copuy and get some nncer pliots mnaps etc
+
+Read as: fast-forward the local BVDOutbreakSize clone, and take the map and
+plots from the dev report (data to 25 October).

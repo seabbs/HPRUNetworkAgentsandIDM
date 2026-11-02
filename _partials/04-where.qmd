@@ -93,25 +93,25 @@ Martinson et al. 2026, Fig. 2,
 ## Our outbreak model, built with agents
 
 :::: {.columns}
-::: {.column width="40%"}
+::: {.column width="35%"}
 - Ebola disease caused by Bundibugyo virus, DRC, 2026
 - We replicated the first published estimate the next day
 - One model fitted to all the surveillance streams
 - Estimates for each province and health zone
 - Refitted as new data arrive, with forecasts scored each week
 :::
-::: {.column width="60%"}
-![](figures/agents-bvd-dashboard.png){width="100%"
+::: {.column width="65%"}
+![](figures/agents-bvd-dashboard.png){height="740px" fig-align="center"
 fig-alt="An interactive map of health zones in north-eastern DRC shaded by
-current reproduction number, most below one and one zone above, beside a
-national panel with a reproduction number of 0.80, its trend since March
-falling to about one, and weekly confirmed cases with a seven-day
-forecast."}
+current reproduction number, beside a national panel with a reproduction
+number of 1.01 and weekly confirmed cases with a seven-day forecast.
+Below, the reproduction number falling from about 2 in May to about 1
+from August, and four small maps of health-zone estimates."}
 
 ::: {.attribution}
 McCabe et al. 2026, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
-[BVDOutbreakSize dashboard](https://epiforecasts.io/BVDOutbreakSize/stable/dashboard),
-data to 27 September 2026
+[BVDOutbreakSize report](https://epiforecasts.io/BVDOutbreakSize/dev/dashboard),
+data to 25 October 2026
 :::
 :::
 ::::
