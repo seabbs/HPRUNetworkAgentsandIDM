@@ -235,3 +235,6 @@ Read as: show Fig. 2 of the workflow paper under the Davies model on the first s
 
 Read as: a prompts page from these notes, linked from the closing slide
 with both bot avatars.
+
+> Cut the agent-based model, i.e. ABM, two bullets. Add a bullet on examples
+> of what tools are. Need to, i.e., define context.

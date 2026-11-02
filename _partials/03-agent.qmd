@@ -4,8 +4,10 @@
 ::: {.column width="40%"}
 - A language model that calls tools, and loops until a check passes
 - The harness runs the tools and builds the context
-- Not an agent-based model
-- Agent-based models simulate individuals
+- Tools are things like a shell, file editing, GitHub, web search or a
+  Julia session
+- The context is everything the model sees, from instructions and skills
+  to the conversation and tool results
 
 ```{=html}
 <div class="harnesses">
