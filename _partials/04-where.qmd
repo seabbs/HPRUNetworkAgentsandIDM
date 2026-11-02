@@ -1,4 +1,4 @@
-## Where can agents be used in infectious disease modelling?
+## Where can agents be used in infectious disease modelling? {.smaller}
 
 :::: {.columns}
 ::: {.column width="40%"}
@@ -6,6 +6,10 @@
 - Reading data. Pulling numbers out of reports, tables and figures
 - Building infrastructure. Checks that rerun whenever the model or
   data change
+- Optimising and differentiating model code
+- Maths, such as analytical solutions
+- Proposing candidate models and variations on them
+- Managing complex experimental workflows
 - Talking through model development. A rubber duck that answers back
 :::
 ::: {.column width="60%"}

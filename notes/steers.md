@@ -244,3 +244,7 @@ with both bot avatars.
 > How much an agent should do is a challenge point for infectious disease?
 
 Read as: move the autonomy pair from the Where slide to Challenges.
+
+> What can it do is missing, i.e. optimisation, maths, i.e. analytical
+> solutions, differentiating code etc., candidate model permutations and
+> proposals. Managing complex experimental workflows.
