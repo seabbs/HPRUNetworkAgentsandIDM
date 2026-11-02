@@ -290,3 +290,11 @@ Assistance, and the outbreak slide after the report.
 > https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/
 
 Read as: cite the article on the freed-time slide.
+
+> Training in a callout at the bottom.
+
+> In "how we built it", can you summarise somewhere the tools you called,
+> how many, how many turns etc.?
+
+> Split this into two slides, models then workflow? ("What is infectious
+> disease modelling?")

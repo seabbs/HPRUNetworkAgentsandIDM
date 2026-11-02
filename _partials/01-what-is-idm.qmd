@@ -4,16 +4,25 @@
 ::: {.column width="40%"}
 - A parsimonious representation of what we know about disease transmission
 - Built to answer a question of interest
-- Nested in a wider modelling workflow
 :::
 ::: {.column width="60%"}
-![](figures/agents-davies2020-model.png){height="250px" fig-align="center"
+![](figures/agents-davies2020-model.png){width="100%"
 fig-alt="Compartmental model diagram. Susceptible to exposed by
 successful infection, then after a latent period either preclinical then
 clinical, both fully infectious, or subclinical at half infectiousness,
 then removed by recovery or isolation."}
 
-![](figures/agents-abbott2025-workflow.png){height="460px" fig-align="center"
+::: {.attribution}
+Davies et al. 2020,
+[Lancet Public Health](https://doi.org/10.1016/S2468-2667(20)30133-X),
+Fig. 1
+:::
+:::
+::::
+
+## Models sit in a wider workflow
+
+![](figures/agents-abbott2025-workflow.png){height="720px" fig-align="center"
 fig-alt="The nine-step workflow from Abbott et al. 2025. Research
 questions, process DAG development, data source selection, observation
 DAG construction, modularise DAGs, inference and computation choices,
@@ -22,10 +31,6 @@ integration choices, with feedback arrows from later steps back to
 earlier ones."}
 
 ::: {.attribution}
-Davies et al. 2020,
-[Lancet Public Health](https://doi.org/10.1016/S2468-2667(20)30133-X),
-Fig. 1 ·
-Abbott et al. 2025, [A workflow for infectious disease modelling][wf], Fig. 2
+Abbott et al. 2025, [A workflow for infectious disease modelling][wf],
+Fig. 2
 :::
-:::
-::::
