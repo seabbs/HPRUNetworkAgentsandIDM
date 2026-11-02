@@ -460,3 +460,10 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 > A callout at the bottom: as with much of modern academic practice, we
 > should learn from the changes going on in software development.
 > All still in flux.
+
+> This before the examples of using agents in IDM? I.e. after the "how use"
+> slide?
+
+Read as (confirmed): move "How should we use the time agents free up?" to
+straight after "Where can agents be used ...", before the examples, and out
+of the talk plan.

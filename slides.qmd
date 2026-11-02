@@ -27,7 +27,6 @@ format:
 - Where can agents be used in infectious disease modelling?
 - Challenges
 - How do we collaborate when agents write most of the code?
-- How should we use the time agents free up?
 - Summary
 :::
 ::: {.column width="32%"}
@@ -52,8 +51,6 @@ Health Analytics and Modelling HPRU network.
 {{< include _partials/05-challenges.qmd >}}
 
 {{< include _partials/06-collaborate.qmd >}}
-
-{{< include _partials/07-time.qmd >}}
 
 {{< include _partials/08-summary.qmd >}}
 

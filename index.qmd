@@ -25,9 +25,10 @@ Health Analytics and Modelling HPRU network · 3 November 2026 ·
 Infectious disease models are parsimonious representations of what we know about a mechanism, such as transmission, and how we observe it, built to answer a specific question.
 AI agents, the language models behind chatbots like ChatGPT set up to use software tools, can now do many of the tasks we used to give early career researchers.
 In our recent work, including our model of the 2026 Ebola outbreak in the Democratic Republic of the Congo, they have read data, implemented and optimised models, built the checks around them and reviewed code.
+The question is how we use the time this frees.
 Agents also push towards complex code that is hard to review, and make mistakes a person would not, which can be hard to spot.
 Collaborating when most changes come from agents is hard, and training, cost, equity and access to confidential data are all open questions.
-I will finish with how we should use the time agents free up, and what we think the field needs, from domain-specific evaluation to fair access and training.
+I will finish with what we think the field needs, from domain-specific evaluation to fair access and training.
 :::
 
 :::
