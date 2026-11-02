@@ -4,7 +4,7 @@
 ::: {.column width="72%"}
 :::: {.sitem .brick}
 [🚒]{.emoji} **Why it is hard.** Too many changes to read, private reasoning,
-and fewer outside contributors
+fewer outside contributors, and unequal access to agents
 ::::
 :::
 ::: {.column width="28%"}

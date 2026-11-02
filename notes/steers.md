@@ -525,3 +525,5 @@ of the talk plan.
 > Same with cost and "Rapidly evolving".
 
 > "…agents write most of the code?" Summary here: it's "write the code", not "most".
+
+> Here, unequal access to agents: "Why it is hard. Too many changes to read, private reasoning, and fewer outside contributors".
