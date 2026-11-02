@@ -250,3 +250,19 @@ Read as: move the autonomy pair from the Where slide to Challenges.
 > proposals. Managing complex experimental workflows.
 
 > "Spec": write it out as "specification".
+
+> Here, "Implementing, optimising and reviewing": change to "How we use agents
+> to develop EpiNow2", with links? Check that code base. Both have agents,
+> i.e. seabbs-bot and sbfnk-bot pictures? Cross-check each other, my review
+> bot etc.
+
+> "An agent that writes ..." is a bit informal. It should refer to the Google
+> paper or its title, or be a little more formal?
+> Same with the title for our outbreak modelling.
+
+Read as: the tree-search slide is titled after the system, Empirical Research
+Assistance, and the outbreak slide after the report.
+
+> A bullet on the agent-built dashboard, forecast evaluation allowing for
+> real-time evaluation, and the infrastructure built to allow public-domain
+> fitting and model checking?
