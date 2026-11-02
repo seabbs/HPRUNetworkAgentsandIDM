@@ -340,3 +340,6 @@ Read as: cite the article on the freed-time slide.
 
 > This is in the schematic? "Review bots read each pull request first", so no
 > repeat?
+
+> Can we break this into what, and why it is important? ("Empirical Research
+> Assistance ...") The Google model slide has too much text in a wall.

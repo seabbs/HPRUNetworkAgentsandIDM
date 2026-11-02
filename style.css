@@ -171,3 +171,9 @@
 .reveal .where-grid .cbox { padding: 12px 20px; }
 .reveal .where-grid .cbox ul { font-size: 0.62em; }
 .reveal .where-grid .cbox p { font-size: 0.8em; }
+
+/* Stacked boxes in a column */
+.reveal .stack-grid { display: grid; gap: 14px; }
+.reveal .stack-grid .cbox { padding: 10px 20px; }
+.reveal .stack-grid .cbox p { margin: 0 0 4px 0; font-size: 0.8em; }
+.reveal .stack-grid .cbox ul { margin: 0 0 0 1.1em; font-size: 0.62em; }

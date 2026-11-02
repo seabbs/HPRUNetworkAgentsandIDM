@@ -99,15 +99,29 @@ we review. Merging refits the model and raises new tasks."}
 
 :::: {.columns}
 ::: {.column width="45%"}
-- An LLM-guided tree search writes and scores forecasting code
-- It builds on existing domain expertise
+::::: {.stack-grid}
+:::: {.cbox .teal}
+**What it is**
+
+- An LLM-guided tree search that writes and scores forecasting code
 - Many prompts describe models that hub teams already built
+::::
+:::: {.cbox .slate}
+**What happened**
+
 - A retrospective test claimed it beat the CDC ensemble
 - Domain experts found that gain came from data revisions leaking into
   the test
-- Run live in 2025/26, its ensemble ranked first for flu, COVID-19 and
-  RSV
+- Run live in 2025/26, it ranked first for flu, COVID-19 and RSV
+::::
+:::: {.cbox .brick}
+**Why it matters**
+
+- It builds on existing domain expertise
+- Expert checks caught what the retrospective test missed
 - My guess is few groups could run 207,500 candidate models
+::::
+:::::
 :::
 ::: {.column width="55%"}
 ![](figures/agents-martinson2026-fig2.png){width="100%"
