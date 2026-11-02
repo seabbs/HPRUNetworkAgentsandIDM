@@ -13,7 +13,10 @@ files=$(git ls-files --cached --others --exclude-standard \
   '*.qmd' '*.css' '*.yml' '*.sh' | grep -v '^notes/')
 
 for f in $files; do
+  # The prompts page is prose, one sentence per line, so it is not wrapped.
+  [[ "$f" == "prompts.qmd" ]] && skip_len=1 || skip_len=0
   while IFS= read -r line; do
+    [[ $skip_len -eq 1 ]] && continue
     n=${line%%:*}
     text=${line#*:}
     text=${text# }
