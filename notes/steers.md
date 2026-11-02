@@ -238,3 +238,5 @@ with both bot avatars.
 
 > Cut the agent-based model, i.e. ABM, two bullets. Add a bullet on examples
 > of what tools are. Need to, i.e., define context.
+
+> "Building infrastructure ...", not "the" before it.
