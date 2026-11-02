@@ -67,6 +67,7 @@ Health Analytics and Modelling HPRU network.
 - [EpiNow2](https://epiforecasts.io/EpiNow2/)
 - [BVDOutbreakSize report](https://epiforecasts.io/BVDOutbreakSize/dev/)
 - [The prompts that built these slides][prompts]
+- [A video of how they were built][video]
 :::
 ::: {.column width="34%"}
 ```{=html}
@@ -146,13 +147,15 @@ messages I sent, clustered in the same bursts."}
 
 ::: {.attribution}
 Claude Code with Claude Opus 5.5, one session. Counts from the session
-logs and git. Every steer is on the [prompts page][prompts]
+logs and git. Every steer is on the [prompts page][prompts]. Watch the
+[video][video]
 :::
 :::
 ::::
 
 [talk]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/
 [prompts]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/prompts.html
+[video]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/prompts.html#how-these-slides-were-built
 [workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [wf]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [bvd-repo]: https://github.com/epiforecasts/BVDOutbreakSize

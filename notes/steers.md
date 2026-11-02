@@ -547,3 +547,7 @@ of the talk plan.
 > Should we have this on GitHub Pages in some way? That seems like a good idea.
 
 > Can we make it build in the deploy CI or similar?
+
+> Linked in the presentation site etc?
+
+> Cut this from the abstract: "I will finish with what we think the field needs, from domain-specific evaluation to fair access and training."
