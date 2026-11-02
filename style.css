@@ -180,3 +180,6 @@
 
 /* A larger emoji before a box heading */
 .reveal .emoji { font-size: 1.3em; margin-right: 10px; vertical-align: -4px; }
+
+/* Space between a box grid and a callout below it */
+.reveal .challenge-grid { margin-bottom: 24px; }

@@ -32,3 +32,8 @@
 - What is true today may not hold next year
 ::::
 :::::
+
+:::: {.sitem .slate}
+[👥]{.emoji} **Collaboration.** Working together through agents is hard,
+next
+::::

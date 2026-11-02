@@ -63,6 +63,8 @@ Health Analytics and Modelling HPRU network.
 ::: {.column width="38%"}
 - [How I LLM](https://samabbott.co.uk/how-I-llm)
 - [A workflow for infectious disease modelling][workflow]
+- [EpiNow2](https://epiforecasts.io/EpiNow2/)
+- [BVDOutbreakSize report](https://epiforecasts.io/BVDOutbreakSize/dev/)
 - [The prompts that built these slides][prompts]
 :::
 ::: {.column width="34%"}

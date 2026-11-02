@@ -1,28 +1,48 @@
-## How to collaborate in an agent-driven environment {.smaller}
+## How to collaborate in an agent-driven environment
 
 <!--
 Reflections on why it is hard, from Sam's steers. Issue #9.
 -->
 
 :::: {.columns}
-::: {.column width="40%"}
+::: {.column width="56%"}
+::::: {.stack-grid}
+:::: {.cbox .teal}
+[🚒]{.emoji} **Why it is hard**
+
 - More changes than any of us can read
 - Hard to tell what a person wrote from what an agent wrote
 - Hard to know what the other person's agents changed, and why
-- Changes are cheap to write
-- Checking them costs as much as before
+- Changes are cheap to write, but checking them costs as much as before
 - People have different levels of access to agents
+::::
+:::: {.cbox .slate}
+[🛠️]{.emoji} **What we are trying**
 
-![](figures/agents-firehose.jpg){height="380px"
-fig-alt="A firefighter kneels behind a hose throwing a wide, heavy spray of
-water."}
+- Review bots on every agent pull request
+- One person clearly in charge of each change
+- Labels that mark agent-reviewed work
+- Regular check-ins on how it is going
+- Next, a shared agent with sign-off from everyone
+::::
+:::: {.cbox .brick}
+[📉]{.emoji} **Not going well**
+
+- Outside contributions to our repositories have dropped right down
+- We lose the insight other people bring
+::::
+:::::
 :::
-::: {.column width="60%"}
-![](figures/agents-collab-prs.png){height="740px" fig-align="center"
+::: {.column width="44%"}
+![](figures/agents-collab-prs.png){height="520px" fig-align="center"
 fig-alt="Two GitHub screenshots. Above, a list of merged pull requests in
 BVDOutbreakSize, almost all opened by seabbs-bot and many labelled
 llm-reviewed. Below, an EpiNow2 pull request opened by seabbs-bot,
 reviewed by sbfnk, seabbs and seabbs-review-bot, and merged by seabbs."}
+
+![](figures/agents-firehose.jpg){height="220px" fig-align="center"
+fig-alt="A firefighter kneels behind a hose throwing a wide, heavy spray of
+water."}
 
 ::: {.attribution}
 [BVDOutbreakSize pull requests](https://github.com/epiforecasts/BVDOutbreakSize/pulls?q=is%3Apr+is%3Amerged) ·

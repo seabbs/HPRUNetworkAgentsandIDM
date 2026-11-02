@@ -346,3 +346,16 @@ Read as: cite the article on the freed-time slide.
 
 > A bit dry. Can we have emojis or little pictures, in a nice way, on
 > Challenges?
+
+> This, as written, is part of challenges, no? "How to collaborate ..." Is that
+> okay? Add a bullet to the last to make that clear? Should we have some of our
+> mitigations, i.e. bots reviewing bots, always having a clear person who is in
+> charge, LLM-marked reviews, review bots assigned to issues? Regular
+> check-ins on how it is going? Not going that well. A shared agent with
+> sign-off from all parties? Not going well, i.e. no one but us contributes
+> any more in all our repos. Contributions from externals have gone right
+> down, losing their unique insights.
+
+> Summary pictures as well?
+
+> The thank-you slide is missing EpiNow2 and outbreak links?
