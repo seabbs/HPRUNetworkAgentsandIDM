@@ -489,3 +489,9 @@ of the talk plan.
 > Change CLAUDE.md to AGENTS.md in the schematic that occurs in.
 
 > Here: "Agents now propose most changes", implement and first review all code.
+
+> Hmm, not quite but close. Show somehow me talking to seabbs-bot, Seb to his bot, them working together on work, and many of them, a legion, talking to each other.
+
+> With the work being a model.
+
+> Make sure it's on the home page for the slides as well.
