@@ -497,3 +497,5 @@ of the talk plan.
 > Make sure it's on the home page for the slides as well.
 
 > Here, "Where can agents…", needs a callout at the bottom. Agents often have a very spiky ability profile, i.e. superhuman at some tasks and yet shockingly awful at others. Predicting this profile is very hard.
+
+> This does not belong in "How agents help": "People check each change".

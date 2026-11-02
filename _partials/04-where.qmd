@@ -107,7 +107,6 @@ fault](https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users
 
 - Agents now propose most changes
 - They implement and first review all code
-- People check each change
 ::::
 :::::
 
