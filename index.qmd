@@ -15,9 +15,9 @@ Health Analytics and Modelling HPRU network · 3 November 2026 ·
 
 ::: {.title-banner}
 ![](figures/agents-title.png){width="100%" fig-alt="Sam talks to seabbs-bot and Seb to
-sbfnk-bot through chat bubbles. The two bots work together on an SEIR model
-and its fitted epidemic curve, while a crowd of agents above talk to each
-other."}
+sbfnk-bot through chat bubbles. The two bots hand work to a crowd of
+agents above, which talk to each other and feed into an SEIR model and its
+fitted epidemic curve."}
 :::
 
 [Slides](slides.qmd){.btn .btn-primary}

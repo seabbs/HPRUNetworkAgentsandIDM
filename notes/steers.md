@@ -507,3 +507,5 @@ of the talk plan.
 > Or say, i.e., each modelled dataset or similar.
 
 > It shows both the benefits and the dangers of working in this way (i.e. add the last bit).
+
+> In the title thing, the agents in the middle web feed into the model, not the agents we are talking to.

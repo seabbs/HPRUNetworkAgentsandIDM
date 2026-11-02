@@ -4,8 +4,8 @@
 Usage:
     ./scripts/agents-title.py
 
-Sam talks to seabbs-bot and Seb to sbfnk-bot. The two bots build an
-SEIR model and fit it together, while a crowd of agents talk to each other above.
+Sam talks to seabbs-bot and Seb to sbfnk-bot. The two bots hand work to a
+crowd of agents that talk to each other and build and fit an SEIR model.
 Writes figures/agents-title.png.
 """
 
@@ -120,14 +120,17 @@ avatar(ax, "sbfnk-bot.jpg", 12.7, 1.0, 1.1, SLATE)
 bubble(ax, 14.1, 2.05, BRICK, (14.6, 1.55))
 bubble(ax, 12.9, 2.2, SLATE, (12.7, 1.65))
 
-# The two bots work on the model together, and join the crowd.
-for p, q, rad in [((3.9, 1.2), (5.9, 1.65), -0.15),
-                  ((12.1, 1.2), (10.1, 1.65), 0.15)]:
-    ax.add_patch(FancyArrowPatch(p, q, arrowstyle="-|>", mutation_scale=18,
-                                 color=TEAL, lw=2.2, zorder=2,
+# Our two bots hand work to the crowd, and the crowd builds the model.
+for p, q, rad in [((3.75, 1.45), pts[0] - (0.12, 0.25), -0.2),
+                  ((12.25, 1.45), pts[-1] - (-0.12, 0.25), 0.2)]:
+    ax.add_patch(FancyArrowPatch(p, q, arrowstyle="-|>", mutation_scale=16,
+                                 color=SLATE, lw=2, zorder=2,
                                  connectionstyle=f"arc3,rad={rad}"))
-for p, q in [((3.3, 1.0), pts[0]), ((12.7, 1.0), pts[-1])]:
-    ax.plot(*np.array([p, q]).T, color=SLATE, lw=1.2, alpha=0.45, zorder=1)
+for k, i in enumerate((2, 4, 6, 8)):
+    x0, y0 = pts[i]
+    ax.add_patch(FancyArrowPatch((x0, y0 - 0.3), (6.35 + k * 1.1, 1.97),
+                                 arrowstyle="-|>", mutation_scale=14,
+                                 color=TEAL, lw=2, zorder=2))
 
 fig.savefig("figures/agents-title.png", bbox_inches="tight",
             pad_inches=0.05, dpi=160, transparent=True)
