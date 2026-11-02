@@ -561,3 +561,5 @@ of the talk plan.
 > Shouldn't the video be on its own page, as part of the tab boxes etc., not prompts?
 
 > Modelling workflow should not be linked in the boxes. It should be slides, prompts and video.
+
+> Pavel is the first name of the Product Picnic author; the last name is Samsonov, which is what to use for the citation.

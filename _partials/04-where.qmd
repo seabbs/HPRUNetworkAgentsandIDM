@@ -81,7 +81,7 @@ help agents do it well?
 ::::
 
 ::: {.attribution}
-Pavel 2026, [Thoughtless changes overwhelm our users, and it's our
+Samsonov 2026, [Thoughtless changes overwhelm our users, and it's our
 fault](https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/)
 :::
 
