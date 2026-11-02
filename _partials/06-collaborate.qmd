@@ -14,14 +14,16 @@ Reflections on why it is hard, from Sam's steers. Issue #9.
 - People have different levels of access to agents
 :::
 ::: {.column width="60%"}
-![](figures/agents-bvd-authors.png){width="100%"
-fig-alt="Horizontal bars of merged BVDOutbreakSize pull requests by
-author to 2 November 2026. seabbs-bot, Sam's agents, 561; dependabot,
-package updates, 64; Sam 17; sbfnk-bot, Seb's agents, 12; Seb 3;
-Samuel Brand 1."}
+![](figures/agents-collab-prs.png){height="740px" fig-align="center"
+fig-alt="Two GitHub screenshots. Above, a list of merged pull requests in
+BVDOutbreakSize, almost all opened by seabbs-bot and many labelled
+llm-reviewed. Below, an EpiNow2 pull request opened by seabbs-bot,
+reviewed by sbfnk, seabbs and seabbs-review-bot, and merged by seabbs."}
 
 ::: {.attribution}
-[BVDOutbreakSize][bvd-repo], GitHub API, 2 November 2026
+[BVDOutbreakSize pull requests](https://github.com/epiforecasts/BVDOutbreakSize/pulls?q=is%3Apr+is%3Amerged) ·
+[EpiNow2 #1560](https://github.com/epiforecasts/EpiNow2/pull/1560) ·
+GitHub, 2 November 2026
 :::
 :::
 ::::

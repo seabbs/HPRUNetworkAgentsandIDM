@@ -60,29 +60,37 @@ Health Analytics and Modelling HPRU network.
 ## Thank you
 
 :::: {.columns}
-::: {.column width="62%"}
+::: {.column width="38%"}
 - [How I LLM](https://samabbott.co.uk/how-I-llm)
 - [A workflow for infectious disease modelling][workflow]
 - [The prompts that built these slides][prompts]
-
+:::
+::: {.column width="34%"}
 ```{=html}
-<div class="bots">
+<div class="people">
+<div><img src="figures/sam.jpg" alt="Sam Abbott">Sam Abbott</div>
+<div><img src="figures/seb.jpg" alt="Sebastian Funk">Sebastian Funk</div>
+</div>
+<div class="agents">
 <div><img src="figures/seabbs-bot.jpg" alt="seabbs-bot avatar">
 seabbs-bot</div>
 <div><img src="figures/sbfnk-bot.jpg" alt="sbfnk-bot avatar">
 sbfnk-bot</div>
+<div><img src="figures/seabbs-review-bot.jpg"
+alt="seabbs-review-bot avatar">seabbs-review-bot</div>
+<div><img src="figures/sbfnk-review-bot.png"
+alt="sbfnk-review-bot avatar">sbfnk-review-bot</div>
 </div>
 ```
 :::
-::: {.column width="38%"}
-![](figures/qr-talk.png){width="62%" fig-align="center"
+::: {.column width="28%"}
+![](figures/qr-talk.png){width="80%" fig-align="center"
 fig-alt="QR code to the talk page"}
 
 ::: {.attribution}
 [samabbott.co.uk/HPRUNetworkAgentsandIDM][talk]
 
-Sam Abbott and Sebastian Funk, LSHTM ·
-[epiforecasts.io](https://epiforecasts.io) ·
+LSHTM · [epiforecasts.io](https://epiforecasts.io) ·
 [github.com/seabbs](https://github.com/seabbs) ·
 [github.com/sbfnk](https://github.com/sbfnk)
 :::

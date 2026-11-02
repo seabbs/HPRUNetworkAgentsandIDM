@@ -270,3 +270,23 @@ Assistance, and the outbreak slide after the report.
 > Challenges: cut the code example. Can we make it a bit more visually
 > interesting, groups of challenges, coloured boxes etc.?
 > Some kind of meta-challenges with the current bullets in them etc.
+
+> This is good, but the figure is boring. A few more interesting figures for
+> "collaborate in an ...".
+
+> A schematic for this slide? Should we use the ... i.e. "use time"? The pull
+> in a callout? Training in a callout at the bottom.
+> Review, deep dives and technical debt reduction, generalising,
+> interoperating? Any other kind of work we could be doing, thinking about
+> utility and how to evaluate what works and what doesn't. Collaboration.
+
+> The summary needs some meta-organisation as well.
+
+> The summary needs cutting down, five points at most.
+
+> Put photos of me and Seb in the thank you, and then our agents in a 2 by 2.
+
+> Make sure to cite this somewhere: "How should we use the ...", i.e.
+> https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/
+
+Read as: cite the article on the freed-time slide.

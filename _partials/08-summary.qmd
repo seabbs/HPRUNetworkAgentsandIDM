@@ -1,12 +1,22 @@
 ## Summary
 
-- Agents can read data, implement, optimise and review models, and build
-  the infrastructure around them
-- They push towards complex code that is hard to review
-- They get things wrong in ways people would not
-- These errors can be hard to spot
-- Collaborating through agents is hard
-- Use the time they free for review, big-picture thinking and deep dives
-- We need domain-specific testing and evaluation
-- We need fair access to agents
-- We need training for this kind of work
+::::: {.summary-list}
+:::: {.sitem .teal}
+**What agents can do.** Many of the tasks we give early career
+researchers, from reading data to optimising and reviewing models
+::::
+:::: {.sitem .brick}
+**What goes wrong.** Complex code that is hard to review, and errors
+people would not make
+::::
+:::: {.sitem .slate}
+**Working together.** Collaborating through agents is hard
+::::
+:::: {.sitem .grey}
+**Using the time.** Review, deep dives and big-picture thinking, not more
+of the same
+::::
+:::: {.sitem .teal}
+**What we need.** Domain-specific evaluation, fair access and training
+::::
+:::::
