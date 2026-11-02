@@ -11,15 +11,17 @@ Reflections on why it is hard, from Sam's steers. Issue #9.
 [🚒]{.emoji} **Why it is hard**
 
 - More changes than any of us can read
-- Hard to tell what a person wrote from what an agent wrote
-- Hard to know what the other person's agents changed, and why
 - Changes are cheap to write, but checking them costs as much as before
-- People have different levels of access to agents
+- Hard to tell what a person wrote from what an agent wrote
+- The reasoning stays private, in one person's chat with their agent
+- Agent-raised issues all look equally urgent
+- Agents do not reliably follow conventions we agree
+- People differ in access to agents, and in the skills to use them
 ::::
 :::: {.cbox .slate}
 [🛠️]{.emoji} **What we are trying**
 
-- Review bots on every agent pull request
+- Review bots check every change agents propose
 - One person clearly in charge of each change
 - Labels that mark agent-reviewed work
 - Regular check-ins on how it is going

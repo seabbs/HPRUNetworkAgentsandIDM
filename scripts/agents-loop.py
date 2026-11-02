@@ -118,7 +118,7 @@ def agent_loop():
     arrow(ax, (4.6, 4.7), (4.6, 4.16), colour=SLATE, lw=2)
     # The inner loop.
     inner_loop(ax, 4.6, 2.3, r=1.5, fs=10.5)
-    box(ax, 7.3, 1.75, 1.35, 1.1, "Pull\nrequest", colour=TEAL, fs=12)
+    box(ax, 7.3, 1.75, 1.35, 1.1, "Proposed\nchange", colour=TEAL, fs=12)
     arrow(ax, (6.7, 2.3), (7.3, 2.3), colour=TEAL, lw=2)
     # Review agents send findings back into the loop.
     box(ax, 7.05, 0.15, 1.85, 0.95, "Review\nagents", colour=SLATE, fs=12)
@@ -137,6 +137,11 @@ def agent_loop():
     label(ax, 1.25, 1.75, "Implementation\nagents", colour=SLATE, fs=12)
     avatar(ax, "figures/seabbs-review-bot.jpg", 9.6, 0.62)
     avatar(ax, "figures/sbfnk-review-bot.png", 10.55, 0.62)
+    # Colour key: people come in at two points only.
+    for k, (c, t) in enumerate([(BRICK, "People"), (SLATE, "Agents"),
+                                (TEAL, "Code and checks")]):
+        box(ax, 0.15, 0.95 - k * 0.42, 0.32, 0.28, "", colour=c, lw=2)
+        label(ax, 0.6, 1.09 - k * 0.42, t, colour=INK, fs=12, ha="left")
     ax.set_xlim(0, 11)
     ax.set_ylim(0, 6.2)
     save(fig, "agents-agent-2.png")

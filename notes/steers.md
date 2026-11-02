@@ -383,3 +383,34 @@ Read as: cite the article on the freed-time slide.
 > I like them in "How to collaborate". Okay, let's keep the emojis.
 > Err, "Cut" meant: "👥 Collaboration. Working together through agents is
 > hard, next".
+
+Feedback passed on by Sam:
+
+> Davies et al. is very low res.
+> "Models sit in a wider workflow": would be great if we could somehow
+> highlight boxes 7-8 as the model ones.
+> "What is an agent?" will be hard to parse for non-coders. Given that the
+> technical complexity is already shown in the figure, perhaps the text could
+> be a simplified, layperson-digestible version?
+> "How we use agents to develop EpiNow2" needs a slide or bullet point that
+> tells people what it is. People won't know what "pull requests" are. You
+> could consider the left-hand side with just a description of what EpiNow2
+> is and who uses it (and that we have made it), for laypeople, and then just
+> have the image as an illustration of the workflow. I would also add a
+> colour legend to the figure, as it seems pretty crucial that humans only
+> come in at two points.
+> You use "language model" in one place and "LLM" in another. Be consistent.
+> How widespread is knowledge that an LLM or language model is the same as
+> the thing that speaks to you in ChatGPT? Perhaps mention it at first use.
+> "Prompts", "hub teams" and "ensemble" on the ERA slide might be too
+> technical. Again, a slightly shorter, more digestible version of the key
+> points might land with more people.
+> The Challenges slide is great.
+
+> Shall we cut the workflow slide for length?
+
+Seb's summary of the collaboration challenges, passed on by Sam: speed
+outpaces understanding; reasoning stays private; a flat structure with no
+sense of priority; the human is hard to find; unequal participation;
+conventions are hard to enforce. Read as: small additions to "Why it is
+hard".

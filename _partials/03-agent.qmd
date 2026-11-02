@@ -2,12 +2,11 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- A language model that calls tools, and loops until a check passes
-- The harness runs the tools and builds the context
-- Tools are things like a shell, file editing, GitHub, web search or a
-  Julia session
-- The context is everything the model sees, from instructions and skills
-  to the conversation and tool results
+- A language model, the AI behind chatbots like ChatGPT, that can also
+  take actions
+- It can read and edit files, run code and search the web
+- It checks the result, and keeps going until the task is done
+- Where it runs decides what data and tools it can reach
 
 ```{=html}
 <div class="harnesses">

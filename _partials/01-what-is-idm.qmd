@@ -21,18 +21,3 @@ Fig. 1
 :::
 :::
 ::::
-
-## Models sit in a wider workflow
-
-![](figures/agents-abbott2025-workflow.png){height="720px" fig-align="center"
-fig-alt="The nine-step workflow from Abbott et al. 2025. Research
-questions, process DAG development, data source selection, observation
-DAG construction, modularise DAGs, inference and computation choices,
-model implementation, model specification and validation, and data
-integration choices, with feedback arrows from later steps back to
-earlier ones."}
-
-::: {.attribution}
-Abbott et al. 2025, [A workflow for infectious disease modelling][wf],
-Fig. 2
-:::

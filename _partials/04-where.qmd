@@ -61,19 +61,19 @@ Duck by Tom Morris,
 
 :::: {.columns}
 ::: {.column width="40%"}
-- EpiNow2 estimates reproduction numbers and forecasts in real time
-- Used by public health agencies
+- EpiNow2 is software we built to estimate how fast an outbreak is
+  spreading, and to forecast it
+- Public health agencies use it
 - Maintaining it is hard to fund through traditional research grants
-- Our agents open pull requests as seabbs&#8209;bot and sbfnk&#8209;bot
-- The other person reviews each pull request, and a person merges it
-- 51 agent pull requests merged since March 2026
+- Agents now propose most changes, and people check each one
+- 51 changes from agents accepted since March 2026
 :::
 ::: {.column width="60%"}
 ![](figures/agents-agent-2.png){width="100%"
 fig-alt="A specification or a conversation leads to agents writing the
 tasks, which feed a loop of read, write, run and check. Passing code
-becomes a pull request, which review agents send back into the loop and
-we review. Merging refits the model and raises new tasks. The avatars
+becomes a proposed change, which review agents send back into the loop
+and we review. Merging refits the model and raises new tasks. The avatars
 of seabbs-bot and sbfnk-bot sit by the loop as implementation agents, and
 those of seabbs-review-bot and sbfnk-review-bot by the review agents."}
 
@@ -94,22 +94,22 @@ those of seabbs-review-bot and sbfnk-review-bot by the review agents."}
 :::: {.cbox .teal}
 **What it is**
 
-- An LLM-guided tree search that writes and scores forecasting code
-- Many prompts describe models that hub teams already built
+- A language model writes many forecasting models, scores them and
+  keeps the best
+- It starts from models that forecasting teams already use
 ::::
 :::: {.cbox .slate}
 **What happened**
 
-- A retrospective test claimed it beat the CDC ensemble
-- Domain experts found that gain came from data revisions leaking into
-  the test
-- Run live in 2025/26, it ranked first for flu, COVID-19 and RSV
+- Tested on past data, it seemed to beat the CDC's combined forecast
+- Experts found the test had seen data that were corrected later
+- Run live in 2025/26, it came first for flu, COVID-19 and RSV
 ::::
 :::: {.cbox .brick}
 **Why it matters**
 
-- It builds on existing domain expertise
-- Expert checks caught what the retrospective test missed
+- It builds on existing expertise
+- Expert checks caught what the first test missed
 - My guess is few groups could run 207,500 candidate models
 ::::
 :::::
