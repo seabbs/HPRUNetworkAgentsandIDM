@@ -477,3 +477,5 @@ of the talk plan.
 > Move our Ebola example before the Google example.
 
 > The fire hose image a bit bigger.
+
+> Cut: ", and it is all still in flux".

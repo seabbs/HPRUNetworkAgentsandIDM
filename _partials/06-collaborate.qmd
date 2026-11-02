@@ -58,7 +58,7 @@ water."}
 
 :::: {.sitem .slate}
 [💡]{.emoji} **Learn from software development.** As with much of modern
-academic practice, and it is all still in flux
+academic practice
 ::::
 
 ::: {.attribution}
