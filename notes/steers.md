@@ -377,3 +377,5 @@ Read as: cite the article on the freed-time slide.
 
 > Hmm, the emojis look kind of budget, i.e. on Challenges.
 > Cut.
+
+> They look good in the summary though, so keep them there.

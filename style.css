@@ -183,3 +183,6 @@
 
 /* Boxes keep their border and coloured heading, with no fill */
 .reveal .cbox, .reveal .sitem { background: none; }
+
+/* A larger emoji before a summary point */
+.reveal .emoji { font-size: 1.3em; margin-right: 10px; vertical-align: -4px; }
