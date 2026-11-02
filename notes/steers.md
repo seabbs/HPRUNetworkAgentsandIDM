@@ -208,3 +208,9 @@ Read as: undo the move. The freed-time slide is its own section again,
 before Summary.
 
 > w about a disease -> disdeasee transmission?
+
+> You cite hte workflow paper buit don't show in first sldie planning to show yes i htink ?
+
+Read as: show Fig. 2 of the workflow paper under the Davies model on the first slide.
+
+> Repalce how infections spead ...  to i.e nested in a wider modelling workflow?
