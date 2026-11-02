@@ -1,8 +1,22 @@
 ## How should we use the time agents free up?
 
-- The pull is to do more of the same work, faster
-- The time could go on different work
-- Review, deep dives and big-picture thinking
-- How do we train people for that work?
-- Tools built for agents may look different from the tools and methods we
-  have built before
+:::: {.sitem .brick}
+**The pull.** Do more of the same work, faster
+::::
+
+![](figures/agents-time.png){height="500px" fig-align="center"
+fig-alt="Time agents free up splits two ways. A thick grey arrow labelled
+the pull leads to more of the same, faster. A slate arrow labelled the
+choice leads to six boxes, review, deep dives, reducing technical debt,
+generalising and interoperating, evaluating what works, and
+collaboration."}
+
+:::: {.sitem .slate}
+**Training.** How do we train people for this work, and build tools that
+help agents do it well?
+::::
+
+::: {.attribution}
+Pavel 2026, [Thoughtless changes overwhelm our users, and it's our
+fault](https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/)
+:::
