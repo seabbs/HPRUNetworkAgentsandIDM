@@ -186,3 +186,12 @@
 
 /* A larger emoji before a summary point */
 .reveal .emoji { font-size: 1.3em; margin-right: 10px; vertical-align: -4px; }
+
+/* Six solution boxes in three columns */
+.reveal .solutions-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+.reveal .solutions-grid .cbox ul { font-size: 0.66em; }
+.reveal .solutions-grid .cbox p { font-size: 0.82em; }

@@ -414,3 +414,13 @@ outpaces understanding; reasoning stays private; a flat structure with no
 sense of priority; the human is hard to find; unequal participation;
 conventions are hard to enforce. Read as: small additions to "Why it is
 hard".
+
+> Rather than have a "collaboration is hard" slide, shall we have some
+> tentative solutions? Seb had: review intent, not volume; a shared lab
+> notebook; a hierarchy above the task list; make the human visible; lower
+> the entry point; build conventions into the tooling. We should have more
+> based on our work, slimmed down, with the same organisation as Challenges
+> or similar. We have islands of contributors with clear boundaries, i.e.
+> interoperability of people's personal ecosystems. Shared low-level tools
+> with high-level custom interfaces. Slide titled "tentative solutions" or
+> "potential solutions"?

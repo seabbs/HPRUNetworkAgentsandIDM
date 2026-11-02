@@ -1,57 +1,46 @@
-## How to collaborate in an agent-driven environment
+## Collaborating through agents: tentative solutions
 
-<!--
-Reflections on why it is hard, from Sam's steers. Issue #9.
--->
+:::: {.sitem .brick}
+[🚒]{.emoji} **Why it is hard.** More changes than we can read, reasoning
+that stays private, and outside contributions that have dropped away
+::::
 
-:::: {.columns}
-::: {.column width="56%"}
-::::: {.stack-grid}
+::::: {.challenge-grid .solutions-grid}
 :::: {.cbox .teal}
-[🚒]{.emoji} **Why it is hard**
+[🎯]{.emoji} **Review intent, not volume**
 
-- More changes than any of us can read
-- Changes are cheap to write, but checking them costs as much as before
-- Hard to tell what a person wrote from what an agent wrote
-- The reasoning stays private, in one person's chat with their agent
-- Agent-raised issues all look equally urgent
-- Agents do not reliably follow conventions we agree
-- People differ in access to agents, and in the skills to use them
+- A short human statement of what and why
+- Small changes, and a person approves each one
 ::::
 :::: {.cbox .slate}
-[🛠️]{.emoji} **What we are trying**
+[📓]{.emoji} **A shared lab notebook**
 
-- Review bots check every change agents propose
-- One person clearly in charge of each change
-- Labels that mark agent-reviewed work
-- Regular check-ins on how it is going
-- Next, a shared agent with sign-off from everyone
+- One entry per line of inquiry
+- What was tried, what failed, what is uncertain
 ::::
 :::: {.cbox .brick}
-[📉]{.emoji} **Not going well**
+[🙋]{.emoji} **Make the human visible**
 
-- Outside contributions to our repositories have dropped right down
-- We lose the insight other people bring
+- A rationale in the person's own words
+- Agent work marked, and "input wanted" flagged
+::::
+:::: {.cbox .teal}
+[🏝️]{.emoji} **Islands with clear boundaries**
+
+- Each person owns their own ecosystem
+- Shared low-level tools, custom high-level interfaces
+::::
+:::: {.cbox .slate}
+[🛠️]{.emoji} **Conventions in the tooling**
+
+- Shared skills give every agent the same instructions
+- Review bots and automated checks catch the rest
+::::
+:::: {.cbox .grey}
+[🚪]{.emoji} **Lower the entry point**
+
+- Newcomers start from the notebook
+- Work is public by default
+- Unequal access is still unsolved
 ::::
 :::::
-:::
-::: {.column width="44%"}
-![](figures/agents-collab-prs.png){height="520px" fig-align="center"
-fig-alt="Two GitHub screenshots. Above, a list of merged pull requests in
-BVDOutbreakSize, almost all opened by seabbs-bot and many labelled
-llm-reviewed. Below, an EpiNow2 pull request opened by seabbs-bot,
-reviewed by sbfnk, seabbs and seabbs-review-bot, and merged by seabbs."}
-
-![](figures/agents-firehose.jpg){height="220px" fig-align="center"
-fig-alt="A firefighter kneels behind a hose throwing a wide, heavy spray of
-water."}
-
-::: {.attribution}
-[BVDOutbreakSize pull requests](https://github.com/epiforecasts/BVDOutbreakSize/pulls?q=is%3Apr+is%3Amerged) ·
-[EpiNow2 #1560](https://github.com/epiforecasts/EpiNow2/pull/1560) ·
-GitHub, 2 November 2026 ·
-Fire hose, Grand Canyon NPS, M. Jenkins,
-[public domain](https://commons.wikimedia.org/wiki/File:Wide_hose_spray_during_a_training_exercise-May_2022_(53429302659).jpg)
-:::
-:::
-::::
