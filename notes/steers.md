@@ -301,3 +301,5 @@ Read as: cite the article on the freed-time slide.
 
 > "How we use agents to develop EpiNow2" is missing the pictures of our
 > review bots.
+
+> Here, "Ebola disease in the DRC ...": it is situational awareness of?

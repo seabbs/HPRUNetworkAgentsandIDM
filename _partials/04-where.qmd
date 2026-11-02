@@ -109,7 +109,7 @@ Martinson et al. 2026, Fig. 2,
 
 :::: {.columns}
 ::: {.column width="35%"}
-- Ebola disease in the DRC, built with agents
+- Situational awareness for the Ebola disease outbreak in the DRC
 - We replicated the first published estimate the next day
 - One model fitted to all the surveillance streams
 - Estimates for each province and health zone
