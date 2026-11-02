@@ -100,6 +100,57 @@ LSHTM · [epiforecasts.io](https://epiforecasts.io) ·
 :::
 ::::
 
+## How these slides were built
+
+:::: {.columns}
+::: {.column width="40%"}
+::::: {.stat-grid}
+:::: {.stat .brick}
+[~2 h]{.stat-num}
+[of my attention, around a swim, a dog walk, a meeting and other
+projects]{.stat-label}
+::::
+:::: {.stat .brick}
+[214]{.stat-num}
+[messages from me, mostly one-line steers]{.stat-label}
+::::
+:::: {.stat .slate}
+[~800]{.stat-num}
+[tool calls by one agent and four subagents]{.stat-label}
+::::
+:::: {.stat .teal}
+[89]{.stat-num}
+[commits, each one rendered and checked]{.stat-label}
+::::
+:::: {.stat .grey}
+[~$60]{.stat-num}
+[at API prices, mostly re-reading the cached context]{.stat-label}
+::::
+:::: {.stat .grey}
+[16]{.stat-num}
+[slides, against a brief of at most 13]{.stat-label}
+::::
+:::::
+:::
+::: {.column width="60%"}
+![](figures/agents-build-timeline.png){width="100%"
+fig-alt="Cumulative commits through 2 November 2026, rising in bursts from
+13:00 to 19:30 UTC to 89, with flat stretches. Beneath, ticks mark the 214
+messages I sent, clustered in the same bursts."}
+
+::: {.steers}
+"Right, can we make the title slide a bit more fun?" ·
+"Hmm, the emojis look kind of budget" · "Cut." ·
+"Does the Merge and refit box still make sense?"
+:::
+
+::: {.attribution}
+Claude Code with Claude Opus 5.5, one session. Counts from the session
+logs and git. Every steer is on the [prompts page][prompts]
+:::
+:::
+::::
+
 [talk]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/
 [prompts]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/prompts.html
 [workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/

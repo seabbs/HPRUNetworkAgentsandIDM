@@ -537,3 +537,5 @@ of the talk plan.
 > Here add Google's to the slide title: "Empirical Research Assistance for epidemic forecasting".
 
 > Watch caps make sense on titles.
+
+> Could we have a nice little slide after the thank you to summarise this? It is pretty cool, with i.e. quantified details, a summary of prompts etc.

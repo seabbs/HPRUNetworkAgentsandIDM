@@ -207,3 +207,28 @@
 
 /* Two shorter boxes stacked in one cell of the challenge grid */
 .reveal .challenge-stack { display: grid; gap: 20px; }
+
+/* Headline numbers on the how-it-was-built slide */
+.reveal .stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 10px;
+}
+.reveal .stat {
+  border-left: 6px solid;
+  padding: 6px 16px;
+}
+.reveal .stat p { margin: 0; line-height: 1.15; }
+.reveal .stat.teal { border-color: #1f6f8b; }
+.reveal .stat.slate { border-color: #4a5899; }
+.reveal .stat.brick { border-color: #b5432f; }
+.reveal .stat.grey { border-color: #6b7280; }
+.reveal .stat-num { display: block; font-size: 1.6em; font-weight: 700; }
+.reveal .stat-label { display: block; font-size: 0.55em; color: #4b5563; }
+.reveal .steers {
+  font-size: 0.6em;
+  font-style: italic;
+  color: #b5432f;
+  margin-top: 10px;
+}
