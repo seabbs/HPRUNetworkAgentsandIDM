@@ -34,3 +34,25 @@ domain), Mathis et al. 2024 (CC BY), Martinson et al. 2026 figure 2
 (CC BY-NC-SA, fine for a non-commercial talk with attribution), and a
 citation to Samaei et al. 2025 (EpidemIQs). Unused candidates are listed
 in issue #8.
+
+# Review 2, 2 November 2026
+
+A second review agent read only the changes since `6b8adb0`.
+
+## Applied
+
+- "all four streams", "refits in CI", "one repository" (a modelling room
+  hears "one model" as the epidemic model).
+- The dangers bullet says again how the errors were caught.
+- ", an open standard" cut from the MCP bullet.
+- Citations: links for Aygün et al. and the BVDOutbreakSize issues, and
+  years on the workflow and INSP cites.
+- The tree search slide says many prompts come from hub models. Martinson
+  et al. give no share of candidates.
+- The #779 label drops "alone" and "nested", and its leader line is darker.
+- The summary says "retrospective scores can leak".
+
+## Not applied
+
+- Cutting the bullet on bot-written issues. It is Sam's view, from his
+  AIandIDVUB notes, and issue #9 asks him to confirm it.

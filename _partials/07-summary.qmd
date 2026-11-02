@@ -8,5 +8,5 @@ Draft. What it should land on is open in issue #5.
   the infrastructure around them
 - That frees our time for review
 - They push towards complex code that is hard to review. They get things
-  wrong, and evaluations can leak
+  wrong, and retrospective scores can leak
 - Working together through agents is hard. We have not solved it

@@ -4,7 +4,7 @@
 ::: {.column width="40%"}
 - A language model that calls tools, and loops until a check passes
 - The tools. A shell, files, GitHub, web search, a Julia session
-- Some plug in through the Model Context Protocol (MCP), an open standard
+- Some plug in through the Model Context Protocol (MCP)
 - Not an agent-based model. Those simulate individuals
 :::
 ::: {.column width="60%"}

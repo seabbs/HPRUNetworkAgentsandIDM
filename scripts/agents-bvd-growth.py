@@ -61,12 +61,12 @@ ax.annotate(
 zone = date(2026, 9, 28)
 zone_y = lines[min(range(len(days)), key=lambda i: abs(days[i] - zone))]
 ax.annotate(
-    "#779 alone adds 5,300 lines.\nA health-zone model nested\nin the joint model",
+    "#779 adds 5,300 lines.\nA health-zone model on\ntop of the joint fit",
     (zone, zone_y),
     xytext=(-235, -10),
     textcoords="offset points",
     color=ink,
-    arrowprops={"arrowstyle": "-", "color": muted},
+    arrowprops={"arrowstyle": "-", "color": ink, "lw": 1.5},
 )
 ax.set_ylabel("Lines of Julia in src/", color=ink)
 ax.set_ylim(0, max(lines) * 1.15)

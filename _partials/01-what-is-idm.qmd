@@ -12,7 +12,7 @@ report, joined by arrows, with a brick return arrow beneath labelled
 iterate."}
 
 ::: {.attribution}
-Abbott et al.,
+Abbott et al. 2025,
 [A workflow for infectious disease modelling][wf]
 :::
 :::

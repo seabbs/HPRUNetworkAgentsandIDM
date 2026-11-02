@@ -7,7 +7,7 @@ worked is open in an issue for Sam and Seb.
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Two of us, two bot accounts, one model
+- Two of us, two bot accounts, one repository
 - People opened 21 of 658 merged pull requests
 - Hard to keep track of what the other person's agents changed
 - Bot-written issues on others' repositories. I don't like sending them,

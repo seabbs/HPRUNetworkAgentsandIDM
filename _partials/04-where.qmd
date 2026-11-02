@@ -2,9 +2,9 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Reading data. The DRC situation reports are French PDFs, with onsets
-  only as a figure. Agents read and digitise them
-- Building the infrastructure. Model checks, and refits on every merge
+- Reading data. Agents read the French DRC situation reports and
+  digitise the onset figure
+- Building the infrastructure. Model checks, and refits in CI
 - Talking through model development. A rubber duck that answers back
 - Others go further. EpidemIQs runs from a question to a written report
 :::
@@ -17,10 +17,10 @@ every push over fit; agents run, people judge over check; agents draft,
 people sign over report."}
 
 ::: {.attribution}
-After Abbott et al.,
+After Abbott et al. 2025,
 [A workflow for infectious disease modelling][wf] ·
 Samaei et al. 2025, [arXiv:2510.00024](https://arxiv.org/abs/2510.00024) ·
-INSP situation reports, [insp.cd](https://insp.cd/ebola-17eme-epidemie/)
+INSP situation reports 2026, [insp.cd](https://insp.cd/ebola-17eme-epidemie/)
 :::
 :::
 ::::

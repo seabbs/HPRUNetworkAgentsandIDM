@@ -45,7 +45,7 @@ Abbott et al. 2020, [Wellcome Open Res](https://doi.org/10.12688/wellcomeopenres
 - Bundibugyo virus. Declared on 15 May 2026
 - McCabe et al. estimated outbreak size from exports to Uganda and from
   deaths. We replicated it the next day
-- Then one model fitted to all of these streams together
+- Then one model fitted to all four streams together
 - Each stream alone gives a different size
 :::
 ::: {.column width="60%"}

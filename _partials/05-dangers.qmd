@@ -5,7 +5,8 @@
 - BVDOutbreakSize. About 32,000 lines of Julia since 19 May
 - Agents push towards complex, nested models and code
 - Not written the way a person would write it. Hard to follow and review
-- Wrong observation models and forecast bugs. We caught them
+- Wrong observation models and forecast bugs. Caught by plots and
+  domain knowledge
 :::
 ::: {.column width="60%"}
 ![](figures/agents-bvd-growth.png){width="100%"
@@ -16,7 +17,8 @@ mid September, jumping to 29,000 by the end of September, and reaching
 
 ::: {.attribution}
 [BVDOutbreakSize][bvd-repo] git history, 2 November
-2026 · issues #297, #299 and #606 · the health-zone model,
+2026 · issues [#297](https://github.com/epiforecasts/BVDOutbreakSize/issues/297), [#299](https://github.com/epiforecasts/BVDOutbreakSize/issues/299)
+and [#606](https://github.com/epiforecasts/BVDOutbreakSize/issues/606) · the health-zone model,
 [#779](https://github.com/epiforecasts/BVDOutbreakSize/pull/779)
 :::
 :::
@@ -28,7 +30,7 @@ mid September, jumping to 29,000 by the end of September, and reaching
 ::: {.column width="40%"}
 - An LLM-guided tree search that writes forecasting code. First in the
   CDC FluSight hub, 2025/26
-- Most candidates adapt models already in the hubs
+- Many prompts are drawn from models already in the hubs
 - Bracher and Funk. The gain Aygün et al. claimed in retrospect came
   from data revisions leaking into the evaluation
 - 207,500 candidate models. My guess is few groups have that compute
@@ -43,7 +45,8 @@ an SIR model fitted with scipy, shown as the output."}
 ::: {.attribution}
 Figure 2 of Martinson et al. 2026,
 [arXiv:2605.16238](https://arxiv.org/abs/2605.16238) ·
-Aygün et al. 2026, Nature 654, 909 ·
+Aygün et al. 2026,
+[Nature](https://doi.org/10.1038/s41586-026-10658-6) ·
 Bracher and Funk 2026,
 [arXiv:2608.05883](https://arxiv.org/abs/2608.05883)
 :::
