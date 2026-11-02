@@ -240,3 +240,7 @@ with both bot avatars.
 > of what tools are. Need to, i.e., define context.
 
 > "Building infrastructure ...", not "the" before it.
+
+> How much an agent should do is a challenge point for infectious disease?
+
+Read as: move the autonomy pair from the Where slide to Challenges.

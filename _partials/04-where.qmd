@@ -7,8 +7,6 @@
 - Building infrastructure. Checks that rerun whenever the model or
   data change
 - Talking through model development. A rubber duck that answers back
-- How much agents should do on their own is an open question
-- Most tasks still need a person closely in the loop
 :::
 ::: {.column width="60%"}
 ![](figures/agents-workflow-agents.png){width="100%"

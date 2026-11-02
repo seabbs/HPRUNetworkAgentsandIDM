@@ -5,6 +5,8 @@
 - Agents write a lot of complex code, quickly
 - Not written the way a person would, so hard to review
 - Odd bugs, caught by plots and domain knowledge
+- How much agents should do on their own is an open question
+- Most tasks still need a person closely in the loop
 - Training, when agents do the early career tasks
 - Confidential data needs agents that run where the data are
 - Ideally a local agent and a local model
