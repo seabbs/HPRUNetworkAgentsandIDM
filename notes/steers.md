@@ -1,218 +1,230 @@
 # The steers
 
-Follow-up instructions given during the build, in order, verbatim.
+Follow-up instructions given during the build, in order, with typos corrected.
 
 ---
 
-> I am thinking a slie on each title for starters.
+> I am thinking a slide on each title for starters.
 
-> we don't just want puicutres /figures etc from our own work and anything
-> we have needs a short cite
+> We don't just want pictures/figures etc. from our own work, and anything
+> we have needs a short cite.
 
 Use figures from other groups' work as well as ours.
 Every figure, ours included, carries a short citation in its attribution.
 Short means author, year and venue or link, as in the AIandIDVUB keynote
 after Sam asked for shorter references there.
 
-> you can commit to main as we l work
+> You can commit to main as we work.
 
-> One of the thingsx they caxn do is implementation, optimisation (code,
-> theory, custom adjoints (buit technical gradients??), review, rubber duck
+> One of the things they can do is implementation, optimisation (code,
+> theory, custom adjoints (but technical, gradients?)), review, rubber duck
 > model development. Free up time for review etc.
 
-> BVDOUtbreak size shows dangers. hard to keep trakc of their very push for
-> very complex nested models and code. Hard to review./ Don't model write
-> etc like ah umaqn makes hard to pass.
+> BVDOutbreakSize shows dangers. Hard to keep track of, their push for
+> very complex nested models and code. Hard to review. Don't write models
+> etc. like a human, which makes them hard to parse.
 
-> One thing they also do is make modelling infrastructure i.e workflow
-> easxier model checks etc etc
+> One thing they also do is make modelling infrastructure, i.e. the workflow
+> easier, model checks etc.
 
 > Tool use for agents?
 
 Read as: the agent slide should say what the tools are.
 
-> How to collaborate in an agent driven environment add a slide at the end
-> prior to summary we are finding it very hard
+> How to collaborate in an agent-driven environment: add a slide at the end,
+> prior to the summary. We are finding it very hard.
 
-> Err the bot thing soundsa bit specifci asxnd weird for this more general
-> talk
+> Err, the bot thing sounds a bit specific and weird for this more general
+> talk.
 
 Read as: drop the bot-written issues bullet from the collaboration slide.
 
-> I liked this artcile: I really like this artilce about user contract qand
-> science has some analogs:
+> I really like this article about the user contract, and science has some
+> analogues:
 > https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/
-> I saw similar ideas about what to do with time agnets free up i.e not just
-> add more and more incremental sicence but big picture thinking review deep
-> dives etc?
+> I saw similar ideas about what to do with the time agents free up, i.e. not
+> just add more and more incremental science but big-picture thinking, review,
+> deep dives etc.?
 
 Read as: the collaboration slide takes the article's point that changes are
 cheap to make and as costly as ever to check. The summary says what to do with
 the freed time.
 
-> N we don't want hte artcile in there just some of the pioints I like as
+> No, we don't want the article in there, just some of the points I like as
 > mentioned.
 
 Read as: keep the points, drop the citation and link to the article.
 
-> In gneral it loks like checking them stocsts should be its own bullet same
-> for similar statements liek this
+> In general it looks like "checking them costs" should be its own bullet.
+> Same for similar statements like this.
 
 Read as: one statement per bullet across the deck. Label-led bullets
 ("Reading data. Agents read ...") stay as they are.
 
-> Rwesources on the home page should have our other AI talks from recwent
-> stuff I think and something about our recent science?
-> i.e primarycensored epinow2 etc maybe?
+> Resources on the home page should have our other AI talks from recent
+> stuff, I think, and something about our recent science?
+> i.e. primarycensored, EpiNow2 etc. maybe?
 
-> Date for this is tomorrow
+> The date for this is tomorrow.
 
 Read as: 3 November 2026.
 
 Issue #3, closed by Sam: "I am presenting all of it."
 
-> Challenges not dangers
+> Challenges, not dangers.
 
 Read as: rename the Dangers section, its slide and the talk-plan entry.
 
-> Remove this slide: Ebola disease, Democratic Republic of the Congo need to
-> add scenarios to what used for with an example i.e fro mnick davies work?
+> Remove this slide: "Ebola disease, Democratic Republic of the Congo". We
+> need to add scenarios to "used for" with an example, i.e. from Nick Davies'
+> work?
 
 Read as: drop the Bundibugyo slide, and add a scenarios panel from Davies
 et al. 2020, Lancet Public Health, to the used-for montage.
 
-> For the what is a model ned to have not the workflow I think. This is kind
-> of fluff cut: Fitted to data that arrive late, incomplete and changing hmm
-> we need to have a bit more on models in general parismonous representation
-> of domain knowledge trying to answera question of interest or similar?
-> You can look at the workflow paper itself reminder we have it in code/seabbs
+> For "what is a model" we need to have not the workflow, I think. This is
+> kind of fluff, cut: "Fitted to data that arrive late, incomplete and
+> changing". Hmm, we need to have a bit more on models in general: a
+> parsimonious representation of domain knowledge trying to answer a question
+> of interest, or similar?
+> You can look at the workflow paper itself. Reminder: we have it in
+> code/seabbs.
 
-> For what is an agent et rid of that shmetaic and have one to highlihgh what
-> a tool using llom actually is get an agent to make it
-> Have skills context mcp in the schematic
-> harness clearly there
-> some layer on multi model agents? maybe a second slide agents owrking iin
-> concert dispatching agents claude code workflows etc/ in the firtst slide
+> For "what is an agent", get rid of that schematic and have one to highlight
+> what a tool-using LLM actually is. Get an agent to make it.
+> Have skills, context and MCP in the schematic.
+> The harness clearly there.
+> Some layer on multi-agent models? Maybe a second slide: agents working in
+> concert, dispatching agents, Claude Code workflows etc. In the first slide,
 > have logos of some common agent harnesses?
 
-> Remove: Others go further. EpidemIQs runs from a question to a written
-> report I think how much work and how autonomous agents shoudl do is an open
-> questionc urrelty human in the loop to quite an invovoled level seems to be
-> very needed for most tasks.
+> Remove: "Others go further. EpidemIQs runs from a question to a written
+> report". I think how much work, and how autonomously, agents should do is an
+> open question. Currently a human in the loop at quite an involved level
+> seems to be very needed for most tasks.
 
-> What agents do needs a pcityre if a rubber duck
+> What agents do needs a picture of a rubber duck.
 
 Read as: a rubber duck photo on the Where slide, by the rubber duck bullet.
 
-> they won't know what CI is and that is a bit specifci model chehcking infra
-> make it more genreal?
+> They won't know what CI is, and that is a bit specific. Model checking
+> infrastructure: make it more general?
 
-> Here to specific: Agents read the French DRC situation reports and digitise
-> the onset figure
+> Here too specific: "Agents read the French DRC situation reports and
+> digitise the onset figure".
 
-> I like the specific example sand the schmeatic in Implementing, optimising
-> but excampless need to be a bit more egneral i.e custom ... not in
-> iprmarmcyensred..
+> I like the specific examples and the schematic in "Implementing,
+> optimising", but the examples need to be a bit more general, i.e. "custom
+> ...", not "in primarycensored".
 
 Read as: general wording in the bullets, specific pull requests stay in the
 citations.
 
-> The answer to what can they be uwsed for first bullet should I think be
-> something llike many of the tasks that are often assigned to early career
-> researchers...
+> The answer to "what can they be used for", the first bullet, should I think
+> be something like "many of the tasks that are often assigned to early career
+> researchers".
 
-> BVDOUTbre blah si to specfic iin : Dangers
+> "BVDOutbreakSize ..." is too specific in Dangers.
 
 Read as: a general first bullet on Challenges, and no #779 label on the chart.
 
-> Rahter than codel ines can we show some complex agent cvode. ODD bugs but
-> not to in the weeds that sort of thing?
+> Rather than code lines, can we show some complex agent code? Odd bugs, but
+> not too in the weeds, that sort of thing?
 
-> Collanoration and trianing are other chanllegnes and of course all
-> cuirrently very heavily subsisded
-> what happens when having to pay true costs
+> Collaboration and training are other challenges, and of course all
+> currently very heavily subsidised.
+> What happens when having to pay true costs?
 
-> Shouldn't this be in thwat can agents do not after dhangers: oogle's tree
+> Shouldn't this be in "what can agents do", not after dangers: "Google's
+> tree ..."
 
 Read as: move the tree-search slide into the Where section, after
 Implementing.
 
-> Does tha ssldie have an accurate headinga? can we make the role of the
-> domain experts checking their process il.e the ufink paper qa little
-> clerarlyer/ more nyuanced
+> Does that slide have an accurate heading? Can we make the role of the
+> domain experts checking their process, i.e. the Funk paper, a little
+> clearer and more nuanced?
 
 Read as: retitle the tree-search slide without "Google" or "topped", and
 tell it in order. Retrospective claim (Aygün), leakage found by domain
 experts (Bracher and Funk), then the prospective result (Martinson).
 
-> Also the building on existing domain exerptise a bit clearler?
+> Also the building on existing domain expertise a bit clearer?
 
-> We could also have a ncier and better verison of our ouytbreak response
-> model as a slide as well as an excample of what you cna do perhaps?
-> After the google one?
+> We could also have a nicer and better version of our outbreak response
+> model as a slide, as an example of what you can do, perhaps?
+> After the Google one?
 
-> This is not a good slide: How to collaborate in an agent- it hsould be
-> some refelctions in more detail on wyh it is hard i.e volume of changes,
-> understanding what is output from a persoan and what from an LLM.
+> This is not a good slide: "How to collaborate in an agent-...". It should
+> be some reflections in more detail on why it is hard, i.e. the volume of
+> changes, understanding what is output from a person and what from an LLM.
 > Different levels of access to agents.
-> that kind of thing
+> That kind of thing.
 
-> We don't have anything about how to use tht time they give us? i.e a slide
-> with ehader? something like challeng pussh to do more of the same work but
-> really diffrerent kind of work i.e review, deep dive, big pciture thinking
-> etc etc? How to train fort that kind of work? buiold tools to make agents
-> work better do they look diofferen that the cuits of tools and mmethods we
-> have built hsitoricially?
+> We don't have anything about how to use the time they give us? i.e. a slide
+> with a header? Something like: the challenge is the push to do more of the
+> same work, but really a different kind of work, i.e. review, deep dives,
+> big-picture thinking etc.? How to train for that kind of work? Build tools
+> to make agents work better: do they look different from the kinds of tools
+> and methods we have built historically?
 
-> Challgne is rapidly changing fifled and i.e a bubble what is true today may
-> not be ture in a few months or next year
+> Challenge: a rapidly changing field, i.e. a bubble. What is true today may
+> not be true in a few months or next year.
 
-> Cut:  We have not solved it
+> Cut: "We have not solved it".
 
 Read as: the summary says collaborating through agents is hard, and stops there.
 
-> Cut:  They get things wrong, and retrospective scores can leak new bulleet
-> They get things wrogn in ways that humans wouldn't and these errors can be
-> hard to spot.
+> Cut: "They get things wrong, and retrospective scores can leak". New
+> bullet: "They get things wrong in ways that humans wouldn't, and these
+> errors can be hard to spot."
 
-> Look at the latest bvdoutbreak work look at remote nadd uipdate htis box
-> copuy and get some nncer pliots mnaps etc
+> Look at the latest BVDOutbreakSize work. Look at the remote and update this
+> box's copy, and get some nicer plots, maps etc.
 
 Read as: fast-forward the local BVDOutbreakSize clone, and take the map and
 plots from the dev report (data to 25 October).
 
-> Ah agent schematic things needs to have a where running i.e your compute on
-> the cloud a hpc etc et changes data access/tools/compute. Need to have
-> something on confidential data access in chalengsx ideall local agent etc o?
+> Ah, the agent schematic needs to have where it is running, i.e. your
+> computer, the cloud, an HPC etc., which changes data access, tools and
+> compute. Need to have something on confidential data access in Challenges,
+> ideally a local agent etc.?
 
-#5, Sam: "Yeah we need some kind of domain specific testing and eval, access, training yes"
+#5, Sam: "Yeah, we need some kind of domain-specific testing and evaluation,
+access, training, yes."
 
-#4, Sam: "make sure its one sentence a line short and. concise not overblown and based on what we have in the slides"
+#4, Sam: "Make sure it's one sentence a line, short and concise, not
+overblown, and based on what we have in the slides."
 
-> Abstraxct is a gbit to sparse and not how a himan would write flowing texti
-> nwhislt being cvohncise
+> The abstract is a bit too sparse, and not how a human would write: flowing
+> text whilst being concise.
 
 Read as: flowing prose, still one sentence per line. Lint no longer wraps
 lines inside the abstract block.
 
-> I think how we use the time is part of using agents not ending on no?
+> I think how we use the time is part of using agents, not the ending, no?
 
 Read as: the freed-time slide moves to the end of the Where section, out of
 the talk plan, and the summary and abstract follow.
 
-> Equity is a chalenge
+> Equity is a challenge.
 
-> AH maybe I am wrong keep the how we should use the tiem story potn and slide
+> Ah, maybe I am wrong. Keep the "how we should use the time" story point
+> and slide.
 
 Read as: undo the move. The freed-time slide is its own section again,
 before Summary.
 
-> w about a disease -> disdeasee transmission?
+> "...what we know about a disease" -> "disease transmission"?
 
-> You cite hte workflow paper buit don't show in first sldie planning to show yes i htink ?
+> You cite the workflow paper but don't show it in the first slide. Planning
+> to show it? Yes, I think?
 
 Read as: show Fig. 2 of the workflow paper under the Davies model on the first slide.
 
-> Repalce how infections spead ...  to i.e nested in a wider modelling workflow?
+> Replace "How infections spread ..." with i.e. "nested in a wider modelling
+> workflow"?
 
-> What are infectious disedase modwels used for not is?
+> "What are infectious disease models used for", not "is"?
+
+> Correct my typos in any copied-in prompts.

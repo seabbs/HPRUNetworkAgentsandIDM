@@ -1,6 +1,6 @@
 # The brief
 
-Sam's brief for this talk, 2 November 2026, verbatim.
+Sam's brief for this talk, 2 November 2026, with typos corrected.
 
 > AI agents in infectious disease modelling
 >
@@ -16,7 +16,7 @@ Sam's brief for this talk, 2 November 2026, verbatim.
 >
 > https://github.com/seabbs/HPRUNetworkAgentsandIDM.git
 >
-> Use quarto QR code and otehr design tweqaks from our recent talks.
+> Use Quarto QR code and other design tweaks from our recent talks.
 >
 > Slide titles and bullets for talk overview
 >
@@ -35,9 +35,9 @@ Sam's brief for this talk, 2 November 2026, verbatim.
 And the instructions that came with it:
 
 > We need to make a slide deck for a talk I need to give. I have made an
-> outline and added some scopiong detaisl we want to follow the syle of my
+> outline and added some scoping details. We want to follow the style of my
 > recent talks in seabbs and to review our work using a review agent.
-> First we make a wskeleton then add content aiming for visual etc. We make
+> First we make a skeleton, then add content aiming for visual etc. We make
 > issues to identify gaps we need input to plug.
 
 ## How it is read
