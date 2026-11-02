@@ -447,3 +447,8 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 > Reword this title to be a question?
 
 > Cut: "Tentative solutions, which may not all work".
+
+> Make sure my points from before, which were solutions, are in there as
+> well, with no duplication though.
+> We need the fire hose image, on the right-hand side of the callout before
+> the boxes.

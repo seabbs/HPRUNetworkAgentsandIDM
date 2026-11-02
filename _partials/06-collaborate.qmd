@@ -1,8 +1,17 @@
 ## How do we collaborate when agents write most of the code?
 
+:::: {.columns}
+::: {.column width="72%"}
 :::: {.sitem .brick}
 [🚒]{.emoji} **Why it is hard.** Too many changes to read, private reasoning,
 and fewer outside contributors
+::::
+:::
+::: {.column width="28%"}
+![](figures/agents-firehose.jpg){height="170px" fig-align="center"
+fig-alt="A firefighter kneels behind a hose throwing a wide, heavy spray of
+water."}
+:::
 ::::
 
 ::::: {.challenge-grid .solutions-grid}
@@ -10,7 +19,8 @@ and fewer outside contributors
 [🎯]{.emoji} **Review intent, not volume**
 
 - A short human statement of what and why
-- Small changes, and a person approves each one
+- Small changes, with one person in charge of each
+- Regular check-ins on how it is going
 ::::
 :::: {.cbox .slate}
 [📓]{.emoji} **A shared lab notebook**
@@ -33,7 +43,7 @@ and fewer outside contributors
 :::: {.cbox .slate}
 [🛠️]{.emoji} **Conventions in the tooling**
 
-- Shared skills give every agent the same instructions
+- A shared agent and skills, agreed by everyone
 - Review bots and automated checks catch the rest
 ::::
 :::: {.cbox .grey}
@@ -44,3 +54,8 @@ and fewer outside contributors
 - Unequal access is still unsolved
 ::::
 :::::
+
+::: {.attribution}
+Fire hose, Grand Canyon NPS, M. Jenkins,
+[public domain](https://commons.wikimedia.org/wiki/File:Wide_hose_spray_during_a_training_exercise-May_2022_(53429302659).jpg)
+:::
