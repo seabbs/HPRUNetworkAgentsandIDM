@@ -359,3 +359,12 @@ Read as: cite the article on the freed-time slide.
 > Summary pictures as well?
 
 > The thank-you slide is missing EpiNow2 and outbreak links?
+
+> The thank-you slide is missing EpiNow2 and outbreak links?
+
+> Is it just transmission here? "A parsimonious representation of what we know
+> about disease transmission". Also, i.e., observation and the mechanism of
+> interest expressed better?
+
+> Data: what can be used for data analysis, i.e. making plots, exploration
+> etc., hypothesis generation.

@@ -2,8 +2,10 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- A parsimonious representation of what we know about disease transmission
-- Built to answer a question of interest
+- A parsimonious representation of what we know
+- Of the mechanism of interest, such as transmission, and of how we
+  observe it
+- Built to answer a specific question
 :::
 ::: {.column width="60%"}
 ![](figures/agents-davies2020-model.png){width="100%"

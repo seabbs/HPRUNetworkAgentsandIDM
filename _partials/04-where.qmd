@@ -11,6 +11,8 @@
 **Data**
 
 - Pulling numbers out of reports, tables and figures
+- Exploring data and making plots
+- Generating hypotheses
 ::::
 :::: {.cbox .slate}
 **Models**

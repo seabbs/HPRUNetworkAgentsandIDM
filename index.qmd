@@ -22,7 +22,7 @@ Health Analytics and Modelling HPRU network · 3 November 2026 ·
 ## Abstract
 
 ::: {.abstract}
-Infectious disease models are parsimonious representations of what we know about disease transmission, built to answer a specific question.
+Infectious disease models are parsimonious representations of what we know about a mechanism, such as transmission, and how we observe it, built to answer a specific question.
 AI agents, language models that call tools in a loop, can now do many of the tasks we used to give early career researchers.
 In our recent work, including our model of the 2026 Ebola outbreak in the Democratic Republic of the Congo, they have read data, implemented and optimised models, built the checks around them and reviewed code.
 Agents also push towards complex code that is hard to review, and make mistakes a person would not, which can be hard to spot.
