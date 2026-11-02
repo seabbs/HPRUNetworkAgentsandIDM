@@ -2,7 +2,7 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- BVDOutbreakSize. 658 merged pull requests since 19 May
+- BVDOutbreakSize. About 32,000 lines of Julia since 19 May
 - Agents push towards complex, nested models and code
 - Not written the way a person would write it. Hard to follow and review
 - Wrong observation models and forecast bugs. We caught them
@@ -15,7 +15,7 @@ mid September, jumping to 29,000 by the end of September, and reaching
 31,970 by 2 November 2026."}
 
 ::: {.attribution}
-[BVDOutbreakSize][bvd-repo] git history and GitHub search API, 2 November
+[BVDOutbreakSize][bvd-repo] git history, 2 November
 2026 · issues #297, #299 and #606 · the health-zone model,
 [#779](https://github.com/epiforecasts/BVDOutbreakSize/pull/779)
 :::
@@ -29,8 +29,8 @@ mid September, jumping to 29,000 by the end of September, and reaching
 - An LLM-guided tree search that writes forecasting code. First in the
   CDC FluSight hub, 2025/26
 - Most candidates adapt models already in the hubs
-- Aygün et al. claimed a gain in retrospect. It came from data revisions
-  leaking into the evaluation
+- Bracher and Funk. The gain Aygün et al. claimed in retrospect came
+  from data revisions leaking into the evaluation
 - 207,500 candidate models. My guess is few groups have that compute
 :::
 ::: {.column width="60%"}

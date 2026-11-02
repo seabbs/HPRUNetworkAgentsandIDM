@@ -3,7 +3,8 @@ title: "AI agents in infectious disease modelling"
 subtitle: "Health Analytics and Modelling HPRU network"
 description: >-
   What infectious disease modelling is and is used for, what an agent is,
-  where agents can be used in modelling, and the dangers.
+  where agents can be used in modelling, the dangers, and how to
+  collaborate when agents write most of the code.
 page-layout: full
 ---
 

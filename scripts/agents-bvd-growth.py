@@ -61,7 +61,7 @@ ax.annotate(
 zone = date(2026, 9, 28)
 zone_y = lines[min(range(len(days)), key=lambda i: abs(days[i] - zone))]
 ax.annotate(
-    "One pull request (#779)\nnests a health-zone model\nin the joint model",
+    "#779 alone adds 5,300 lines.\nA health-zone model nested\nin the joint model",
     (zone, zone_y),
     xytext=(-235, -10),
     textcoords="offset points",

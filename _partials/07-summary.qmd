@@ -7,7 +7,6 @@ Draft. What it should land on is open in issue #5.
 - Agents can read data, implement, optimise and review models, and build
   the infrastructure around them
 - That frees our time for review
-- They push towards complex code that is hard to review, and they get
-  things wrong
-- Evaluation is easy to fool
+- They push towards complex code that is hard to review. They get things
+  wrong, and evaluations can leak
 - Working together through agents is hard. We have not solved it
