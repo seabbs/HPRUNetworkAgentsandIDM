@@ -7,3 +7,4 @@ _site/
 **/*.quarto_ipynb
 _shots/
 __pycache__/
+_research/

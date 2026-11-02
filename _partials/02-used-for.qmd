@@ -1,18 +1,56 @@
 ## What is infectious disease modelling used for?
 
-<!--
-Skeleton. Concrete uses from our own outbreak work. Situational awareness,
-forecasts, scenarios, estimating delays and severity.
--->
+:::: {.columns}
+::: {.column width="33%"}
+![](figures/agents-cdc-meltzer2014.png){height="340px" fig-align="center"
+fig-alt="Two line graphs from the CDC EbolaResponse model of cumulative
+cases and beds in use in Liberia and Sierra Leone, rising steeply to
+about 1.4 million cases by January 2015."}
+
+**Projections.** Ebola, West Africa, 2014
+:::
+::: {.column width="33%"}
+![](figures/agents-funk2019-forecasts-panel.png){height="340px" fig-align="center"
+fig-alt="Weekly Ebola incidence in Western Area, Sierra Leone, with
+one-week-ahead forecasts as dots and grey credible bands."}
+
+**Forecasts.** Ebola, Sierra Leone, 2014
+:::
+::: {.column width="33%"}
+![](figures/agents-example-rt-panel.png){height="340px" fig-align="center"
+fig-alt="Four panels of the estimated reproduction number over time for
+Australia, France, Germany and South Korea."}
+
+**Real-time estimates.** $R_t$, COVID-19, 2020
+:::
+::::
+
+::: {.attribution}
+Meltzer et al. 2014, MMWR 63 Suppl 3 ·
+Funk et al. 2019, PLOS Comput Biol ·
+Abbott et al. 2020, Wellcome Open Res
+:::
+
+## Ebola disease, Democratic Republic of the Congo, 2026
 
 :::: {.columns}
 ::: {.column width="40%"}
-- To do
+- Bundibugyo virus. Declared on 15 May 2026
+- McCabe et al. estimated outbreak size from exports to Uganda and from
+  deaths. We replicated it the next day
+- Then a joint model of every stream in the daily situation reports
+- Each stream alone gives a different size
 :::
 ::: {.column width="60%"}
-::: {.placeholder}
-Figure. Real outbreak outputs. Candidates: the Rt dashboard panel, the
-Ebola forecasts in Sierra Leone, the Bundibugyo joint model streams.
+![](figures/agents-bvd-streams.png){width="100%"
+fig-alt="Posterior densities of cumulative infections, one curve per data
+stream, cases, confirmed, deaths and exports, and one for the joint fit,
+which sits inside the spread of the single-stream fits."}
+
+::: {.attribution}
+McCabe et al. 2026, Imperial College London,
+[doi:10.25560/130007](https://doi.org/10.25560/130007) ·
+[BVDOutbreakSize][bvd-repo], data to 7 June 2026
 :::
 :::
 ::::

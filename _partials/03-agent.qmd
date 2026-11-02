@@ -1,17 +1,21 @@
 ## What is an agent?
 
-<!--
-Skeleton. A language model with tools, in a loop until a check passes. Name
-the collision with agent-based models in one line.
--->
-
 :::: {.columns}
 ::: {.column width="40%"}
-- To do
+- A language model with tools. It reads files, writes code, runs it, and
+  loops until a check passes
+- Claude Code, Codex and similar, in a terminal
+- Not an agent-based model. Those simulate individuals
 :::
 ::: {.column width="60%"}
-::: {.placeholder}
-Figure. The agent loop. Candidate: keynote-agent-1.png from AIandIDVUB.
+![](figures/agents-agent-1.png){width="100%"
+fig-alt="A brick box on the left, you, a prompt, feeds a loop of four
+boxes, read the files and the docs, write or change code, run it, check
+passed. No returns to the top. Yes leads to a pull request and a brick
+box, you, read it, merge or send back."}
+
+::: {.attribution}
+After Abbott, [How I LLM](https://samabbott.co.uk/how-I-llm), 2026
 :::
 :::
 ::::

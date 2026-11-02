@@ -1,19 +1,21 @@
 ## What is infectious disease modelling?
 
-<!--
-Skeleton. A one line definition for a mixed room. Data, a model of
-transmission and of how cases get observed, and inference.
--->
-
 :::: {.columns}
 ::: {.column width="40%"}
-- To do
+- A model of how an infection spreads, and of how cases get reported
+- Fitted to data that arrive late, incomplete and changing
+- A question first. The question decides which data matter
+- Fit, check, report with a date. Then again tomorrow
 :::
 ::: {.column width="60%"}
-::: {.placeholder}
-Figure. The modelling workflow, question to data to model to fit to check
-to report. Candidate: exchange-workflow-schematic.png or keynote-workflow.png
-from AIandIDVUB.
+![](figures/agents-workflow.png){width="100%"
+fig-alt="Six teal boxes in a row, question, data, model, fit, check and
+report, joined by arrows, with a brick return arrow beneath labelled
+iterate."}
+
+::: {.attribution}
+Abbott et al.,
+[A workflow for infectious disease modelling][wf]
 :::
 :::
 ::::

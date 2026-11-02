@@ -1,19 +1,78 @@
 ## Where can agents be used in infectious disease modelling?
 
-<!--
-Skeleton. Each step of the workflow, with who does what. Examples from the
-Bundibugyo model, reading sitreps, digitising onsets, writing and checking
-the model, refitting.
--->
+:::: {.columns}
+::: {.column width="40%"}
+- At every step of the workflow, with people deciding and checking
+- Reading data. Implementing, optimising and reviewing model code
+- Building the infrastructure. Model checks, and refits on every push
+- Talking through model development. A rubber duck that answers back
+:::
+::: {.column width="60%"}
+![](figures/agents-workflow-agents.png){width="100%"
+fig-alt="The six-step workflow, question, data, model, fit, check and
+report, with a tag over each. People over question; agents read and
+digitise over data; people choose, agents write over model; agents,
+every push over fit; agents run, people judge over check; agents draft,
+people sign over report."}
+
+::: {.attribution}
+After Abbott et al.,
+[A workflow for infectious disease modelling][wf]
+:::
+:::
+::::
+
+## Reading the situation reports
 
 :::: {.columns}
 ::: {.column width="40%"}
-- To do
+- The DRC situation reports are French PDFs. Agents read every stream
+  from them, and recent reports get two blind reads
+- Symptom onsets are published only as a figure. An agent-written
+  digitiser recovers the counts
+- Cross-checked by other agents, and by digitisers written in Python and
+  Julia
 :::
 ::: {.column width="60%"}
-::: {.placeholder}
-Figure. The workflow tagged with where agents and people sit. Candidate:
-keynote-workflow-agents.png from AIandIDVUB.
+![](figures/agents-bvd-sitrep087-page3.png){width="92%"
+fig-align="center"
+fig-alt="Page 3 of INSP situation report 87, in French. A table of alerts
+by province, a bar chart of confirmed cases by date of symptom onset,
+and a map of cases by health zone."}
+
+::: {.attribution}
+INSP SitRep 087, 9 August 2026,
+[insp.cd](https://insp.cd/ebola-17eme-epidemie/) ·
+[BVDOutbreakSize][bvd-repo]
+:::
+:::
+::::
+
+## Implementing, optimising and reviewing
+
+:::: {.columns}
+::: {.column width="40%"}
+- **Implementation.** Agents write the tasks from a spec or a
+  conversation, then the code
+- **Optimisation.** Custom gradient rules for the renewal and
+  convolution kernels
+- **Theory.** An integral we needed solved analytically
+- **Review.** Several review agents before we read it. Our time goes on
+  review and judgement
+:::
+::: {.column width="60%"}
+![](figures/agents-agent-2.png){width="100%"
+fig-alt="The agent loop fed by a box where agents write the tasks from a
+spec or a conversation, with review agents sending findings back into
+the loop, a person reading all the code or only the outcome, and a merge
+that refits in CI and sends new tasks back to the top."}
+
+::: {.attribution}
+[BVDOutbreakSize][bvd-repo]
+[#810](https://github.com/epiforecasts/BVDOutbreakSize/pull/810),
+[#902](https://github.com/epiforecasts/BVDOutbreakSize/pull/902) ·
+[ComposableRecurrences.jl #75](https://github.com/EpiAware/ComposableRecurrences.jl/pull/75) ·
+[primarycensored #334](https://github.com/epinowcast/primarycensored/pull/334)
 :::
 :::
 ::::

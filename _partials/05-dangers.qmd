@@ -1,18 +1,53 @@
 ## Dangers
 
-<!--
-Skeleton. What went wrong and what it costs. Wrong observation models,
-forecast bugs, evaluation leakage (Bracher and Funk 2026), who gets access.
--->
+:::: {.columns}
+::: {.column width="40%"}
+- BVDOutbreakSize. 653 merged pull requests and about 32,000 lines of
+  Julia since 19 May. Hard to keep track of
+- Agents push towards complex, nested models and code
+- Not written the way a person would write it. Hard to review and hard to
+  hand on
+- Wrong observation models and forecast bugs, caught by plots and domain
+  knowledge
+:::
+::: {.column width="60%"}
+![](figures/agents-bvd-growth.png){width="100%"
+fig-alt="A line chart of lines of Julia in the BVDOutbreakSize src
+folder by week, rising from about 1,500 in late May 2026 to 13,500 in
+mid September, jumping to 29,000 by the end of September, and reaching
+31,970 by 2 November 2026."}
+
+::: {.attribution}
+[BVDOutbreakSize][bvd-repo] git history and GitHub search API, 2 November
+2026 · issues #297, #299, #445 and #606
+:::
+:::
+::::
+
+## Agents that search over models
 
 :::: {.columns}
 ::: {.column width="40%"}
-- To do
+- Martinson et al. An LLM-guided tree search that writes forecasting
+  code. Ranked first in the CDC FluSight hub, 2025/26
+- Most candidates adapt models already in the hubs
+- Bracher and Funk. The retrospective gain claimed earlier came from
+  data revisions leaking into the evaluation
+- 207,500 candidates scored. Compute and access few modelling groups
+  have
 :::
 ::: {.column width="60%"}
-::: {.placeholder}
-Figure. What agents got wrong. Candidate: keynote-agent-wrong.png from
-AIandIDVUB.
+![](figures/agents-sai-arxiv.png){width="100%"
+fig-alt="The arXiv abstract page for Prospective multi-pathogen disease
+forecasting using autonomous LLM-guided tree search, by Martinson and
+colleagues, submitted 15 May 2026."}
+
+::: {.attribution}
+Martinson et al. 2026,
+[arXiv:2605.16238](https://arxiv.org/abs/2605.16238) ·
+Aygün et al. 2026, Nature 654, 909 ·
+Bracher and Funk 2026,
+[arXiv:2608.05883](https://arxiv.org/abs/2608.05883)
 :::
 :::
 ::::
