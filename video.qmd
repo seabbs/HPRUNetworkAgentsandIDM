@@ -1,0 +1,20 @@
+---
+title: "Video"
+subtitle: "The finished slides, with the build played back beside them"
+description-meta: >-
+  A short video of the deck, with a replay of how agents built it in one
+  afternoon.
+page-layout: full
+---
+
+{{< video figures/agents-deck.mp4 title="The finished slides, with the build played back beside them" >}}
+
+The finished slides flip through on the left.
+On the right, the afternoon of 2 November 2026 plays back, with commits climbing and some of my steers popping up as I sent them.
+Long breaks are skipped.
+
+[Watch the slides](slides.qmd){.btn .btn-primary}
+[Read every prompt](prompts.qmd){.btn .btn-outline-primary}
+[Download the video](figures/agents-deck.mp4){.btn .btn-outline-primary}
+
+The video is rebuilt on every deploy by [`scripts/social-video.py`](https://github.com/seabbs/HPRUNetworkAgentsandIDM/blob/main/scripts/social-video.py).

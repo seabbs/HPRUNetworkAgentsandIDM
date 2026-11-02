@@ -155,7 +155,7 @@ logs and git. Every steer is on the [prompts page][prompts]. Watch the
 
 [talk]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/
 [prompts]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/prompts.html
-[video]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/prompts.html#how-these-slides-were-built
+[video]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/video.html
 [workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [wf]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [bvd-repo]: https://github.com/epiforecasts/BVDOutbreakSize

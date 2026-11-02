@@ -19,9 +19,7 @@ does the same for an earlier talk.
 
 ## How these slides were built
 
-{{< video figures/agents-deck.mp4 title="The finished slides, with the build played back beside them" >}}
-
-The video plays the finished slides beside a replay of the build, with some of my steers as I sent them.
+The [video](video.qmd) plays the finished slides beside a replay of the build.
 
 One Claude Code session, running Claude Opus, built the deck on 2 November 2026 between about 12:50 and 19:30 UTC.
 I sent it 183 messages, most of them short steers sent while it was still working on the last one.

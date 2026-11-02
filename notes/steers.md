@@ -557,3 +557,7 @@ of the talk plan.
 > Hyperlink contact@samabbott.co.uk?
 
 > Or my contact page on, i.e., my website?
+
+> Shouldn't the video be on its own page, as part of the tab boxes etc., not prompts?
+
+> Modelling workflow should not be linked in the boxes. It should be slides, prompts and video.

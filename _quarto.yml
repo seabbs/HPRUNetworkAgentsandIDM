@@ -27,6 +27,8 @@ website:
         href: slides.qmd
       - text: "Prompts"
         href: prompts.qmd
+      - text: "Video"
+        href: video.qmd
     right:
       - text: "samabbott.co.uk"
         href: https://samabbott.co.uk

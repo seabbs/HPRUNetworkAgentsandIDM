@@ -21,7 +21,8 @@ fitted epidemic curve."}
 :::
 
 [Slides](slides.qmd){.btn .btn-primary}
-[Modelling workflow][workflow]{.btn .btn-outline-primary}
+[Prompts](prompts.qmd){.btn .btn-outline-primary}
+[Video](video.qmd){.btn .btn-outline-primary}
 
 :::: {.talk-body}
 ::: {.talk-main}
@@ -49,7 +50,7 @@ Collaborating when agents write the code is hard, and training, cost, equity and
   The workflow the agents are asked to follow.
 - [Prompts](prompts.qmd).
   The brief and steers that built these slides.
-- [Video of the build](prompts.qmd#how-these-slides-were-built).
+- [Video of the build](video.qmd).
   The finished slides beside a replay of how they were made.
 
 :::
