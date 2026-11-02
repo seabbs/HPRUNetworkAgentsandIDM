@@ -57,6 +57,11 @@ Duck by Tom Morris,
 :::
 ::::
 
+:::: {.sitem .brick}
+**A spiky ability profile.** Superhuman at some tasks and shockingly bad at
+others. Predicting which is very hard
+::::
+
 ## How should we use the time agents free up?
 
 :::: {.sitem .brick}

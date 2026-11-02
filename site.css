@@ -479,3 +479,9 @@ main:has(.abstract) section > h3 {
   --bs-btn-active-bg: #3d4a80;
   --bs-btn-active-border-color: #3d4a80;
 }
+
+/* The agent banner spans the page, not the prose measure. */
+.title-banner p {
+  max-width: none;
+  margin: 1rem 0 1.5rem;
+}

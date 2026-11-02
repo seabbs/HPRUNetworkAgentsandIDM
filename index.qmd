@@ -13,10 +13,12 @@ Health Analytics and Modelling HPRU network · 3 November 2026 ·
 15 minutes plus 5 for questions · Sam Abbott and Sebastian Funk
 :::
 
+::: {.title-banner}
 ![](figures/agents-title.png){width="100%" fig-alt="Sam talks to seabbs-bot and Seb to
 sbfnk-bot through chat bubbles. The two bots work together on an SEIR model
 and its fitted epidemic curve, while a crowd of agents above talk to each
 other."}
+:::
 
 [Slides](slides.qmd){.btn .btn-primary}
 [Modelling workflow][workflow]{.btn .btn-outline-primary}
