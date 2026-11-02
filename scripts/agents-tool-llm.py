@@ -66,7 +66,7 @@ ax.text(cx0 + 1.8, cy1 - 3, "Context window", color=teal,
 cw = (cx1 - cx0 - 4.5) / 2
 c1, c2 = cx0 + 1.5, cx0 + 3 + cw
 chips = [
-    (c1, 38.5, 47.5, "Instructions\nCLAUDE.md"),
+    (c1, 38.5, 47.5, "Instructions\nAGENTS.md"),
     (c2, 38.5, 47.5, "Skills, e.g.\nJulia package\ndevelopment"),
     (c1, 29.5, 37, "Conversation"),
     (c2, 29.5, 37, "Tool results"),

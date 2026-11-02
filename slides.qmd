@@ -5,6 +5,10 @@ institute: "London School of Hygiene & Tropical Medicine"
 subtitle: "Health Analytics and Modelling HPRU network"
 date: 2026-11-03
 date-format: "D MMMM YYYY"
+title-slide-attributes:
+  data-background-image: figures/agents-title.png
+  data-background-size: 82%
+  data-background-position: 50% 92%
 format:
   revealjs:
     theme: default

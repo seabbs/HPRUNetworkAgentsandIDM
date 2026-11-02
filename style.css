@@ -199,3 +199,8 @@
 
 /* Tighter collaboration slide, to fit a callout under the boxes */
 .reveal .solutions-grid { margin-bottom: 14px; }
+
+/* Title slide: lift the title block above the agent banner. */
+#title-slide {
+  margin-top: -260px;
+}

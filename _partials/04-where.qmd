@@ -169,7 +169,9 @@ Below, the reproduction number falling from about 2 in May to about 1
 from August, and four small maps of health-zone estimates."}
 
 ::: {.attribution}
-McCabe et al. 2026, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
+McCabe et al. 2026, [Estimation of the size of the Ebola outbreak caused
+by Bundibugyo virus in the Democratic Republic of the
+Congo](https://doi.org/10.25560/130007) ·
 [BVDOutbreakSize report](https://epiforecasts.io/BVDOutbreakSize/dev/dashboard),
 data to 25 October 2026
 :::
@@ -212,12 +214,13 @@ score, with the best leaf circled and the forecasting code it produced,
 an SIR model fitted with scipy, shown as the output."}
 
 ::: {.attribution}
-Aygün et al. 2026,
-[Nature](https://doi.org/10.1038/s41586-026-10658-6) ·
-Bracher and Funk 2026,
-[arXiv:2608.05883](https://arxiv.org/abs/2608.05883) ·
-Martinson et al. 2026, Fig. 2,
-[arXiv:2605.16238](https://arxiv.org/abs/2605.16238)
+Aygün et al. 2026, [An AI system to help scientists write expert-level
+empirical software](https://doi.org/10.1038/s41586-026-10658-6), Nature ·
+Bracher and Funk 2026, [Information leakage from data revisions in
+retrospective forecasts](https://arxiv.org/abs/2608.05883), arXiv ·
+Martinson et al. 2026, [Prospective multi-pathogen disease forecasting
+using autonomous LLM-guided tree
+search](https://arxiv.org/abs/2605.16238), arXiv, Fig. 2
 :::
 :::
 ::::

@@ -17,8 +17,10 @@ with isolation also removing clinical cases."}
 
 ::: {.attribution}
 After Davies et al. 2020,
-[Lancet Public Health](https://doi.org/10.1016/S2468-2667(20)30133-X),
-Fig. 1
+[Effects of non-pharmaceutical interventions on COVID-19 cases, deaths,
+and demand for hospital services in the UK: a modelling
+study](https://doi.org/10.1016/S2468-2667(20)30133-X),
+Lancet Public Health, Fig. 1
 :::
 :::
 ::::

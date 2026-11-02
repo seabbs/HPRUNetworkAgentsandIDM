@@ -46,8 +46,20 @@ Australia, France, Germany and South Korea."}
 ::::
 
 ::: {.attribution}
-Davies et al. 2020, [Lancet Public Health](https://doi.org/10.1016/S2468-2667(20)30133-X) ·
-Meltzer et al. 2014, [MMWR 63 Suppl 3](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm) ·
-Mathis et al. 2024, [Nat Commun](https://doi.org/10.1038/s41467-024-50601-9) ·
-Abbott et al. 2020, [Wellcome Open Res](https://doi.org/10.12688/wellcomeopenres.16006.1)
+Davies et al. 2020, [Effects of non-pharmaceutical interventions on
+COVID-19 cases, deaths, and demand for hospital services in the UK: a
+modelling study](https://doi.org/10.1016/S2468-2667(20)30133-X),
+Lancet Public Health ·
+Meltzer et al. 2014, [Estimating the future number of cases in the Ebola
+epidemic, Liberia and Sierra Leone,
+2014–2015](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm),
+MMWR ·
+Mathis et al. 2024, [Evaluation of FluSight influenza forecasting in the
+2021–22 and 2022–23 seasons with a new target laboratory-confirmed
+influenza hospitalizations](https://doi.org/10.1038/s41467-024-50601-9),
+Nat Commun ·
+Abbott et al. 2020, [Estimating the time-varying reproduction number of
+SARS-CoV-2 using national and subnational case
+counts](https://doi.org/10.12688/wellcomeopenres.16006.1),
+Wellcome Open Res
 :::
