@@ -13,7 +13,7 @@
 
 - How much agents should do on their own is an open question
 - Most tasks still need a person closely in the loop
-- Training, when agents do the early career tasks
+- What should we train people to do, if agents do the early career tasks?
 ::::
 :::: {.cbox .brick}
 **Data and access**

@@ -315,3 +315,6 @@ Read as: cite the article on the freed-time slide.
 > potential benefits and dangers of agent-driven work.
 
 > It is not "when" here: "when access to agents ..."
+
+> "What should we be training people to do" is better than just "Training" as
+> a flat statement.
