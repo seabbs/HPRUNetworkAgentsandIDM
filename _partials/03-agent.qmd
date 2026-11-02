@@ -24,13 +24,14 @@ Cursor</div>
 :::
 ::: {.column width="60%"}
 ![](figures/agents-tool-llm.png){width="100%"
-fig-alt="A coding agent. The language model only reads context and writes
-text or tool calls. A harness such as Claude Code sits between the model
-and the tools. It builds the context window from instructions, skills,
-the conversation and tool results, runs each tool call in a shell,
-GitHub, web search or an MCP server such as a Julia session, and puts the
-result back into the context, repeating until done. You give the prompt
-to the harness and read the model's answer."}
+fig-alt="A coding agent. A language model, at a provider or local, reads
+context and writes text or tool calls. A harness such as Claude Code
+builds the context window from instructions, skills, the conversation
+and tool results, runs each tool call in a shell, GitHub, web search or
+an MCP server such as a Julia session, and puts the result back into the
+context, repeating until done. The harness and tools run on your
+computer, in the cloud or on an HPC cluster, which sets the agent's data
+access, tools and compute. You give the prompt and read the answer."}
 
 ::: {.attribution}
 [modelcontextprotocol.io](https://modelcontextprotocol.io) ·
