@@ -527,3 +527,5 @@ of the talk plan.
 > "…agents write most of the code?" Summary here: it's "write the code", not "most".
 
 > Here, unequal access to agents: "Why it is hard. Too many changes to read, private reasoning, and fewer outside contributors".
+
+> "Unequal access is still unsolved": we have an org or project level agent?

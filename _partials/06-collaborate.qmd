@@ -52,7 +52,7 @@ water."}
 - Tracking issues add a higher layer of conversation above agent and
   human issues
 - Work is public by default
-- Unequal access is still unsolved
+- An organisation or project agent that anyone can use
 ::::
 :::::
 
