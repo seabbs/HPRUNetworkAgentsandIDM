@@ -487,3 +487,5 @@ of the talk plan.
 > Title of this paper and others in the cites: https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30133-X/fulltext
 
 > Change CLAUDE.md to AGENTS.md in the schematic that occurs in.
+
+> Here: "Agents now propose most changes", implement and first review all code.
