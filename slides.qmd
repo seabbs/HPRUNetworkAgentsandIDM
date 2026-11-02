@@ -1,0 +1,75 @@
+---
+title: "AI agents in infectious disease modelling"
+author: "Sam Abbott and Sebastian Funk"
+institute: "London School of Hygiene & Tropical Medicine"
+subtitle: "Health Analytics and Modelling HPRU network"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    embed-resources: true
+    width: 1920
+    height: 1080
+    center: true
+    css: style.css
+    link-external-newwindow: true
+---
+
+## Talk plan
+
+:::: {.columns}
+::: {.column width="68%"}
+- What is infectious disease modelling?
+- What is infectious disease modelling used for?
+- What is an agent?
+- Where can agents be used in infectious disease modelling?
+- Dangers
+- Summary
+:::
+::: {.column width="32%"}
+![](figures/qr-talk.png){width="58%" fig-alt="QR code to the talk page"}
+
+::: {.attribution}
+[samabbott.co.uk/HPRUNetworkAgentsandIDM][talk]
+
+Health Analytics and Modelling HPRU network.
+:::
+:::
+::::
+
+{{< include _partials/01-what-is-idm.qmd >}}
+
+{{< include _partials/02-used-for.qmd >}}
+
+{{< include _partials/03-agent.qmd >}}
+
+{{< include _partials/04-where.qmd >}}
+
+{{< include _partials/05-dangers.qmd >}}
+
+{{< include _partials/06-summary.qmd >}}
+
+## Thank you
+
+:::: {.columns}
+::: {.column width="62%"}
+- [How I LLM](https://samabbott.co.uk/how-I-llm)
+- [A workflow for infectious disease modelling][workflow]
+:::
+::: {.column width="38%"}
+![](figures/qr-talk.png){width="62%" fig-align="center"
+fig-alt="QR code to the talk page"}
+
+::: {.attribution}
+[samabbott.co.uk/HPRUNetworkAgentsandIDM][talk]
+
+Sam Abbott and Sebastian Funk, LSHTM ·
+[epiforecasts.io](https://epiforecasts.io) ·
+[github.com/seabbs](https://github.com/seabbs) ·
+[github.com/sbfnk](https://github.com/sbfnk)
+:::
+:::
+::::
+
+[talk]: https://samabbott.co.uk/HPRUNetworkAgentsandIDM/
+[workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/

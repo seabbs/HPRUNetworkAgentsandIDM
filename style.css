@@ -1,0 +1,53 @@
+/* Presentation custom styles */
+
+/* Add space between slide title and content */
+.reveal .slides section h2 {
+  margin-bottom: 1.2em;
+}
+
+/* Allow code blocks to use full available height */
+.reveal .slides section pre {
+  max-height: none;
+}
+
+/* Smaller source/attribution captions under figures */
+.reveal .slides .attribution {
+  font-size: 0.5em;
+  opacity: 0.75;
+}
+
+/* Keep reference/citation links unobtrusive */
+.reveal .slides a {
+  text-decoration: none;
+}
+
+/* A crowd of robots with a few humans in it, for the community slide. */
+.reveal .emoji-crowd {
+  font-size: 2.1em;
+  line-height: 1.15;
+  letter-spacing: 0.06em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.reveal .emoji-crowd .humans {
+  font-size: 1.18em;
+}
+
+/* The closing ask on the roadmap deck. */
+.reveal .send-help {
+  font-size: 1.9em;
+  font-weight: 700;
+  text-align: center;
+  color: #b5432f;
+  margin: 0.2em 0 0.6em 0;
+}
+
+/* Skeleton only. Marks where a figure will go until it is drawn or copied. */
+.reveal .placeholder {
+  border: 3px dashed #9aa0aa;
+  color: #6b7280;
+  padding: 1.2em;
+  font-size: 0.7em;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+
+website:
+  title: "AI agents in infectious disease modelling"
+  description: |
+    A talk on AI agents in infectious disease modelling for the Health
+    Analytics and Modelling HPRU network, Sam Abbott and Sebastian Funk.
+  site-url: "https://samabbott.co.uk/HPRUNetworkAgentsandIDM"
+  repo-url: "https://github.com/seabbs/HPRUNetworkAgentsandIDM"
+  favicon: figures/sam.jpg
+  search: false
+  navbar:
+    title: "AI agents in infectious disease modelling"
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Slides"
+        href: slides.qmd
+    right:
+      - text: "samabbott.co.uk"
+        href: https://samabbott.co.uk
+      - icon: github
+        href: https://github.com/seabbs/HPRUNetworkAgentsandIDM
+  page-footer:
+    left: >-
+      Sam Abbott and Sebastian Funk, London School of Hygiene & Tropical
+      Medicine
+    right: "[Source](https://github.com/seabbs/HPRUNetworkAgentsandIDM)"
+
+format:
+  html:
+    theme: cosmo
+    css: site.css
+    toc: false
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

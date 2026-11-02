@@ -1,0 +1,18 @@
+## What is infectious disease modelling used for?
+
+<!--
+Skeleton. Concrete uses from our own outbreak work. Situational awareness,
+forecasts, scenarios, estimating delays and severity.
+-->
+
+:::: {.columns}
+::: {.column width="40%"}
+- To do
+:::
+::: {.column width="60%"}
+::: {.placeholder}
+Figure. Real outbreak outputs. Candidates: the Rt dashboard panel, the
+Ebola forecasts in Sierra Leone, the Bundibugyo joint model streams.
+:::
+:::
+::::

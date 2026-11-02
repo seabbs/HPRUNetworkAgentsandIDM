@@ -1,0 +1,16 @@
+## Summary
+
+<!--
+Skeleton. What the audience should leave with. Needs Sam and Seb's input.
+-->
+
+:::: {.columns}
+::: {.column width="40%"}
+- To do
+:::
+::: {.column width="60%"}
+::: {.placeholder}
+Figure or none. To be decided.
+:::
+:::
+::::

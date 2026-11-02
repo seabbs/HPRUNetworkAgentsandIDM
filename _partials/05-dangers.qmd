@@ -1,0 +1,18 @@
+## Dangers
+
+<!--
+Skeleton. What went wrong and what it costs. Wrong observation models,
+forecast bugs, evaluation leakage (Bracher and Funk 2026), who gets access.
+-->
+
+:::: {.columns}
+::: {.column width="40%"}
+- To do
+:::
+::: {.column width="60%"}
+::: {.placeholder}
+Figure. What agents got wrong. Candidate: keynote-agent-wrong.png from
+AIandIDVUB.
+:::
+:::
+::::

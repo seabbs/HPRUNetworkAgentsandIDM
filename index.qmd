@@ -1,0 +1,42 @@
+---
+title: "AI agents in infectious disease modelling"
+subtitle: "Health Analytics and Modelling HPRU network"
+description: >-
+  What infectious disease modelling is and is used for, what an agent is,
+  where agents can be used in modelling, and the dangers.
+page-layout: full
+---
+
+::: {.session-meta}
+Health Analytics and Modelling HPRU network · Date to be confirmed ·
+15 minutes plus 5 for questions · Sam Abbott and Sebastian Funk
+:::
+
+[Slides](slides.qmd){.btn .btn-primary}
+[Modelling workflow][workflow]{.btn .btn-outline-primary}
+
+:::: {.talk-body}
+::: {.talk-main}
+
+## Abstract
+
+::: {.abstract}
+To be written.
+:::
+
+:::
+
+::: {.talk-side}
+
+## Resources
+
+- [How I LLM][howillm].
+  What coding agents do and do not do in a research workflow.
+- [A workflow for infectious disease modelling][workflow].
+  The workflow the agents are asked to follow.
+
+:::
+::::
+
+[howillm]: https://samabbott.co.uk/how-I-llm
+[workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/

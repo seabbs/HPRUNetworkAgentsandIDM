@@ -1,0 +1,17 @@
+## What is an agent?
+
+<!--
+Skeleton. A language model with tools, in a loop until a check passes. Name
+the collision with agent-based models in one line.
+-->
+
+:::: {.columns}
+::: {.column width="40%"}
+- To do
+:::
+::: {.column width="60%"}
+::: {.placeholder}
+Figure. The agent loop. Candidate: keynote-agent-1.png from AIandIDVUB.
+:::
+:::
+::::

@@ -1,0 +1,43 @@
+version: "3"
+
+vars:
+  # The quarto first on PATH on Sam's machines can be 1.3, which is too old.
+  QUARTO:
+    sh: command -v "$HOME/.local/bin/quarto" || command -v quarto
+
+tasks:
+  default:
+    desc: Render the site and the slide deck
+    cmds:
+      - "{{.QUARTO}} render"
+
+  preview:
+    desc: Preview the site with live reload
+    cmds:
+      - "{{.QUARTO}} preview"
+
+  qr:
+    desc: Regenerate the QR code for the talk page
+    cmds:
+      - ./figures/make_qr.sh
+
+  check:
+    desc: Validate the Quarto project
+    cmds:
+      - "{{.QUARTO}} check"
+
+  lint:
+    desc: Check line lengths and trailing whitespace in source files
+    cmds:
+      - ./scripts/lint.sh
+
+  shot:
+    desc: Screenshot the talk page for layout review
+    cmds:
+      - ./scripts/shot.py _shots 1440 index.html
+      - ./scripts/shot.py _shots 390 index.html
+
+  slides:
+    desc: Screenshot every slide of the deck for layout review
+    cmds:
+      - ./scripts/shot-slides.py _shots

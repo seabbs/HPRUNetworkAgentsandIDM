@@ -1,0 +1,481 @@
+/* Site styling for the AIandIDVUB talk pages. */
+
+/* Typography from seabbs.github.io, so this reads as the same person's site.
+   The accent colours are a neutral teal, slate blue, and brick red. */
+/* One request rather than two, because conference wifi is the moment this
+   page gets read. _quarto.yml adds the preconnect hint. */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cardo&display=swap');
+
+/* Cardo runs small next to Source Sans Pro, so nudge the base size up. */
+body {
+  font-family: 'Cardo', serif;
+  font-size: 1.05rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar,
+.quarto-title-block .subtitle {
+  font-family: 'Alata', sans-serif;
+}
+
+/* Links. seabbs.github.io uses near-black text links with a hover accent,
+   so cosmo's blue reads as a different site. Buttons keep their own colours
+   and the navbar keeps the theme default. */
+main a:not(.btn):not(.anchorjs-link) {
+  color: #1f1f1f;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+main a:not(.btn):not(.anchorjs-link):hover {
+  color: #b5432f;
+}
+
+/* Needs the same number of classes as the main link rule above to win. */
+main .talk-card h3 a:not(.btn) {
+  text-decoration: none;
+}
+
+main .talk-card h3 a:not(.btn):hover {
+  text-decoration: underline;
+  color: #b5432f;
+}
+
+/* Full-width layout, capped so it does not sprawl on a wide monitor. */
+main.page-columns,
+.page-columns .content {
+  max-width: 1280px;
+}
+
+body .page-full {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Cap the navbar and footer to the same frame as the content and give them
+   the same inner gutter, so a wide monitor shows one left edge rather than
+   the content sitting inset from the bar above it. */
+.navbar > .navbar-container,
+footer.footer .nav-footer {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 4.3rem is the gutter the content column sits on once the 1280px frame is
+   capped, which is from 1280px up. Below that the theme's own gutter is
+   close enough and varies with the viewport. */
+@media (min-width: 1280px) {
+  .navbar > .navbar-container,
+  footer.footer .nav-footer {
+    padding-left: 4.3rem;
+    padding-right: 4.3rem;
+  }
+}
+
+/* Identity strip under the title block, so the page says who this is before
+   a reader has scrolled. It carries the name, which is why the home page no
+   longer sets an author and repeats it in a meta block above. */
+.idstrip {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.idstrip p {
+  margin-bottom: 0;
+  max-width: none;
+  font-size: 0.9rem;
+}
+
+.quarto-title-block .quarto-title h1.title {
+  margin-bottom: 0.2rem;
+}
+
+.idstrip img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.idstrip a {
+  font-size: 0.9rem;
+}
+
+.hero {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bio-label {
+  display: block;
+  font-family: 'Alata', sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  margin: 0.9rem 0 0.35rem 0;
+}
+
+/* The submitted bio, set smaller so it does not dominate the page. The
+   sentences are marked up as emphasis, as asked for, and a left rule also
+   marks it as quoted. */
+.bio {
+  font-size: 0.94rem;
+  line-height: 1.5;
+  columns: 2;
+  column-gap: 2rem;
+  column-rule: 1px solid #dee2e6;
+  color: #333;
+  border-left: 3px solid #dee2e6;
+  padding-left: 1rem;
+}
+
+/* The sentences are marked up as emphasis because that is how the steer put
+   it. Two hundred words of italic serif is hard going, so the rule and the
+   label carry the quotation instead. */
+.bio em {
+  font-style: normal;
+}
+
+.bio p {
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 900px) {
+  .bio {
+    columns: 1;
+  }
+}
+
+/* Tighter spacing above section headings on the home page. */
+h2.section-tight {
+  margin-top: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+/* The theme underlines h2 across the whole content width, which under a two
+   word heading is a longer rule than the heading it marks. Short marker
+   instead, in the same green as the card tops. */
+main h2 {
+  border-bottom: none;
+  position: relative;
+  padding-bottom: 0.35rem;
+  font-size: 1.45rem;
+}
+
+main h3 {
+  font-size: 1.15rem;
+}
+
+main h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3.5rem;
+  height: 3px;
+  background: #1f6f8b;
+}
+
+.talk-row,
+.links-row {
+  align-items: stretch;
+}
+
+.talk-row {
+  margin-bottom: 2rem;
+}
+
+/* Quarto's grid only goes three across at a fixed breakpoint, which leaves a
+   band of widths showing three full width bands. Reflow on content width
+   instead. */
+@media (min-width: 768px) {
+  .talk-row {
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
+
+  .links-row {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+
+  .talk-row > [class*="g-col"],
+  .links-row > [class*="g-col"] {
+    grid-column: auto;
+  }
+}
+
+/* Three link blocks in two columns leaves the third one alone on a new row
+   with an empty cell beside it. Flow them instead through that band. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .links-row {
+    display: block;
+    columns: 2;
+    column-gap: 2.5rem;
+  }
+
+  .links-row > [class*="g-col"] {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Darker than the teal used for rules and borders, so white text on
+   it clears WCAG AA at this size. */
+.talk-time {
+  display: inline-block;
+  background: #1a5a70;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+}
+
+.talk-sub {
+  display: block;
+  font-size: 0.88rem;
+  color: #666;
+  margin-top: -0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.links-row ul {
+  padding-left: 1.05rem;
+  font-size: 0.9rem;
+}
+
+.links-row li {
+  margin-bottom: 0.35rem;
+}
+
+.links-row h3 {
+  border-bottom: 2px solid #4a5899;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.made-note {
+  margin-top: 1.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.88rem;
+  color: #666;
+}
+
+/* Interjections from the bot that wrote most of this */
+.bot-aside {
+  border-left: 3px solid #1f6f8b;
+  background: #f6f8f6;
+  padding: 0.5rem 0.9rem;
+  margin: 0.9rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.bot-aside p {
+  margin-bottom: 0;
+}
+
+/* Talk cards on the home page, three across */
+.talk-card {
+  border: 1px solid #dee2e6;
+  border-top: 4px solid #1f6f8b;
+  border-radius: 4px;
+  padding: 0.9rem 1rem 1rem 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.talk-card h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.02rem;
+  line-height: 1.3;
+}
+
+.talk-card p {
+  font-size: 0.9rem;
+}
+
+/* The heading makes Quarto wrap the card body in a section, so the flex column
+   has to continue inside it for the buttons to line up across cards. */
+.talk-card > section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.talk-card section p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.talk-card .anchorjs-link {
+  display: none;
+}
+
+.talk-card .btn {
+  margin-right: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+/* Abstract block on talk pages. It takes the same 40rem measure as the body
+   prose and the headings below, so a talk page has one right edge. In the two
+   column layout the column caps it tighter still. */
+.abstract {
+  border-left: 3px solid #4a5899;
+  padding-left: 1rem;
+  margin: 1.25rem 0 1.75rem 0;
+  max-width: 40rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+
+.abstract p {
+  margin-bottom: 0.9rem;
+}
+
+/* Same treatment for the body prose, headings, and resource lists, so a talk
+   page has one measure rather than two and the right edges agree. The home
+   page grids opt out below. */
+main > p,
+main section > p,
+main section > ul {
+  max-width: 40rem;
+}
+
+main:has(.abstract) section > h2,
+main:has(.abstract) section > h3 {
+  max-width: 40rem;
+}
+
+/* Talk pages set the abstract and the resources side by side once there is
+   room. Before that they stack, resources under the abstract. */
+@media (min-width: 1100px) {
+  .talk-body {
+    display: grid;
+    grid-template-columns: minmax(0, 36rem) minmax(0, 26rem);
+    column-gap: 3rem;
+    align-items: start;
+  }
+
+  .talk-side > section > h2 {
+    margin-top: 0;
+  }
+}
+
+.talk-side {
+  font-size: 0.95rem;
+}
+
+.talk-card p,
+.links-row ul,
+.hero p {
+  max-width: none;
+}
+
+/* Session metadata line under the talk title */
+.session-meta {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1.25rem;
+}
+
+.session-meta code {
+  background: none;
+  color: inherit;
+}
+
+/* Prompt quotes on the prompts page */
+.prompt {
+  border-left: 3px solid #b5432f;
+  background: #faf6f5;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  max-width: 40rem;
+  font-size: 0.95rem;
+}
+
+.prompt p:last-child {
+  margin-bottom: 0;
+}
+
+/* The brief is six stacked quotes under six headings, which reads as one
+   column of identical boxes. Set the headings as margin labels so the
+   sections are told apart by position rather than by another heading. */
+@media (min-width: 1200px) {
+  section#the-brief > section {
+    display: grid;
+    grid-template-columns: 9rem minmax(0, 40rem);
+    column-gap: 1.5rem;
+  }
+
+  section#the-brief > section > h3 {
+    grid-column: 1;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #666;
+    border: 0;
+    margin-top: 0.45rem;
+  }
+
+  section#the-brief > section > .prompt {
+    grid-column: 2;
+  }
+}
+
+/* The steers are one or two sentences each, so the full prompt treatment
+   gives sixteen near-identical boxes. Strip them back and set them in two
+   columns. */
+.steers .prompt {
+  background: none;
+  padding: 0.15rem 0 0.15rem 0.8rem;
+  margin: 0.45rem 0;
+  border-left-width: 2px;
+}
+
+@media (min-width: 992px) {
+  .steers {
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .steers .prompt {
+    break-inside: avoid;
+  }
+}
+
+/* Buttons. Cosmo's blue is the only colour on the site that is not from the
+   site palette, and it does not clear WCAG AA as an outline button at this
+   size. Purple means "go and read this" everywhere else here. */
+.btn-primary {
+  --bs-btn-bg: #3d4a80;
+  --bs-btn-border-color: #3d4a80;
+  --bs-btn-hover-bg: #33406e;
+  --bs-btn-hover-border-color: #33406e;
+  --bs-btn-active-bg: #33406e;
+  --bs-btn-active-border-color: #33406e;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #3d4a80;
+  --bs-btn-border-color: #4a5899;
+  --bs-btn-hover-bg: #4a5899;
+  --bs-btn-hover-border-color: #4a5899;
+  --bs-btn-active-bg: #3d4a80;
+  --bs-btn-active-border-color: #3d4a80;
+}

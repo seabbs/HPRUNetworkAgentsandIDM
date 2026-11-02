@@ -1,0 +1,19 @@
+## Where can agents be used in infectious disease modelling?
+
+<!--
+Skeleton. Each step of the workflow, with who does what. Examples from the
+Bundibugyo model, reading sitreps, digitising onsets, writing and checking
+the model, refitting.
+-->
+
+:::: {.columns}
+::: {.column width="40%"}
+- To do
+:::
+::: {.column width="60%"}
+::: {.placeholder}
+Figure. The workflow tagged with where agents and people sit. Candidate:
+keynote-workflow-agents.png from AIandIDVUB.
+:::
+:::
+::::
