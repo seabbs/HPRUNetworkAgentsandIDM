@@ -2,10 +2,12 @@
 
 ::::: {.challenge-grid}
 :::: {.cbox .teal}
-[🔍]{.emoji} **Code we cannot easily check**
+[🔍]{.emoji} **Work we cannot easily check**
 
 - Agents write a lot of complex code, quickly
-- Not written the way a person would, so hard to review
+- Not written the way a person would, so code and docs are hard to review
+- Hard to see where a person made the decisions
+- Agent-raised issues all look equally urgent
 - Odd bugs, caught by plots and domain knowledge
 ::::
 :::: {.cbox .slate}
@@ -14,6 +16,7 @@
 - How much agents should do on their own is an open question
 - Models have improved rapidly in the last year
 - Most tasks still need a person closely in the loop
+- Agents do not reliably follow conventions we agree
 - What should we train people to do, if agents do the early career tasks?
 ::::
 :::: {.cbox .brick}
@@ -21,7 +24,7 @@
 
 - Confidential data needs agents that run where the data are
 - Ideally a local agent and a local model
-- Equity. Access to agents and compute is uneven
+- Equity. Access to agents, compute and coding skills is uneven
 ::::
 :::: {.cbox .grey}
 [💸]{.emoji} **Cost and change**

@@ -479,3 +479,5 @@ of the talk plan.
 > The fire hose image a bit bigger.
 
 > Cut: ", and it is all still in flux".
+
+> Hmm, can we work some of his points into our challenges points, please?
