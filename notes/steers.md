@@ -379,3 +379,7 @@ Read as: cite the article on the freed-time slide.
 > Cut.
 
 > They look good in the summary though, so keep them there.
+
+> I like them in "How to collaborate". Okay, let's keep the emojis.
+> Err, "Cut" meant: "👥 Collaboration. Working together through agents is
+> hard, next".
