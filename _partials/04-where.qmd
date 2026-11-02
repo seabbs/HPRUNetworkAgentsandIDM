@@ -111,7 +111,8 @@ Martinson et al. 2026, Fig. 2,
 ::: {.column width="35%"}
 - Situational awareness for the Ebola disease outbreak in the DRC
 - We replicated the first published estimate the next day
-- One model fitted to all the surveillance streams
+- One model fitted to all the surveillance streams, extracted from the
+  publicly available situation reports
 - Estimates for each province and health zone
 - Agents built the dashboard
 - They built forecast evaluation, so forecasts are scored in real time

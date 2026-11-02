@@ -303,3 +303,6 @@ Read as: cite the article on the freed-time slide.
 > review bots.
 
 > Here, "Ebola disease in the DRC ...": it is situational awareness of?
+
+> Here, "One model fitted to all the surveillance streams": extracted from the
+> publicly available situation reports.
