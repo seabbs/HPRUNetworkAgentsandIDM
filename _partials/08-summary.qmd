@@ -2,22 +2,22 @@
 
 ::::: {.summary-list}
 :::: {.sitem .teal}
-[🤖]{.emoji} **What agents can do.** Many of the tasks we give early
+**What agents can do.** Many of the tasks we give early
 career researchers, from reading data to optimising and reviewing models
 ::::
 :::: {.sitem .brick}
-[🐛]{.emoji} **What goes wrong.** Complex code that is hard to review, and
+**What goes wrong.** Complex code that is hard to review, and
 errors people would not make
 ::::
 :::: {.sitem .slate}
-[👥]{.emoji} **Working together.** Collaborating through agents is hard
+**Working together.** Collaborating through agents is hard
 ::::
 :::: {.sitem .grey}
-[⏳]{.emoji} **Using the time.** Review, deep dives and big-picture
+**Using the time.** Review, deep dives and big-picture
 thinking, not more of the same
 ::::
 :::: {.sitem .teal}
-[🧭]{.emoji} **What we need.** Domain-specific evaluation, fair access
+**What we need.** Domain-specific evaluation, fair access
 and training
 ::::
 :::::

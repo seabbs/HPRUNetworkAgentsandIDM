@@ -8,7 +8,7 @@ Reflections on why it is hard, from Sam's steers. Issue #9.
 ::: {.column width="56%"}
 ::::: {.stack-grid}
 :::: {.cbox .teal}
-[🚒]{.emoji} **Why it is hard**
+**Why it is hard**
 
 - More changes than any of us can read
 - Hard to tell what a person wrote from what an agent wrote
@@ -17,7 +17,7 @@ Reflections on why it is hard, from Sam's steers. Issue #9.
 - People have different levels of access to agents
 ::::
 :::: {.cbox .slate}
-[🛠️]{.emoji} **What we are trying**
+**What we are trying**
 
 - Review bots on every agent pull request
 - One person clearly in charge of each change
@@ -26,7 +26,7 @@ Reflections on why it is hard, from Sam's steers. Issue #9.
 - Next, a shared agent with sign-off from everyone
 ::::
 :::: {.cbox .brick}
-[📉]{.emoji} **Not going well**
+**Not going well**
 
 - Outside contributions to our repositories have dropped right down
 - We lose the insight other people bring

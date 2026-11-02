@@ -2,14 +2,14 @@
 
 ::::: {.challenge-grid}
 :::: {.cbox .teal}
-[🔍]{.emoji} **Code we cannot easily check**
+**Code we cannot easily check**
 
 - Agents write a lot of complex code, quickly
 - Not written the way a person would, so hard to review
 - Odd bugs, caught by plots and domain knowledge
 ::::
 :::: {.cbox .slate}
-[🤝]{.emoji} **How much to hand over**
+**How much to hand over**
 
 - How much agents should do on their own is an open question
 - Models have improved rapidly in the last year
@@ -17,14 +17,14 @@
 - What should we train people to do, if agents do the early career tasks?
 ::::
 :::: {.cbox .brick}
-[🔒]{.emoji} **Data and access**
+**Data and access**
 
 - Confidential data needs agents that run where the data are
 - Ideally a local agent and a local model
 - Equity. Access to agents and compute is uneven
 ::::
 :::: {.cbox .grey}
-[💸]{.emoji} **Cost and change**
+**Cost and change**
 
 - Heavily subsidised for now
 - What happens when we pay the true cost?
@@ -34,6 +34,6 @@
 :::::
 
 :::: {.sitem .slate}
-[👥]{.emoji} **Collaboration.** Working together through agents is hard,
+**Collaboration.** Working together through agents is hard,
 next
 ::::

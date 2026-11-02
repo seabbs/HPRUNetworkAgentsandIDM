@@ -374,3 +374,6 @@ Read as: cite the article on the freed-time slide.
 
 > Slides a bit less busy: no fill on coloured boxes, i.e. just border and text
 > changes?
+
+> Hmm, the emojis look kind of budget, i.e. on Challenges.
+> Cut.
