@@ -467,3 +467,5 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 Read as (confirmed): move "How should we use the time agents free up?" to
 straight after "Where can agents be used ...", before the examples, and out
 of the talk plan.
+
+> Summary: "using the time we have got back from agents" or similar.

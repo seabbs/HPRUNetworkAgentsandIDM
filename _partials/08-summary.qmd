@@ -13,8 +13,8 @@ errors people would not make
 [👥]{.emoji} **Working together.** Collaborating through agents is hard
 ::::
 :::: {.sitem .grey}
-[⏳]{.emoji} **Using the time.** Review, deep dives and big-picture
-thinking, not more of the same
+[⏳]{.emoji} **Using the time agents give back.** Review, deep dives and
+big-picture thinking, not more of the same
 ::::
 :::: {.sitem .teal}
 [🧭]{.emoji} **What we need.** Domain-specific evaluation, fair access
