@@ -49,3 +49,8 @@ Read as: drop the bot-written issues bullet from the collaboration slide.
 Read as: the collaboration slide takes the article's point that changes are
 cheap to make and as costly as ever to check. The summary says what to do with
 the freed time.
+
+> N we don't want hte artcile in there just some of the pioints I like as
+> mentioned.
+
+Read as: keep the points, drop the citation and link to the article.

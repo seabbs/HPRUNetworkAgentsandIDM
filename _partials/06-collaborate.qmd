@@ -20,8 +20,7 @@ package updates, 64; Sam 17; sbfnk-bot, Seb's agents, 12; Seb 3;
 Samuel Brand 1."}
 
 ::: {.attribution}
-[BVDOutbreakSize][bvd-repo], GitHub API, 2 November 2026.
-Pavel 2026, [Thoughtless changes overwhelm our users][picnic]
+[BVDOutbreakSize][bvd-repo], GitHub API, 2 November 2026
 :::
 :::
 ::::
