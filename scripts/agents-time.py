@@ -20,9 +20,9 @@ out = Path(__file__).resolve().parent.parent / "figures" / "agents-time.png"
 teal, slate = "#1f6f8b", "#4a5899"
 ink, muted, light, grey = "#333333", "#6b7280", "#e8f1f5", "#f3f4f6"
 plt.rcParams.update({"font.size": 15, "font.family": "DejaVu Sans"})
-fig, ax = plt.subplots(figsize=(10, 5.6), dpi=200)
+fig, ax = plt.subplots(figsize=(11, 5.6), dpi=200)
 fig.subplots_adjust(0, 0, 1, 1)
-ax.set_xlim(0, 100)
+ax.set_xlim(0, 110)
 ax.set_ylim(0, 56)
 ax.set_aspect("equal")
 ax.axis("off")
@@ -53,13 +53,13 @@ def line_path(*points):
 
 
 # The source: time agents free up.
-sx0, sx1, sy0, sy1 = 1, 23, 39.5, 53.5
+sx0, sx1, sy0, sy1 = 0.8, 21.2, 39.5, 53.5
 box(sx0, sy0, sx1, sy1, teal, teal)
 text((sx0 + sx1) / 2, (sy0 + sy1) / 2, "Time agents\nfree up", "white",
      fontsize=17, fontweight="bold")
 
 # Path 1, the default: more of the same, faster.
-gx0, gx1, gy0, gy1 = 52, 99.5, 40.5, 52.5
+gx0, gx1, gy0, gy1 = 50, 109.5, 40.5, 52.5
 gyc = (gy0 + gy1) / 2
 arrow(line_path((sx1, gyc), (gx0, gyc)), muted, 7)
 text((sx1 + gx0) / 2, gyc + 3.4, "the pull", muted)
@@ -67,18 +67,19 @@ box(gx0, gy0, gx1, gy1, muted, grey)
 text((gx0 + gx1) / 2, gyc, "More of the same, faster", ink)
 
 # Path 2, the choice: work agents make room for.
-fx0, fx1, fy0, fy1 = 30, 99.5, 1.2, 36
+fx0, fx1, fy0, fy1 = 25, 109.5, 1.2, 36
 box(fx0, fy0, fx1, fy1, slate, "#eef0f7")
 choices = [
-    "Review", "Deep dives", "Reducing\ntechnical debt",
-    "Generalising\nand\ninteroperating", "Evaluating\nwhat works",
-    "Collaboration",
+    "Review", "Deep dives", "Big-picture\nthinking",
+    "Reducing\ntechnical debt", "Making work\ngeneral and\ninteroperable",
+    "Evaluating\nwhat works", "Collaboration", "Talking to\nstakeholders",
 ]
+cols = 4
 gap = 1.6
-bw = (fx1 - fx0 - 2 * gap - 2 * gap) / 3
+bw = (fx1 - fx0 - (cols + 1) * gap) / cols
 bh = (fy1 - fy0 - 3 * gap) / 2
 for i, label in enumerate(choices):
-    row, col = divmod(i, 3)
+    row, col = divmod(i, cols)
     x0 = fx0 + gap + col * (bw + gap)
     y1 = fy1 - gap - row * (bh + gap)
     box(x0, y1 - bh, x0 + bw, y1, teal, light)

@@ -321,3 +321,10 @@ Read as: cite the article on the freed-time slide.
 
 > "How much to hand over" needs a models-changing-quickly bullet: rapid
 > improvement in the last year.
+
+> Here, some kind of firehose picture ("How to collaborate in an
+> agent-driven ...") to make it a bit more interesting, in the bottom left?
+
+> "Interoperating" is not a word: making work interoperable?
+
+> Talking to stakeholders as something else we should do?

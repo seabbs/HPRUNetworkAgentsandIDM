@@ -1,4 +1,4 @@
-## How to collaborate in an agent-driven environment
+## How to collaborate in an agent-driven environment {.smaller}
 
 <!--
 Reflections on why it is hard, from Sam's steers. Issue #9.
@@ -12,6 +12,10 @@ Reflections on why it is hard, from Sam's steers. Issue #9.
 - Changes are cheap to write
 - Checking them costs as much as before
 - People have different levels of access to agents
+
+![](figures/agents-firehose.jpg){height="380px"
+fig-alt="A firefighter kneels behind a hose throwing a wide, heavy spray of
+water."}
 :::
 ::: {.column width="60%"}
 ![](figures/agents-collab-prs.png){height="740px" fig-align="center"
@@ -23,7 +27,9 @@ reviewed by sbfnk, seabbs and seabbs-review-bot, and merged by seabbs."}
 ::: {.attribution}
 [BVDOutbreakSize pull requests](https://github.com/epiforecasts/BVDOutbreakSize/pulls?q=is%3Apr+is%3Amerged) ·
 [EpiNow2 #1560](https://github.com/epiforecasts/EpiNow2/pull/1560) ·
-GitHub, 2 November 2026
+GitHub, 2 November 2026 ·
+Fire hose, Grand Canyon NPS, M. Jenkins,
+[public domain](https://commons.wikimedia.org/wiki/File:Wide_hose_spray_during_a_training_exercise-May_2022_(53429302659).jpg)
 :::
 :::
 ::::
