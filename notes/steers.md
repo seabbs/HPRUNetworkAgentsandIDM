@@ -452,3 +452,11 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 > well, with no duplication though.
 > We need the fire hose image, on the right-hand side of the callout before
 > the boxes.
+
+> This isn't super clear to me: "Newcomers start from the notebook". Not
+> something we do. Our tracking issues sit above bot issues and human issues,
+> giving more than one layer of conversation.
+
+> A callout at the bottom: as with much of modern academic practice, we
+> should learn from the changes going on in software development.
+> All still in flux.
