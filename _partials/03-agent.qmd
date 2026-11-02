@@ -2,9 +2,10 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- A language model with tools. It reads files, writes code, runs it, and
-  loops until a check passes
-- Claude Code, Codex and similar, in a terminal
+- A language model that calls tools, and loops until a check passes
+- The tools. A shell, files, git and GitHub, web search, and a warm Julia
+  or R session
+- Plugged in through the Model Context Protocol (MCP), an open standard
 - Not an agent-based model. Those simulate individuals
 :::
 ::: {.column width="60%"}
@@ -15,7 +16,9 @@ passed. No returns to the top. Yes leads to a pull request and a brick
 box, you, read it, merge or send back."}
 
 ::: {.attribution}
-After Abbott, [How I LLM](https://samabbott.co.uk/how-I-llm), 2026
+After Abbott, [How I LLM](https://samabbott.co.uk/how-I-llm), 2026 ·
+[modelcontextprotocol.io](https://modelcontextprotocol.io) ·
+[AgentREPL.jl](https://github.com/samtalki/AgentREPL.jl)
 :::
 :::
 ::::

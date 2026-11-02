@@ -26,3 +26,7 @@ after Sam asked for shorter references there.
 
 > One thing they also do is make modelling infrastructure i.e workflow
 > easxier model checks etc etc
+
+> Tool use for agents?
+
+Read as: the agent slide should say what the tools are.
