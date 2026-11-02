@@ -7,9 +7,9 @@
 ![](figures/agents-time.png){height="500px" fig-align="center"
 fig-alt="Time agents free up splits two ways. A thick grey arrow labelled
 the pull leads to more of the same, faster. A slate arrow labelled the
-choice leads to six boxes, review, deep dives, reducing technical debt,
-generalising and interoperating, evaluating what works, and
-collaboration."}
+choice leads to eight boxes, review, deep dives, big-picture thinking,
+reducing technical debt, making work general and interoperable,
+evaluating what works, collaboration, and talking to stakeholders."}
 
 :::: {.sitem .slate}
 **Training.** How do we train people for this work, and build tools that
