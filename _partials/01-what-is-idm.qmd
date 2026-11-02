@@ -2,18 +2,22 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- A model of how an infection spreads, and of how cases get reported
-- Fitted to data that arrive late, incomplete and changing
+- A parsimonious representation of what we know about a disease
+- Built to answer a question of interest
+- How infections spread, and how we observe them
 :::
 ::: {.column width="60%"}
-![](figures/agents-workflow.png){width="100%"
-fig-alt="Six teal boxes in a row, question, data, model, fit, check and
-report, joined by arrows, with a brick return arrow beneath labelled
-iterate."}
+![](figures/agents-davies2020-model.png){width="100%"
+fig-alt="Compartmental model diagram. Susceptible to exposed by
+successful infection, then after a latent period either preclinical then
+clinical, both fully infectious, or subclinical at half infectiousness,
+then removed by recovery or isolation."}
 
 ::: {.attribution}
-Abbott et al. 2025,
-[A workflow for infectious disease modelling][wf]
+Davies et al. 2020,
+[Lancet Public Health](https://doi.org/10.1016/S2468-2667(20)30133-X),
+Fig. 1 ·
+Abbott et al. 2025, [A workflow for infectious disease modelling][wf]
 :::
 :::
 ::::

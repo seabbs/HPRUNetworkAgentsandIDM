@@ -1,0 +1,25 @@
+## Challenges
+
+:::: {.columns}
+::: {.column width="40%"}
+- Agents write a lot of complex code, quickly
+- Not written the way a person would, so hard to review
+- Odd bugs, caught by plots and domain knowledge
+- Training, when agents do the early career tasks
+- Collaborating through agents
+- Heavily subsidised for now
+- What happens when we pay the true cost?
+:::
+::: {.column width="60%"}
+![](figures/agents-complex-code.png){width="100%"
+fig-alt="Thirty lines of Julia from a hand-written gradient rule, with
+nested loops over patches and zones and many variables with bars over
+their names, such as I-bar, W-bar and M-bar-p."}
+
+::: {.attribution}
+[BVDOutbreakSize][bvd-repo], src/mooncake_rules.jl, 2 November 2026 ·
+issues [#605](https://github.com/epiforecasts/BVDOutbreakSize/issues/605)
+and [#606](https://github.com/epiforecasts/BVDOutbreakSize/issues/606)
+:::
+:::
+::::

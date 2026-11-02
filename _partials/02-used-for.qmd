@@ -1,8 +1,18 @@
 ## What is infectious disease modelling used for?
 
 :::: {.columns}
-::: {.column width="33%"}
-![](figures/agents-cdc-meltzer2014.png){height="340px" fig-align="center"
+::: {.column width="50%"}
+![](figures/agents-davies2020-scenarios.png){height="300px" fig-align="center"
+fig-alt="Simulated daily new COVID-19 cases and ICU beds needed in the
+UK in 2020 under three scenarios, base, school closures and physical
+distancing, each with many thin simulation lines and a bold median."}
+
+::: {style="text-align: center;"}
+**Scenarios.** COVID-19, UK, 2020
+:::
+:::
+::: {.column width="50%"}
+![](figures/agents-cdc-meltzer2014.png){height="300px" fig-align="center"
 fig-alt="Two line graphs from the CDC EbolaResponse model of cumulative
 cases and beds in use in Liberia and Sierra Leone, rising steeply to
 about 1.4 million cases by January 2015."}
@@ -11,8 +21,11 @@ about 1.4 million cases by January 2015."}
 **Projections.** Ebola, West Africa, 2014
 :::
 :::
-::: {.column width="33%"}
-![](figures/agents-mathis2024-flusight.png){height="340px" fig-align="center"
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](figures/agents-mathis2024-flusight.png){height="300px" fig-align="center"
 fig-alt="Weekly US influenza hospital admissions in the 2022 to 2023
 season as black points, with the FluSight ensemble's four-week forecasts
 as blue lines and shaded 50, 80 and 95 percent intervals."}
@@ -21,8 +34,8 @@ as blue lines and shaded 50, 80 and 95 percent intervals."}
 **Forecasts.** US influenza, 2022/23
 :::
 :::
-::: {.column width="33%"}
-![](figures/agents-example-rt-panel.png){height="340px" fig-align="center"
+::: {.column width="50%"}
+![](figures/agents-example-rt-panel.png){height="300px" fig-align="center"
 fig-alt="Four panels of the estimated reproduction number over time for
 Australia, France, Germany and South Korea."}
 
@@ -33,31 +46,8 @@ Australia, France, Germany and South Korea."}
 ::::
 
 ::: {.attribution}
+Davies et al. 2020, [Lancet Public Health](https://doi.org/10.1016/S2468-2667(20)30133-X) ·
 Meltzer et al. 2014, [MMWR 63 Suppl 3](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm) ·
 Mathis et al. 2024, [Nat Commun](https://doi.org/10.1038/s41467-024-50601-9) ·
 Abbott et al. 2020, [Wellcome Open Res](https://doi.org/10.12688/wellcomeopenres.16006.1)
 :::
-
-## Ebola disease, Democratic Republic of the Congo, 2026
-
-:::: {.columns}
-::: {.column width="40%"}
-- Bundibugyo virus. Declared on 15 May 2026
-- McCabe et al. estimated outbreak size from exports to Uganda and from
-  deaths. We replicated it the next day
-- Then one model fitted to all four streams together
-- Each stream alone gives a different size
-:::
-::: {.column width="60%"}
-![](figures/agents-bvd-streams.png){width="100%"
-fig-alt="Posterior densities of cumulative infections, one curve per data
-stream, cases, confirmed, deaths and exports, and one for the joint fit,
-which sits inside the spread of the single-stream fits."}
-
-::: {.attribution}
-WHO 2026, [DON602](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602) ·
-McCabe et al. 2026, 18 May, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
-[BVDOutbreakSize][bvd-repo], first commit 19 May 2026, data to 7 June
-:::
-:::
-::::

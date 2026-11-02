@@ -8,6 +8,6 @@ Draft. What it should land on is open in issue #5.
   the infrastructure around them
 - Use the time they free for review, big-picture thinking and deep dives,
   rather than more incremental work
-- They push towards complex code that is hard to review. They get things
-  wrong, and retrospective scores can leak
-- Working together through agents is hard. We have not solved it
+- They push towards complex code that is hard to review
+- They get things wrong, and retrospective scores can leak
+- We have not worked out how to collaborate through agents

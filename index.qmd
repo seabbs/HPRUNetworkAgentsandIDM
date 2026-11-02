@@ -3,13 +3,13 @@ title: "AI agents in infectious disease modelling"
 subtitle: "Health Analytics and Modelling HPRU network"
 description: >-
   What infectious disease modelling is and is used for, what an agent is,
-  where agents can be used in modelling, the dangers, and how to
+  where agents can be used in modelling, the challenges, and how to
   collaborate when agents write most of the code.
 page-layout: full
 ---
 
 ::: {.session-meta}
-Health Analytics and Modelling HPRU network · Date to be confirmed ·
+Health Analytics and Modelling HPRU network · 3 November 2026 ·
 15 minutes plus 5 for questions · Sam Abbott and Sebastian Funk
 :::
 
@@ -22,7 +22,19 @@ Health Analytics and Modelling HPRU network · Date to be confirmed ·
 ## Abstract
 
 ::: {.abstract}
-To be written.
+Infectious disease models turn late, incomplete surveillance data into
+estimates, forecasts and projections.
+An AI agent is a language model that calls tools and loops until a check
+passes.
+We now use agents across our modelling work.
+I will show where, using our model of the 2026 Ebola disease outbreak in
+the Democratic Republic of the Congo.
+Agents read situation reports, implement and optimise models, build the
+checks around them, and review code.
+I will then cover the challenges.
+Agents push towards complex code that is hard to review, and retrospective
+evaluations can leak.
+Collaborating when agents write most of the code is also hard.
 :::
 
 :::
@@ -39,5 +51,54 @@ To be written.
 :::
 ::::
 
+## Other recent work you might like {.section-tight}
+
+::: {.grid .links-row}
+::: {.g-col-12 .g-col-md-4}
+### Recent talks
+
+- [Modelling and AI, Brussels 2026][vub].
+  Two talks, a panel and a research exchange on modelling and AI.
+- [JuliaCon 2026][juliacon].
+  Three talks on composable modelling in Julia.
+- [How to serial interval?][serial].
+  Lorentz Center workshop, Leiden, June 2026.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Outbreaks
+
+- [BVDOutbreakSize][bvd].
+  A live joint model of the 2026 DRC outbreak of Ebola disease caused by
+  Bundibugyo virus. [Source][bvd-repo].
+- [Andes virus line list analysis][andv].
+  Joint estimation of the incubation period, transmission timing and
+  $R_t$ for the Epuyén hantavirus outbreak.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Software
+
+- [primarycensored][primarycensored].
+  Delay distributions with primary event censoring and truncation.
+- [EpiNow2][epinow2].
+  Real-time $R_t$ estimation, used by public health agencies.
+- [epinowcast][epinowcast].
+  Nowcasting and delay estimation.
+- [EpiAware][epiaware].
+  Composable infectious disease modelling in Julia.
+:::
+:::
+
 [howillm]: https://samabbott.co.uk/how-I-llm
 [workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
+[vub]: https://samabbott.co.uk/AIandIDVUB
+[juliacon]: https://samabbott.co.uk/JuliaCon2026
+[serial]: https://samabbott.co.uk/how-to-serial-interval/
+[bvd]: https://epiforecasts.io/BVDOutbreakSize/stable/
+[bvd-repo]: https://github.com/epiforecasts/BVDOutbreakSize
+[andv]: https://epiforecasts.io/andv-linelist-analysis/
+[primarycensored]: https://primarycensored.epinowcast.org/
+[epinow2]: https://epiforecasts.io/EpiNow2/
+[epinowcast]: https://www.epinowcast.org/
+[epiaware]: https://epiaware.org

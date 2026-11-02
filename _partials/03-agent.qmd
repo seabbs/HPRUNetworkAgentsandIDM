@@ -3,21 +3,60 @@
 :::: {.columns}
 ::: {.column width="40%"}
 - A language model that calls tools, and loops until a check passes
-- The tools. A shell, files, GitHub, web search, a Julia session
-- Some plug in through the Model Context Protocol (MCP)
-- Not an agent-based model. Those simulate individuals
+- The harness runs the tools and builds the context
+- Not an agent-based model
+- Agent-based models simulate individuals
+
+```{=html}
+<div class="harnesses">
+<div><img src="figures/logos/claude.svg" alt="Claude logo">
+Claude Code</div>
+<div><img src="figures/logos/openai.svg" alt="OpenAI logo">
+Codex</div>
+<div><img src="figures/logos/googlegemini.svg" alt="Gemini logo">
+Gemini CLI</div>
+<div><img src="figures/logos/githubcopilot.svg" alt="GitHub Copilot logo">
+Copilot</div>
+<div><img src="figures/logos/cursor.svg" alt="Cursor logo">
+Cursor</div>
+</div>
+```
 :::
 ::: {.column width="60%"}
-![](figures/agents-agent-1.png){width="100%"
-fig-alt="A brick box on the left, you, a prompt, feeds a loop of four
-boxes, read the files and the docs, write or change code, run it, check
-passed. No returns to the top. Yes leads to a pull request and a brick
-box, you, read it, merge or send back."}
+![](figures/agents-tool-llm.png){width="100%"
+fig-alt="You send a prompt to a harness, such as Claude Code. The
+harness builds the language model's context from instructions, skills,
+the conversation and tool results. The model writes text or a tool
+call. The harness runs tool calls on tools and MCP servers and feeds the
+results back, repeating until done."}
 
 ::: {.attribution}
-After Abbott, [How I LLM](https://samabbott.co.uk/how-I-llm), 2026 ·
 [modelcontextprotocol.io](https://modelcontextprotocol.io) ·
-[AgentREPL.jl](https://github.com/samtalki/AgentREPL.jl)
+[AgentREPL.jl](https://github.com/samtalki/AgentREPL.jl) ·
+Logos from [Simple Icons](https://simpleicons.org)
+:::
+:::
+::::
+
+## Agents working together
+
+:::: {.columns}
+::: {.column width="40%"}
+- A lead agent dispatches subagents in parallel
+- Each subagent has its own context and tools
+- Only a summary comes back
+- Workflow scripts make the dispatch repeatable
+:::
+::: {.column width="60%"}
+![](figures/agents-multi.png){width="100%"
+fig-alt="A lead agent sends tasks in parallel to implement, test and
+review subagents, each with its own context and tools, which return
+summaries. Beside it, a workflow script fans out reviewers, verifies
+each finding, and merges the results."}
+
+::: {.attribution}
+Anthropic 2025,
+[How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)
 :::
 :::
 ::::

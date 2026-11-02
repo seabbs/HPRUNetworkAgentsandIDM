@@ -54,3 +54,85 @@ the freed time.
 > mentioned.
 
 Read as: keep the points, drop the citation and link to the article.
+
+> In gneral it loks like checking them stocsts should be its own bullet same
+> for similar statements liek this
+
+Read as: one statement per bullet across the deck. Label-led bullets
+("Reading data. Agents read ...") stay as they are.
+
+> Rwesources on the home page should have our other AI talks from recwent
+> stuff I think and something about our recent science?
+> i.e primarycensored epinow2 etc maybe?
+
+> Date for this is tomorrow
+
+Read as: 3 November 2026.
+
+Issue #3, closed by Sam: "I am presenting all of it."
+
+> Challenges not dangers
+
+Read as: rename the Dangers section, its slide and the talk-plan entry.
+
+> Remove this slide: Ebola disease, Democratic Republic of the Congo need to
+> add scenarios to what used for with an example i.e fro mnick davies work?
+
+Read as: drop the Bundibugyo slide, and add a scenarios panel from Davies
+et al. 2020, Lancet Public Health, to the used-for montage.
+
+> For the what is a model ned to have not the workflow I think. This is kind
+> of fluff cut: Fitted to data that arrive late, incomplete and changing hmm
+> we need to have a bit more on models in general parismonous representation
+> of domain knowledge trying to answera question of interest or similar?
+> You can look at the workflow paper itself reminder we have it in code/seabbs
+
+> For what is an agent et rid of that shmetaic and have one to highlihgh what
+> a tool using llom actually is get an agent to make it
+> Have skills context mcp in the schematic
+> harness clearly there
+> some layer on multi model agents? maybe a second slide agents owrking iin
+> concert dispatching agents claude code workflows etc/ in the firtst slide
+> have logos of some common agent harnesses?
+
+> Remove: Others go further. EpidemIQs runs from a question to a written
+> report I think how much work and how autonomous agents shoudl do is an open
+> questionc urrelty human in the loop to quite an invovoled level seems to be
+> very needed for most tasks.
+
+> What agents do needs a pcityre if a rubber duck
+
+Read as: a rubber duck photo on the Where slide, by the rubber duck bullet.
+
+> they won't know what CI is and that is a bit specifci model chehcking infra
+> make it more genreal?
+
+> Here to specific: Agents read the French DRC situation reports and digitise
+> the onset figure
+
+> I like the specific example sand the schmeatic in Implementing, optimising
+> but excampless need to be a bit more egneral i.e custom ... not in
+> iprmarmcyensred..
+
+Read as: general wording in the bullets, specific pull requests stay in the
+citations.
+
+> The answer to what can they be uwsed for first bullet should I think be
+> something llike many of the tasks that are often assigned to early career
+> researchers...
+
+> BVDOUTbre blah si to specfic iin : Dangers
+
+Read as: a general first bullet on Challenges, and no #779 label on the chart.
+
+> Rahter than codel ines can we show some complex agent cvode. ODD bugs but
+> not to in the weeds that sort of thing?
+
+> Collanoration and trianing are other chanllegnes and of course all
+> cuirrently very heavily subsisded
+> what happens when having to pay true costs
+
+> Shouldn't this be in thwat can agents do not after dhangers: oogle's tree
+
+Read as: move the tree-search slide into the Where section, after
+Implementing.

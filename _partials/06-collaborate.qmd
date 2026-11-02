@@ -10,7 +10,8 @@ worked is open in an issue for Sam and Seb.
 - Two of us, two bot accounts, one repository
 - People opened 21 of 658 merged pull requests
 - Hard to keep track of what the other person's agents changed
-- Changes are cheap to write. Checking them costs as much as before
+- Changes are cheap to write
+- Checking them costs as much as before
 :::
 ::: {.column width="60%"}
 ![](figures/agents-bvd-authors.png){width="100%"

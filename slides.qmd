@@ -3,6 +3,8 @@ title: "AI agents in infectious disease modelling"
 author: "Sam Abbott and Sebastian Funk"
 institute: "London School of Hygiene & Tropical Medicine"
 subtitle: "Health Analytics and Modelling HPRU network"
+date: 2026-11-03
+date-format: "D MMMM YYYY"
 format:
   revealjs:
     theme: default
@@ -23,7 +25,7 @@ format:
 - What is infectious disease modelling used for?
 - What is an agent?
 - Where can agents be used in infectious disease modelling?
-- Dangers
+- Challenges
 - How to collaborate in an agent-driven environment
 - Summary
 :::
@@ -46,7 +48,7 @@ Health Analytics and Modelling HPRU network.
 
 {{< include _partials/04-where.qmd >}}
 
-{{< include _partials/05-dangers.qmd >}}
+{{< include _partials/05-challenges.qmd >}}
 
 {{< include _partials/06-collaborate.qmd >}}
 
