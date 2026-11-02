@@ -1,4 +1,4 @@
-## Challenges
+## Challenges {.smaller}
 
 :::: {.columns}
 ::: {.column width="45%"}
@@ -6,6 +6,8 @@
 - Not written the way a person would, so hard to review
 - Odd bugs, caught by plots and domain knowledge
 - Training, when agents do the early career tasks
+- Confidential data needs agents that run where the data are
+- Ideally a local agent and a local model
 - Heavily subsidised for now
 - What happens when we pay the true cost?
 - The field moves fast, and may be a bubble

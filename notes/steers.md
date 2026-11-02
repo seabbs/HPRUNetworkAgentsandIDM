@@ -180,3 +180,7 @@ Read as: the summary says collaborating through agents is hard, and stops there.
 
 Read as: fast-forward the local BVDOutbreakSize clone, and take the map and
 plots from the dev report (data to 25 October).
+
+> Ah agent schematic things needs to have a where running i.e your compute on
+> the cloud a hpc etc et changes data access/tools/compute. Need to have
+> something on confidential data access in chalengsx ideall local agent etc o?
