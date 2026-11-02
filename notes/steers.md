@@ -337,3 +337,6 @@ Read as: cite the article on the freed-time slide.
 
 > Not sure we need: "They fix bugs, simplify code, and add tests and
 > benchmarks".
+
+> This is in the schematic? "Review bots read each pull request first", so no
+> repeat?

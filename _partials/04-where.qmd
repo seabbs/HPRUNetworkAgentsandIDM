@@ -63,7 +63,6 @@ Duck by Tom Morris,
 - Used by public health agencies
 - Maintaining it is hard to fund through traditional research grants
 - Our agents open pull requests as seabbs&#8209;bot and sbfnk&#8209;bot
-- Review bots read each pull request first
 - Then the other person reviews it, and a person merges
 - 51 agent pull requests merged since March 2026
 
