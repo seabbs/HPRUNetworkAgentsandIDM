@@ -306,3 +306,6 @@ Read as: cite the article on the freed-time slide.
 
 > Here, "One model fitted to all the surveillance streams": extracted from the
 > publicly available situation reports.
+
+> "Agents built the dashboard": here also maintain an interactive dashboard,
+> with features added as users ask for them.

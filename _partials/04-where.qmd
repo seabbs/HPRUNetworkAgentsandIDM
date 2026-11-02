@@ -114,7 +114,8 @@ Martinson et al. 2026, Fig. 2,
 - One model fitted to all the surveillance streams, extracted from the
   publicly available situation reports
 - Estimates for each province and health zone
-- Agents built the dashboard
+- Agents built and maintain an interactive dashboard, adding features as
+  users ask for them
 - They built forecast evaluation, so forecasts are scored in real time
 - They built the infrastructure to fit and check the model in public
 :::
