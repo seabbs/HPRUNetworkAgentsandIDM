@@ -469,3 +469,7 @@ straight after "Where can agents be used ...", before the examples, and out
 of the talk plan.
 
 > Summary: "using the time we have got back from agents" or similar.
+
+> "How we use agents to develop EpiNow2": put my and Seb's pictures in the
+> schematic. The story here is that I am building a feature and Seb is
+> reviewing. Note in the caption that it also runs the other way around.

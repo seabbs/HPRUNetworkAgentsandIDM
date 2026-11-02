@@ -137,6 +137,11 @@ def agent_loop():
     label(ax, 1.25, 1.75, "Implementation\nagents", colour=SLATE, fs=12)
     avatar(ax, "figures/seabbs-review-bot.jpg", 9.6, 0.62)
     avatar(ax, "figures/sbfnk-review-bot.png", 10.55, 0.62)
+    # The people: here Sam builds a feature and Seb reviews it.
+    avatar(ax, "figures/sam.jpg", 0.55, 4.15, size=0.75)
+    label(ax, 1.05, 4.15, "Sam", colour=BRICK, fs=12, ha="left")
+    avatar(ax, "figures/seb.jpg", 10.6, 3.75, size=0.75)
+    label(ax, 10.6, 3.2, "Seb", colour=BRICK, fs=12)
     # Colour key: people come in at two points only.
     for k, (c, t) in enumerate([(BRICK, "People"), (SLATE, "Agents"),
                                 (TEAL, "Code and checks")]):

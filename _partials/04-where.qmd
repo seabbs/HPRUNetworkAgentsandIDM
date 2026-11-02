@@ -117,9 +117,12 @@ tasks, which feed a loop of read, write, run and check. Passing code
 becomes a proposed change, which review agents send back into the loop
 and we review. Merging refits the model and raises new tasks. The avatars
 of seabbs-bot and sbfnk-bot sit by the loop as implementation agents, and
-those of seabbs-review-bot and sbfnk-review-bot by the review agents."}
+those of seabbs-review-bot and sbfnk-review-bot by the review agents.
+Sam's photo sits by the specification and Seb's by the review."}
 
 ::: {.attribution}
+Here Sam builds a feature and Seb reviews it. It also runs the other way
+round ·
 [EpiNow2](https://github.com/epiforecasts/EpiNow2), GitHub API, 2 November
 2026 · e.g. [#1523](https://github.com/epiforecasts/EpiNow2/pull/1523),
 [#1548](https://github.com/epiforecasts/EpiNow2/pull/1548) and
