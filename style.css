@@ -69,3 +69,22 @@
   height: 64px;
   margin: 0 0 10px 0;
 }
+
+/* The bot accounts on the closing slide */
+.reveal .bots {
+  display: flex;
+  gap: 48px;
+  margin-top: 48px;
+}
+.reveal .bots div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.6em;
+  color: #6b7280;
+}
+.reveal .bots img {
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 0 12px 0;
+}

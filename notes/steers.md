@@ -228,3 +228,10 @@ Read as: show Fig. 2 of the workflow paper under the Davies model on the first s
 > "What are infectious disease models used for", not "is"?
 
 > Correct my typos in any copied-in prompts.
+
+> An ending slide before the links and thanks, or add a link to the prompts
+> that built these slides, with an image of seabbs-bot?
+> And maybe sbfnk-bot?
+
+Read as: a prompts page from these notes, linked from the closing slide
+with both bot avatars.

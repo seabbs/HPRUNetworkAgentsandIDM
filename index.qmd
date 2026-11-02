@@ -40,6 +40,8 @@ I will finish with how we should use the time agents free up, and what we think 
   What coding agents do and do not do in a research workflow.
 - [A workflow for infectious disease modelling][workflow].
   The workflow the agents are asked to follow.
+- [Prompts](prompts.qmd).
+  The brief and steers that built these slides.
 
 :::
 ::::

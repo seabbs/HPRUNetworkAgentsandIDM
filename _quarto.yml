@@ -20,6 +20,8 @@ website:
         href: index.qmd
       - text: "Slides"
         href: slides.qmd
+      - text: "Prompts"
+        href: prompts.qmd
     right:
       - text: "samabbott.co.uk"
         href: https://samabbott.co.uk

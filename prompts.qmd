@@ -1,0 +1,22 @@
+---
+title: "Prompts"
+subtitle: "The brief that made these slides, and the steers that followed"
+description-meta: >-
+  The brief given to the coding agents that drafted this talk, and the
+  steers given during the build.
+toc: true
+toc-location: right
+toc-title: "On this page"
+page-layout: full
+---
+
+These slides were built with coding agents, working from a brief and a run
+of corrections.
+This page is what I asked for and what I said back, with the typos
+corrected.
+The [AIandIDVUB prompts page](https://samabbott.co.uk/AIandIDVUB/prompts.html)
+does the same for an earlier talk.
+
+{{< include notes/original-brief.md >}}
+
+{{< include notes/steers.md >}}
