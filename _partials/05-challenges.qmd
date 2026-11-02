@@ -1,6 +1,6 @@
 ## Challenges
 
-::::: {.challenge-grid}
+:::::: {.challenge-grid}
 :::: {.cbox .teal}
 [🔍]{.emoji} **Work we cannot easily check**
 
@@ -19,19 +19,32 @@
 - Agents do not reliably follow conventions we agree
 - What should we train people to do, if agents do the early career tasks?
 ::::
+::::: {.challenge-stack}
 :::: {.cbox .brick}
-[🔒]{.emoji} **Data and access**
+[🔒]{.emoji} **Data**
 
 - Confidential data needs agents that run where the data are
 - Ideally a local agent and a local model
-- Equity. Access to agents, compute and coding skills is uneven
 ::::
+:::: {.cbox .brick}
+[⚖️]{.emoji} **Access**
+
+- Access to agents, compute and coding skills is uneven
+- Agents further empower people who already have privilege
+::::
+:::::
+::::: {.challenge-stack}
 :::: {.cbox .grey}
-[💸]{.emoji} **Cost and change**
+[💸]{.emoji} **Cost**
 
 - Heavily subsidised for now
 - What happens when we pay the true cost?
+::::
+:::: {.cbox .grey}
+[🚀]{.emoji} **A rapidly evolving field**
+
 - The field moves fast, and may be a bubble
 - What is true today may not hold next year
 ::::
 :::::
+::::::

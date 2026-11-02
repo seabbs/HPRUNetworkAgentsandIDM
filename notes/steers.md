@@ -515,3 +515,11 @@ of the talk plan.
 > Here, "Expert checks caught what the first test missed": it's a paper by non-domain experts.
 
 > "Agent-raised issues all look equally urgent" and are often hard to read.
+
+> Agents further empower people with privilege.
+
+> … and coding skills is uneven (place it after that bullet).
+
+> Make "Data and access" two boxes, one above the other, vs one?
+
+> Same with cost and "Rapidly evolving".

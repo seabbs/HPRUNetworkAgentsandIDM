@@ -204,3 +204,6 @@
 #title-slide {
   margin-top: -260px;
 }
+
+/* Two shorter boxes stacked in one cell of the challenge grid */
+.reveal .challenge-stack { display: grid; gap: 20px; }
