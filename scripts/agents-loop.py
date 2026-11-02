@@ -1,4 +1,4 @@
-#!/usr/bin/env -S uv run --with matplotlib --script
+#!/usr/bin/env -S uv run --with matplotlib --with pillow --script
 """The agent loop with review agents and new tasks, for the Implementing slide.
 
 Usage:
@@ -14,6 +14,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
+from PIL import Image, ImageDraw
 TEAL = "#1f6f8b"
 SLATE = "#4a5899"
 BRICK = "#b5432f"
@@ -95,6 +96,17 @@ def inner_loop(ax, cx, cy, r=1.35, fs=10.5):
         arrow(ax, p, q, colour=SLATE, lw=1.8, rad=-0.35)
 
 
+def avatar(ax, path, x, y, size=0.8):
+    """Draw a round avatar centred on (x, y), size in data units."""
+    im = Image.open(path).convert("RGBA").resize((240, 240))
+    mask = Image.new("L", im.size, 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, 239, 239), fill=255)
+    im.putalpha(mask)
+    ax.imshow(np.asarray(im), extent=(x - size / 2, x + size / 2,
+                                      y - size / 2, y + size / 2),
+              zorder=5, aspect="auto")
+
+
 def agent_loop():
     fig, ax = canvas(11, 6.2)
     # Where tasks come from.
@@ -119,6 +131,14 @@ def agent_loop():
     box(ax, 9.05, 4.7, 1.9, 1.1, "Merge\nand refit", colour=TEAL, fs=12)
     arrow(ax, (10.1, 2.85), (10.1, 4.7), colour=TEAL, lw=1.8)
     arrow(ax, (9.05, 5.25), (5.8, 5.25), colour=TEAL, lw=1.8, ls="--")
+    # Who does the work: our implementation and review agents.
+    avatar(ax, "figures/seabbs-bot.jpg", 0.75, 2.45)
+    avatar(ax, "figures/sbfnk-bot.jpg", 1.75, 2.45)
+    label(ax, 1.25, 1.75, "Implementation\nagents", colour=SLATE, fs=12)
+    avatar(ax, "figures/seabbs-review-bot.jpg", 9.6, 0.62)
+    avatar(ax, "figures/sbfnk-review-bot.png", 10.55, 0.62)
+    ax.set_xlim(0, 11)
+    ax.set_ylim(0, 6.2)
     save(fig, "agents-agent-2.png")
 
 

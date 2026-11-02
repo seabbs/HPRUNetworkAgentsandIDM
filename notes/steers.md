@@ -368,3 +368,9 @@ Read as: cite the article on the freed-time slide.
 
 > Data: what can be used for data analysis, i.e. making plots, exploration
 > etc., hypothesis generation.
+
+> Review agents and implementation agents in the schematic for "How we use
+> agents to develop EpiNow2", rather than just below at random?
+
+> Slides a bit less busy: no fill on coloured boxes, i.e. just border and text
+> changes?

@@ -109,10 +109,10 @@
   margin: 0 0 0 1.1em;
   font-size: 0.72em;
 }
-.reveal .cbox.teal { border-color: #1f6f8b; background: #e3eef2; }
-.reveal .cbox.slate { border-color: #4a5899; background: #e6e8f2; }
-.reveal .cbox.brick { border-color: #b5432f; background: #f5e6e3; }
-.reveal .cbox.grey { border-color: #6b7280; background: #f0f1f3; }
+.reveal .cbox.teal { border-color: #1f6f8b; }
+.reveal .cbox.slate { border-color: #4a5899; }
+.reveal .cbox.brick { border-color: #b5432f; }
+.reveal .cbox.grey { border-color: #6b7280; }
 .reveal .cbox.teal p strong { color: #1f6f8b; }
 .reveal .cbox.slate p strong { color: #4a5899; }
 .reveal .cbox.brick p strong { color: #b5432f; }
@@ -161,10 +161,10 @@
   font-size: 0.85em;
 }
 .reveal .sitem p { margin: 0; }
-.reveal .sitem.teal { border-color: #1f6f8b; background: #e3eef2; }
-.reveal .sitem.slate { border-color: #4a5899; background: #e6e8f2; }
-.reveal .sitem.brick { border-color: #b5432f; background: #f5e6e3; }
-.reveal .sitem.grey { border-color: #6b7280; background: #f0f1f3; }
+.reveal .sitem.teal { border-color: #1f6f8b; }
+.reveal .sitem.slate { border-color: #4a5899; }
+.reveal .sitem.brick { border-color: #b5432f; }
+.reveal .sitem.grey { border-color: #6b7280; }
 
 /* Tighter boxes beside a figure */
 .reveal .where-grid { gap: 18px; margin-top: 8px; }
@@ -183,3 +183,6 @@
 
 /* Space between a box grid and a callout below it */
 .reveal .challenge-grid { margin-bottom: 24px; }
+
+/* Boxes keep their border and coloured heading, with no fill */
+.reveal .cbox, .reveal .sitem { background: none; }

@@ -67,26 +67,15 @@ Duck by Tom Morris,
 - Our agents open pull requests as seabbs&#8209;bot and sbfnk&#8209;bot
 - The other person reviews each pull request, and a person merges it
 - 51 agent pull requests merged since March 2026
-
-```{=html}
-<div class="bots">
-<div><img src="figures/seabbs-bot.jpg" alt="seabbs-bot avatar">
-seabbs-bot</div>
-<div><img src="figures/sbfnk-bot.jpg" alt="sbfnk-bot avatar">
-sbfnk-bot</div>
-<div><img src="figures/seabbs-review-bot.jpg"
-alt="seabbs-review-bot avatar">seabbs-review-bot</div>
-<div><img src="figures/sbfnk-review-bot.png"
-alt="sbfnk-review-bot avatar">sbfnk-review-bot</div>
-</div>
-```
 :::
 ::: {.column width="60%"}
 ![](figures/agents-agent-2.png){width="100%"
 fig-alt="A specification or a conversation leads to agents writing the
 tasks, which feed a loop of read, write, run and check. Passing code
 becomes a pull request, which review agents send back into the loop and
-we review. Merging refits the model and raises new tasks."}
+we review. Merging refits the model and raises new tasks. The avatars
+of seabbs-bot and sbfnk-bot sit by the loop as implementation agents, and
+those of seabbs-review-bot and sbfnk-review-bot by the review agents."}
 
 ::: {.attribution}
 [EpiNow2](https://github.com/epiforecasts/EpiNow2), GitHub API, 2 November
