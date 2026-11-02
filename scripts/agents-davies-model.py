@@ -59,10 +59,10 @@ def path_arrow(*points, head=True):
 
 # Infectious bands: fully infectious (top) and half infectious (bottom).
 bx0, bx1 = 43, 79
-ax.add_patch(Rectangle((bx0, 24), bx1 - bx0, 18, color=band_full, lw=0))
-ax.add_patch(Rectangle((bx0, 0), bx1 - bx0, 17, color=band_half, lw=0))
-text(bx0 + 1.2, 40, "100% infectious", teal, ha="left", fontweight="bold")
-text(bx0 + 1.2, 2.4, "50% infectious", slate, ha="left", fontweight="bold")
+ax.add_patch(Rectangle((bx0, 24), bx1 - bx0, 17.6, color=band_full, lw=0))
+ax.add_patch(Rectangle((bx0, 0.4), bx1 - bx0, 16.6, color=band_half, lw=0))
+text(bx0 + 1.2, 39.6, "100% infectious", teal, ha="left", fontweight="bold")
+text(bx0 + 1.2, 2.8, "50% infectious", slate, ha="left", fontweight="bold")
 text((bx0 + bx1) / 2, 20.5, "Infectious stage")
 
 # Compartments.
@@ -88,8 +88,8 @@ text(63, 26.6, "Case onset")
 path_arrow((77.5, top), (merge, top), (merge, mid), head=False)
 path_arrow((68.5, bot), (merge, bot), (merge, mid), head=False)
 path_arrow((merge, mid), (86, mid))
-text(91.5, 33, "Recovery,\nisolation")
-text(91.5, 11, "Recovery")
+text(91, 33, "Recovery,\nisolation")
+text(91, 11, "Recovery")
 
 fig.savefig(out, facecolor="white")
 print(out)
