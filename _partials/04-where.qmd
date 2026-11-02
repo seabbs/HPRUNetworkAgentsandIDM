@@ -55,12 +55,14 @@ Duck by Tom Morris,
 :::
 ::::
 
-## How we use agents to develop EpiNow2
+## How we use agents to develop EpiNow2 {.smaller}
 
 :::: {.columns}
 ::: {.column width="40%"}
+- EpiNow2 estimates reproduction numbers and forecasts in real time
+- Used by public health agencies
+- Maintaining it is hard to fund through traditional research grants
 - Our agents open pull requests as seabbs&#8209;bot and sbfnk&#8209;bot
-- They fix bugs, simplify code, and add tests and benchmarks
 - Review bots read each pull request first
 - Then the other person reviews it, and a person merges
 - 51 agent pull requests merged since March 2026

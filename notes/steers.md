@@ -330,3 +330,10 @@ Read as: cite the article on the freed-time slide.
 > Talking to stakeholders as something else we should do?
 
 > Meta-groups on this slide: "Where can agents be used ..."
+
+> EpiNow2 needs a bullet on what it is, i.e. used by public health agencies,
+> and a bullet on development being a challenge, as it is hard to get
+> traditional research funding.
+
+> Not sure we need: "They fix bugs, simplify code, and add tests and
+> benchmarks".
