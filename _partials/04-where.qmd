@@ -57,18 +57,37 @@ Duck by Tom Morris,
 :::
 ::::
 
-## How we use agents to develop EpiNow2 {.smaller}
+## How we use agents to develop EpiNow2
 
 :::: {.columns}
-::: {.column width="40%"}
-- EpiNow2 is software we built to estimate how fast an outbreak is
-  spreading, and to forecast it
+::: {.column width="44%"}
+::::: {.stack-grid}
+:::: {.cbox .teal}
+**What it is**
+
+- Software we built to estimate how fast an outbreak is spreading, and
+  to forecast it
 - Public health agencies use it
+::::
+:::: {.cbox .brick}
+**The problem**
+
 - Maintaining it is hard to fund through traditional research grants
+::::
+:::: {.cbox .slate}
+**How agents help**
+
 - Agents now propose most changes, and people check each one
-- 51 changes from agents accepted since March 2026
+::::
+:::::
+
+![](figures/agents-epinow2-prs.png){width="100%"
+fig-alt="Merged EpiNow2 changes per month from January 2025 to October
+2026. Changes from people peak at about 20 a month in early 2025 and fall
+to near zero from March 2026, as changes from agents rise to between 4
+and 12 a month."}
 :::
-::: {.column width="60%"}
+::: {.column width="56%"}
 ![](figures/agents-agent-2.png){width="100%"
 fig-alt="A specification or a conversation leads to agents writing the
 tasks, which feed a loop of read, write, run and check. Passing code
@@ -132,27 +151,36 @@ Martinson et al. 2026, Fig. 2,
 :::
 ::::
 
-## Estimating the size of the 2026 Bundibugyo virus outbreak {.smaller}
+## Estimating the size of the 2026 Bundibugyo virus outbreak
 
 :::: {.columns}
-::: {.column width="35%"}
-- Situational awareness for the Ebola disease outbreak in the DRC
-- We replicated the first published estimate the next day
-- One model fitted to all the surveillance streams, extracted from the
-  publicly available situation reports
-- Estimates for each province and health zone
-- Agents built and maintain an interactive dashboard, adding features as
-  users ask for them
-- They built forecast evaluation, so forecasts are scored in real time
-- They built the infrastructure to fit and check the model in public
+::: {.column width="40%"}
+::::: {.stack-grid}
+:::: {.cbox .teal}
+**What it is**
 
-:::: {.sitem .brick}
-**An experiment.** This is agent-driven outbreak modelling, meant as an
-external view. It shows both the benefits and the dangers of working this
-way.
+- Situational awareness for the Ebola disease outbreak in the DRC
+- One model fitted to all the surveillance streams in the public
+  situation reports
+- Estimates for each province and health zone
 ::::
+:::: {.cbox .slate}
+**What agents built**
+
+- A replication of the first published estimate, the next day
+- An interactive dashboard, with features added as users ask
+- Forecast evaluation in real time
+- Infrastructure to fit and check the model in public
+::::
+:::: {.cbox .brick}
+**An experiment**
+
+- Agent-driven outbreak modelling, meant as an external view
+- It shows both the benefits and the dangers
+::::
+:::::
 :::
-::: {.column width="65%"}
+::: {.column width="60%"}
 ![](figures/agents-bvd-dashboard.png){height="740px" fig-align="center"
 fig-alt="An interactive map of health zones in north-eastern DRC shaded by
 current reproduction number, beside a national panel with a reproduction

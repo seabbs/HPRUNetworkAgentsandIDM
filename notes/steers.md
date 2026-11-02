@@ -434,3 +434,9 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 
 > Here, not "the pull" and "the choice", but maybe "what we could do" and
 > "what we should do"?
+
+> Bottom left, show agent pull requests over time on this slide? ("How we use
+> agents to develop EpiNow2")
+> EpiNow2: have the "what is it" box and other boxes?
+
+> Same for the Ebola slide?
