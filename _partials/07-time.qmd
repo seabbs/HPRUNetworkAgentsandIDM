@@ -1,13 +1,13 @@
 ## How should we use the time agents free up?
 
 :::: {.sitem .brick}
-**The pull.** Do more of the same work, faster
+**What we could do.** More of the same work, faster
 ::::
 
 ![](figures/agents-time.png){height="500px" fig-align="center"
 fig-alt="Time agents free up splits two ways. A thick grey arrow labelled
-the pull leads to more of the same, faster. A slate arrow labelled the
-choice leads to eight boxes, review, deep dives, big-picture thinking,
+what we could do leads to more of the same, faster. A slate arrow labelled what
+we should do leads to eight boxes, review, deep dives, big-picture thinking,
 reducing technical debt, making work general and interoperable,
 evaluating what works, collaboration, and talking to stakeholders."}
 

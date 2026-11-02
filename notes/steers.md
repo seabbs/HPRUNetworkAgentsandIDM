@@ -431,3 +431,6 @@ hard".
 
 Read as: keep it as the collaboration slide, under its original title, with
 the solutions labelled as tentative beneath the statement of why it is hard.
+
+> Here, not "the pull" and "the choice", but maybe "what we could do" and
+> "what we should do"?

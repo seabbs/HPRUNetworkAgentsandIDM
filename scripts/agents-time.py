@@ -62,7 +62,7 @@ text((sx0 + sx1) / 2, (sy0 + sy1) / 2, "Time agents\nfree up", "white",
 gx0, gx1, gy0, gy1 = 50, 109.5, 40.5, 52.5
 gyc = (gy0 + gy1) / 2
 arrow(line_path((sx1, gyc), (gx0, gyc)), muted, 7)
-text((sx1 + gx0) / 2, gyc + 3.4, "the pull", muted)
+text((sx1 + gx0) / 2, gyc + 3.4, "what we could do", muted)
 box(gx0, gy0, gx1, gy1, muted, grey)
 text((gx0 + gx1) / 2, gyc, "More of the same, faster", ink)
 
@@ -87,7 +87,7 @@ for i, label in enumerate(choices):
 px = (sx0 + sx1) / 2
 py = (fy0 + fy1) / 2
 arrow(line_path((px, sy0), (px, py), (fx0, py)), slate, 4)
-ax.text(px + 1.6, 31, "the choice", color=slate, va="center")
+ax.text(px + 1.6, 28, "what we\nshould do", color=slate, va="center")
 
 fig.savefig(out, facecolor="white")
 print(out)
