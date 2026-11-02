@@ -22,19 +22,17 @@ Health Analytics and Modelling HPRU network · 3 November 2026 ·
 ## Abstract
 
 ::: {.abstract}
-Infectious disease models turn late, incomplete surveillance data into
-estimates, forecasts and projections.
-An AI agent is a language model that calls tools and loops until a check
-passes.
-We now use agents across our modelling work.
-I will show where, using our model of the 2026 Ebola disease outbreak in
-the Democratic Republic of the Congo.
-Agents read situation reports, implement and optimise models, build the
-checks around them, and review code.
+An infectious disease model is a parsimonious representation of what we know.
+It is built to answer a question.
+An AI agent is a language model that calls tools in a loop.
+Agents can do many of the tasks often given to early career researchers.
+They read data, implement and optimise models, build checks and review code.
+I will show this with our model of the 2026 Ebola outbreak in the DRC.
 I will then cover the challenges.
-Agents push towards complex code that is hard to review, and retrospective
-evaluations can leak.
-Collaborating when agents write most of the code is also hard.
+Agents write complex code that is hard to review.
+They make errors people would not, and these can be hard to spot.
+Collaboration, training, cost and confidential data are open problems.
+I will end on how we should use the time agents free up.
 :::
 
 :::

@@ -1,14 +1,12 @@
 ## Summary
 
-<!--
-Draft. What it should land on is open in issue #5.
--->
-
 - Agents can read data, implement, optimise and review models, and build
   the infrastructure around them
-- Use the time they free for review, big-picture thinking and deep dives,
-  rather than more incremental work
 - They push towards complex code that is hard to review
 - They get things wrong in ways people would not
 - These errors can be hard to spot
 - Collaborating through agents is hard
+- Use the time they free for review, big-picture thinking and deep dives
+- We need domain-specific testing and evaluation
+- We need fair access to agents
+- We need training for this kind of work

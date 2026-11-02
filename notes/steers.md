@@ -184,3 +184,7 @@ plots from the dev report (data to 25 October).
 > Ah agent schematic things needs to have a where running i.e your compute on
 > the cloud a hpc etc et changes data access/tools/compute. Need to have
 > something on confidential data access in chalengsx ideall local agent etc o?
+
+#5, Sam: "Yeah we need some kind of domain specific testing and eval, access, training yes"
+
+#4, Sam: "make sure its one sentence a line short and. concise not overblown and based on what we have in the slides"
