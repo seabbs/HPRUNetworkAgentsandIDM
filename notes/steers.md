@@ -33,3 +33,19 @@ Read as: the agent slide should say what the tools are.
 
 > How to collaborate in an agent driven environment add a slide at the end
 > prior to summary we are finding it very hard
+
+> Err the bot thing soundsa bit specifci asxnd weird for this more general
+> talk
+
+Read as: drop the bot-written issues bullet from the collaboration slide.
+
+> I liked this artcile: I really like this artilce about user contract qand
+> science has some analogs:
+> https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/
+> I saw similar ideas about what to do with time agnets free up i.e not just
+> add more and more incremental sicence but big picture thinking review deep
+> dives etc?
+
+Read as: the collaboration slide takes the article's point that changes are
+cheap to make and as costly as ever to check. The summary says what to do with
+the freed time.

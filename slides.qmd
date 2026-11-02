@@ -78,3 +78,4 @@ Sam Abbott and Sebastian Funk, LSHTM ·
 [workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [wf]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [bvd-repo]: https://github.com/epiforecasts/BVDOutbreakSize
+[picnic]: https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/

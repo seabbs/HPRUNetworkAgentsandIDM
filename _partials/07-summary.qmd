@@ -6,7 +6,8 @@ Draft. What it should land on is open in issue #5.
 
 - Agents can read data, implement, optimise and review models, and build
   the infrastructure around them
-- That frees our time for review
+- Use the time they free for review, big-picture thinking and deep dives,
+  rather than more incremental work
 - They push towards complex code that is hard to review. They get things
   wrong, and retrospective scores can leak
 - Working together through agents is hard. We have not solved it
