@@ -156,6 +156,7 @@ round ·
 **What agents built**
 
 - A replication of the first published estimate, the next day
+- A submodel for each of its 25 data streams
 - An interactive dashboard, with features added as users ask
 - Forecast evaluation in real time
 - Infrastructure to fit and check the model in public
@@ -164,7 +165,7 @@ round ·
 **An experiment**
 
 - Agent-driven outbreak modelling, meant as an external view
-- It shows both the benefits and the dangers
+- It shows both the benefits and the dangers of working this way
 ::::
 :::::
 :::

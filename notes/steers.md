@@ -501,3 +501,9 @@ of the talk plan.
 > This does not belong in "How agents help": "People check each change".
 
 > Here we need to show that Seb's review comments go to me, then I instruct the agent what to do on them: "How we use agents to develop EpiNow2".
+
+> Here, "What agents built" for Ebola, add bullet: a submodel for X data sets (check how many we built).
+
+> Or say, i.e., each modelled dataset or similar.
+
+> It shows both the benefits and the dangers of working in this way (i.e. add the last bit).
