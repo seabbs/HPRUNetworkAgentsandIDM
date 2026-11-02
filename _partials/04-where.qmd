@@ -131,6 +131,51 @@ round ·
 :::
 ::::
 
+## Estimating the size of the 2026 Bundibugyo virus outbreak
+
+:::: {.columns}
+::: {.column width="40%"}
+::::: {.stack-grid}
+:::: {.cbox .teal}
+**What it is**
+
+- Situational awareness for the Ebola disease outbreak in the DRC
+- One model fitted to all the surveillance streams in the public
+  situation reports
+- Estimates for each province and health zone
+::::
+:::: {.cbox .slate}
+**What agents built**
+
+- A replication of the first published estimate, the next day
+- An interactive dashboard, with features added as users ask
+- Forecast evaluation in real time
+- Infrastructure to fit and check the model in public
+::::
+:::: {.cbox .brick}
+**An experiment**
+
+- Agent-driven outbreak modelling, meant as an external view
+- It shows both the benefits and the dangers
+::::
+:::::
+:::
+::: {.column width="60%"}
+![](figures/agents-bvd-dashboard.png){height="740px" fig-align="center"
+fig-alt="An interactive map of health zones in north-eastern DRC shaded by
+current reproduction number, beside a national panel with a reproduction
+number of 1.01 and weekly confirmed cases with a seven-day forecast.
+Below, the reproduction number falling from about 2 in May to about 1
+from August, and four small maps of health-zone estimates."}
+
+::: {.attribution}
+McCabe et al. 2026, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
+[BVDOutbreakSize report](https://epiforecasts.io/BVDOutbreakSize/dev/dashboard),
+data to 25 October 2026
+:::
+:::
+::::
+
 ## Empirical Research Assistance for epidemic forecasting
 
 :::: {.columns}
@@ -173,51 +218,6 @@ Bracher and Funk 2026,
 [arXiv:2608.05883](https://arxiv.org/abs/2608.05883) ·
 Martinson et al. 2026, Fig. 2,
 [arXiv:2605.16238](https://arxiv.org/abs/2605.16238)
-:::
-:::
-::::
-
-## Estimating the size of the 2026 Bundibugyo virus outbreak
-
-:::: {.columns}
-::: {.column width="40%"}
-::::: {.stack-grid}
-:::: {.cbox .teal}
-**What it is**
-
-- Situational awareness for the Ebola disease outbreak in the DRC
-- One model fitted to all the surveillance streams in the public
-  situation reports
-- Estimates for each province and health zone
-::::
-:::: {.cbox .slate}
-**What agents built**
-
-- A replication of the first published estimate, the next day
-- An interactive dashboard, with features added as users ask
-- Forecast evaluation in real time
-- Infrastructure to fit and check the model in public
-::::
-:::: {.cbox .brick}
-**An experiment**
-
-- Agent-driven outbreak modelling, meant as an external view
-- It shows both the benefits and the dangers
-::::
-:::::
-:::
-::: {.column width="60%"}
-![](figures/agents-bvd-dashboard.png){height="740px" fig-align="center"
-fig-alt="An interactive map of health zones in north-eastern DRC shaded by
-current reproduction number, beside a national panel with a reproduction
-number of 1.01 and weekly confirmed cases with a seven-day forecast.
-Below, the reproduction number falling from about 2 in May to about 1
-from August, and four small maps of health-zone estimates."}
-
-::: {.attribution}
-McCabe et al. 2026, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
-[BVDOutbreakSize report](https://epiforecasts.io/BVDOutbreakSize/dev/dashboard),
-data to 25 October 2026
 :::
 :::
 ::::
