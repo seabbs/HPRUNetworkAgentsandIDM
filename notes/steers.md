@@ -475,3 +475,5 @@ of the talk plan.
 > reviewing. Note in the caption that it also runs the other way around.
 
 > Move our Ebola example before the Google example.
+
+> The fire hose image a bit bigger.

@@ -8,7 +8,7 @@ and fewer outside contributors
 ::::
 :::
 ::: {.column width="28%"}
-![](figures/agents-firehose.jpg){height="130px" fig-align="center"
+![](figures/agents-firehose.jpg){height="175px" fig-align="center"
 fig-alt="A firefighter kneels behind a hose throwing a wide, heavy spray of
 water."}
 :::
