@@ -24,11 +24,13 @@ Cursor</div>
 :::
 ::: {.column width="60%"}
 ![](figures/agents-tool-llm.png){width="100%"
-fig-alt="You send a prompt to a harness, such as Claude Code. The
-harness builds the language model's context from instructions, skills,
-the conversation and tool results. The model writes text or a tool
-call. The harness runs tool calls on tools and MCP servers and feeds the
-results back, repeating until done."}
+fig-alt="A coding agent. The language model only reads context and writes
+text or tool calls. A harness such as Claude Code sits between the model
+and the tools. It builds the context window from instructions, skills,
+the conversation and tool results, runs each tool call in a shell,
+GitHub, web search or an MCP server such as a Julia session, and puts the
+result back into the context, repeating until done. You give the prompt
+to the harness and read the model's answer."}
 
 ::: {.attribution}
 [modelcontextprotocol.io](https://modelcontextprotocol.io) ·
@@ -49,10 +51,12 @@ Logos from [Simple Icons](https://simpleicons.org)
 :::
 ::: {.column width="60%"}
 ![](figures/agents-multi.png){width="100%"
-fig-alt="A lead agent sends tasks in parallel to implement, test and
-review subagents, each with its own context and tools, which return
-summaries. Beside it, a workflow script fans out reviewers, verifies
-each finding, and merges the results."}
+fig-alt="Two ways agents work together. On the left, a lead agent sends
+tasks to implement, test and review subagents that run in parallel, each
+with its own context and tools, and each returns only a summary. On the
+right, a workflow script runs a fixed pipeline. Reviewers for bugs, tests
+and docs run in parallel, a verifier checks each finding, and the
+results are merged."}
 
 ::: {.attribution}
 Anthropic 2025,
