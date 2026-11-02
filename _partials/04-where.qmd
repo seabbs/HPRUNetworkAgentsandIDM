@@ -124,7 +124,9 @@ becomes a proposed change, which review agents send back into the loop
 and we review. Merging refits the model and raises new tasks. The avatars
 of seabbs-bot and sbfnk-bot sit by the loop as implementation agents, and
 those of seabbs-review-bot and sbfnk-review-bot by the review agents.
-Sam's photo sits by the specification and Seb's by the review."}
+Sam's photo sits by the specification and Seb's by the review. Seb's
+review comments go back to Sam, who tells the implementation agents what
+to change."}
 
 ::: {.attribution}
 Here Sam builds a feature and Seb reviews it. It also runs the other way

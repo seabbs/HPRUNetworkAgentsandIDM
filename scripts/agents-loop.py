@@ -108,7 +108,7 @@ def avatar(ax, path, x, y, size=0.8):
 
 
 def agent_loop():
-    fig, ax = canvas(11, 6.2)
+    fig, ax = canvas(11.4, 7.2)
     # Where tasks come from.
     box(ax, 0.1, 4.7, 2.6, 1.1, "A specification\nor a conversation",
         colour=BRICK, fs=12)
@@ -142,13 +142,22 @@ def agent_loop():
     label(ax, 1.05, 4.15, "Sam", colour=BRICK, fs=12, ha="left")
     avatar(ax, "figures/seb.jpg", 10.6, 3.75, size=0.75)
     label(ax, 10.6, 3.2, "Seb", colour=BRICK, fs=12)
-    # Colour key: people come in at two points only.
+    # Seb's review comments go to Sam, who tells the agents what to do.
+    ax.plot([10.9, 11.3, 11.3, 2.55], [2.3, 2.3, -0.55, -0.55], color=BRICK,
+            lw=2, zorder=1)
+    arrow(ax, (3.0, -0.55), (2.5, -0.55), colour=BRICK, lw=2)
+    label(ax, 8.6, -0.3, "Seb's review comments", colour=BRICK, fs=12)
+    avatar(ax, "figures/sam.jpg", 2.05, -0.55, size=0.75)
+    arrow(ax, (1.85, -0.15), (1.3, 1.45), colour=BRICK, lw=2, rad=-0.2)
+    label(ax, 2.55, -0.05, "Sam tells the agents what to change",
+          colour=BRICK, fs=12, ha="left")
+    # Colour key.
     for k, (c, t) in enumerate([(BRICK, "People"), (SLATE, "Agents"),
                                 (TEAL, "Code and checks")]):
-        box(ax, 0.15, 0.95 - k * 0.42, 0.32, 0.28, "", colour=c, lw=2)
-        label(ax, 0.6, 1.09 - k * 0.42, t, colour=INK, fs=12, ha="left")
-    ax.set_xlim(0, 11)
-    ax.set_ylim(0, 6.2)
+        box(ax, 6.75, 4.2 - k * 0.42, 0.32, 0.28, "", colour=c, lw=2)
+        label(ax, 7.2, 4.34 - k * 0.42, t, colour=INK, fs=12, ha="left")
+    ax.set_xlim(0, 11.4)
+    ax.set_ylim(-1.0, 6.2)
     save(fig, "agents-agent-2.png")
 
 

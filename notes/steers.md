@@ -499,3 +499,5 @@ of the talk plan.
 > Here, "Where can agents…", needs a callout at the bottom. Agents often have a very spiky ability profile, i.e. superhuman at some tasks and yet shockingly awful at others. Predicting this profile is very hard.
 
 > This does not belong in "How agents help": "People check each change".
+
+> Here we need to show that Seb's review comments go to me, then I instruct the agent what to do on them: "How we use agents to develop EpiNow2".
