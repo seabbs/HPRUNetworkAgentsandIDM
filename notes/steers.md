@@ -529,3 +529,5 @@ of the talk plan.
 > Here, unequal access to agents: "Why it is hard. Too many changes to read, private reasoning, and fewer outside contributors".
 
 > "Unequal access is still unsolved": we have an org or project level agent?
+
+> … vs personal ones.
