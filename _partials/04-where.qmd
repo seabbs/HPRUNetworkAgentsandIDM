@@ -67,7 +67,7 @@ Duck by Tom Morris,
 
 - Software we built to estimate how fast an outbreak is spreading, and
   to forecast it
-- Public health agencies use it
+- Public health agencies and other research groups use it
 ::::
 :::: {.cbox .brick}
 **The problem**

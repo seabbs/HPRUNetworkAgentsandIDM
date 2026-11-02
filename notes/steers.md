@@ -440,3 +440,5 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 > EpiNow2: have the "what is it" box and other boxes?
 
 > Same for the Ebola slide?
+
+> And other research groups, in "Public health agencies use it".
