@@ -481,6 +481,7 @@ of the talk plan.
 > Cut: ", and it is all still in flux".
 
 > Hmm, can we work some of his points into our challenges points, please?
+
 > Right, can we make the title slide a bit more fun, i.e. a seabbs-bot and sbfnk-bot perhaps, or some kind of fun schematic?
 
 > Title of this paper and others in the cites: https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30133-X/fulltext
