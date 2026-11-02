@@ -94,6 +94,14 @@ Collaborating when agents write the code is hard, and training, cost, equity and
 :::
 :::
 
+## I am looking for a job in Bristol {.section-tight}
+
+I am looking for a job based in Bristol, ideally still focused on
+infectious disease modelling.
+If you have any ideas, please get in touch at
+[contact@samabbott.co.uk](mailto:contact@samabbott.co.uk), or see
+[samabbott.co.uk](https://samabbott.co.uk).
+
 [howillm]: https://samabbott.co.uk/how-I-llm
 [workflow]: https://samabbott.co.uk/a-workflow-for-infectious-disease-modelling/
 [vub]: https://samabbott.co.uk/AIandIDVUB

@@ -551,3 +551,9 @@ of the talk plan.
 > Linked in the presentation site etc?
 
 > Cut this from the abstract: "I will finish with what we think the field needs, from domain-specific evaluation to fair access and training."
+
+> Add to the home site at the bottom: I am looking for a Bristol-based job, ideally still focusing on infectious disease modelling. Please reach out with any ideas.
+
+> Hyperlink contact@samabbott.co.uk?
+
+> Or my contact page on, i.e., my website?
