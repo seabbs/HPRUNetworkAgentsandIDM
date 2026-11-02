@@ -533,3 +533,7 @@ of the talk plan.
 > … vs personal ones.
 
 > Make sure the prompts that built these slides are up to date.
+
+> Here add Google's to the slide title: "Empirical Research Assistance for epidemic forecasting".
+
+> Watch caps make sense on titles.
