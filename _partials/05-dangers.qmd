@@ -2,7 +2,7 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- BVDOutbreakSize. 653 merged pull requests since 19 May
+- BVDOutbreakSize. 658 merged pull requests since 19 May
 - Agents push towards complex, nested models and code
 - Not written the way a person would write it. Hard to follow and review
 - Wrong observation models and forecast bugs. We caught them

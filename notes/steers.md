@@ -30,3 +30,6 @@ after Sam asked for shorter references there.
 > Tool use for agents?
 
 Read as: the agent slide should say what the tools are.
+
+> How to collaborate in an agent driven environment add a slide at the end
+> prior to summary we are finding it very hard

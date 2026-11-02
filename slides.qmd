@@ -24,6 +24,7 @@ format:
 - What is an agent?
 - Where can agents be used in infectious disease modelling?
 - Dangers
+- How to collaborate in an agent-driven environment
 - Summary
 :::
 ::: {.column width="32%"}
@@ -47,7 +48,9 @@ Health Analytics and Modelling HPRU network.
 
 {{< include _partials/05-dangers.qmd >}}
 
-{{< include _partials/06-summary.qmd >}}
+{{< include _partials/06-collaborate.qmd >}}
+
+{{< include _partials/07-summary.qmd >}}
 
 ## Thank you
 

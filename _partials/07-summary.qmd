@@ -10,3 +10,4 @@ Draft. What it should land on is open in issue #5.
 - They push towards complex code that is hard to review, and they get
   things wrong
 - Evaluation is easy to fool
+- Working together through agents is hard. We have not solved it
