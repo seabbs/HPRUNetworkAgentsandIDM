@@ -309,3 +309,9 @@ Read as: cite the article on the freed-time slide.
 
 > "Agents built the dashboard": here also maintain an interactive dashboard,
 > with features added as users ask for them.
+
+> Last bullet or callout: this work is an experiment in agent-driven outbreak
+> modelling, meant as an external viewpoint or similar? It represents both the
+> potential benefits and dangers of agent-driven work.
+
+> It is not "when" here: "when access to agents ..."

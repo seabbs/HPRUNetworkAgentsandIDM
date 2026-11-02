@@ -118,6 +118,12 @@ Martinson et al. 2026, Fig. 2,
   users ask for them
 - They built forecast evaluation, so forecasts are scored in real time
 - They built the infrastructure to fit and check the model in public
+
+:::: {.sitem .brick}
+**An experiment.** This is agent-driven outbreak modelling, meant as an
+external view. It shows both the benefits and the dangers of working this
+way.
+::::
 :::
 ::: {.column width="65%"}
 ![](figures/agents-bvd-dashboard.png){height="740px" fig-align="center"

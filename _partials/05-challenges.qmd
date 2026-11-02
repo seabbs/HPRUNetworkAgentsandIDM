@@ -20,7 +20,7 @@
 
 - Confidential data needs agents that run where the data are
 - Ideally a local agent and a local model
-- Equity, when access to agents and compute is uneven
+- Equity. Access to agents and compute is uneven
 ::::
 :::: {.cbox .grey}
 **Cost and change**
