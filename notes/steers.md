@@ -424,3 +424,10 @@ hard".
 > interoperability of people's personal ecosystems. Shared low-level tools
 > with high-level custom interfaces. Slide titled "tentative solutions" or
 > "potential solutions"?
+
+> Hmm, tentative solutions come after, i.e., how to use the time they free up?
+> Need to make it clear: solutions to what? Or we add his tentative solutions
+> to our how-to-collaborate slide?
+
+Read as: keep it as the collaboration slide, under its original title, with
+the solutions labelled as tentative beneath the statement of why it is hard.

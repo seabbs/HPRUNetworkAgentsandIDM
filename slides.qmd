@@ -26,7 +26,7 @@ format:
 - What is an agent?
 - Where can agents be used in infectious disease modelling?
 - Challenges
-- Collaborating through agents: tentative solutions
+- How to collaborate in an agent-driven environment
 - How should we use the time agents free up?
 - Summary
 :::

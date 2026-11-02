@@ -1,9 +1,11 @@
-## Collaborating through agents: tentative solutions
+## How to collaborate in an agent-driven environment
 
 :::: {.sitem .brick}
 [🚒]{.emoji} **Why it is hard.** More changes than we can read, reasoning
 that stays private, and outside contributions that have dropped away
 ::::
+
+[Tentative solutions, which may not all work]{.grid-label}
 
 ::::: {.challenge-grid .solutions-grid}
 :::: {.cbox .teal}

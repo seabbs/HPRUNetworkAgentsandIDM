@@ -195,3 +195,11 @@
 }
 .reveal .solutions-grid .cbox ul { font-size: 0.66em; }
 .reveal .solutions-grid .cbox p { font-size: 0.82em; }
+
+/* A small heading between a callout and a box grid */
+.reveal .grid-label {
+  color: #4b5563;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin: 18px 0 0 0;
+}
