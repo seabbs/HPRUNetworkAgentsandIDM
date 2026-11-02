@@ -98,7 +98,7 @@ def inner_loop(ax, cx, cy, r=1.35, fs=10.5):
 def agent_loop():
     fig, ax = canvas(11, 6.2)
     # Where tasks come from.
-    box(ax, 0.1, 4.7, 2.6, 1.1, "A spec or a\nconversation",
+    box(ax, 0.1, 4.7, 2.6, 1.1, "A specification\nor a conversation",
         colour=BRICK, fs=12)
     box(ax, 3.4, 4.7, 2.4, 1.1, "Agents write\nthe tasks", colour=SLATE,
         fs=12)

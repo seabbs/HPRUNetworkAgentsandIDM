@@ -38,7 +38,7 @@ Duck by Tom Morris,
 
 :::: {.columns}
 ::: {.column width="40%"}
-- **Implementation.** From a spec or a conversation, to tasks, to code
+- **Implementation.** From a specification or a conversation, to tasks, to code
 - **Optimisation.** Custom gradients that make fitting faster
 - **Theory.** Analytical solutions where we had used numerical ones
 - **Review.** Review agents before we read the code
@@ -46,7 +46,7 @@ Duck by Tom Morris,
 :::
 ::: {.column width="60%"}
 ![](figures/agents-agent-2.png){width="100%"
-fig-alt="A spec or a conversation leads to agents writing the tasks,
+fig-alt="A specification or a conversation leads to agents writing the tasks,
 which feed a loop of read, write, run and check. Passing code becomes a
 pull request, which review agents send back into the loop and we review.
 Merging refits the model and raises new tasks."}
