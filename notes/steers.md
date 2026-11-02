@@ -328,3 +328,5 @@ Read as: cite the article on the freed-time slide.
 > "Interoperating" is not a word: making work interoperable?
 
 > Talking to stakeholders as something else we should do?
+
+> Meta-groups on this slide: "Where can agents be used ..."

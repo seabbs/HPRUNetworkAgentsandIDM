@@ -165,3 +165,9 @@
 .reveal .sitem.slate { border-color: #4a5899; background: #e6e8f2; }
 .reveal .sitem.brick { border-color: #b5432f; background: #f5e6e3; }
 .reveal .sitem.grey { border-color: #6b7280; background: #f0f1f3; }
+
+/* Tighter boxes beside a figure */
+.reveal .where-grid { gap: 18px; margin-top: 8px; }
+.reveal .where-grid .cbox { padding: 12px 20px; }
+.reveal .where-grid .cbox ul { font-size: 0.62em; }
+.reveal .where-grid .cbox p { font-size: 0.8em; }

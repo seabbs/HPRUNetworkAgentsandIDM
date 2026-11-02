@@ -1,18 +1,39 @@
-## Where can agents be used in infectious disease modelling? {.smaller}
+## Where can agents be used in infectious disease modelling?
+
+:::: {.sitem .teal}
+**Many of the tasks often given to early career researchers**
+::::
 
 :::: {.columns}
-::: {.column width="40%"}
-- Many of the tasks often given to early career researchers
-- Reading data. Pulling numbers out of reports, tables and figures
-- Building infrastructure. Checks that rerun whenever the model or
-  data change
+::: {.column width="55%"}
+::::: {.challenge-grid .where-grid}
+:::: {.cbox .teal}
+**Data**
+
+- Pulling numbers out of reports, tables and figures
+::::
+:::: {.cbox .slate}
+**Models**
+
+- Proposing candidate models and variations on them
 - Optimising and differentiating model code
 - Maths, such as analytical solutions
-- Proposing candidate models and variations on them
+::::
+:::: {.cbox .brick}
+**Infrastructure**
+
+- Checks that rerun whenever the model or data change
 - Managing complex experimental workflows
-- Talking through model development. A rubber duck that answers back
+::::
+:::: {.cbox .grey}
+**Thinking**
+
+- Talking through model development
+- A rubber duck that answers back
+::::
+:::::
 :::
-::: {.column width="60%"}
+::: {.column width="45%"}
 ![](figures/agents-workflow-agents.png){width="100%"
 fig-alt="The six-step workflow, question, data, model, fit, check and
 report, with a tag over each. People over question; agents read and
@@ -20,7 +41,7 @@ digitise over data; people choose, agents write over model; agents,
 every push over fit; agents run, people judge over check; agents draft,
 people sign over report."}
 
-![](figures/agents-rubber-duck.jpg){height="260px" fig-align="center"
+![](figures/agents-rubber-duck.jpg){height="240px" fig-align="center"
 fig-alt="A yellow rubber duck sitting beside a computer keyboard."}
 
 ::: {.attribution}
