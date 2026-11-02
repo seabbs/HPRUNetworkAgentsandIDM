@@ -22,7 +22,7 @@ format:
 :::: {.columns}
 ::: {.column width="68%"}
 - What is infectious disease modelling?
-- What is infectious disease modelling used for?
+- What are infectious disease models used for?
 - What is an agent?
 - Where can agents be used in infectious disease modelling?
 - Challenges

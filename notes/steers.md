@@ -214,3 +214,5 @@ before Summary.
 Read as: show Fig. 2 of the workflow paper under the Davies model on the first slide.
 
 > Repalce how infections spead ...  to i.e nested in a wider modelling workflow?
+
+> What are infectious disedase modwels used for not is?
