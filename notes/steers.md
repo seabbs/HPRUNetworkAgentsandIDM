@@ -442,3 +442,8 @@ the solutions labelled as tentative beneath the statement of why it is hard.
 > Same for the Ebola slide?
 
 > And other research groups, in "Public health agencies use it".
+
+> This is long: "... and outside contributions that have dropped away".
+> Reword this title to be a question?
+
+> Cut: "Tentative solutions, which may not all work".

@@ -1,11 +1,9 @@
-## How to collaborate in an agent-driven environment
+## How do we collaborate when agents write most of the code?
 
 :::: {.sitem .brick}
-[🚒]{.emoji} **Why it is hard.** More changes than we can read, reasoning
-that stays private, and outside contributions that have dropped away
+[🚒]{.emoji} **Why it is hard.** Too many changes to read, private reasoning,
+and fewer outside contributors
 ::::
-
-[Tentative solutions, which may not all work]{.grid-label}
 
 ::::: {.challenge-grid .solutions-grid}
 :::: {.cbox .teal}
