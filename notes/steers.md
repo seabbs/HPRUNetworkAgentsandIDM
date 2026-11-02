@@ -523,3 +523,5 @@ of the talk plan.
 > Make "Data and access" two boxes, one above the other, vs one?
 
 > Same with cost and "Rapidly evolving".
+
+> "…agents write most of the code?" Summary here: it's "write the code", not "most".

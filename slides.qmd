@@ -30,7 +30,7 @@ format:
 - What is an agent?
 - Where can agents be used in infectious disease modelling?
 - Challenges
-- How do we collaborate when agents write most of the code?
+- How do we collaborate when agents write the code?
 - Summary
 :::
 ::: {.column width="32%"}

@@ -4,7 +4,7 @@ subtitle: "Health Analytics and Modelling HPRU network"
 description: >-
   What infectious disease modelling is and is used for, what an agent is,
   where agents can be used in modelling, the challenges, and how to
-  collaborate when agents write most of the code.
+  collaborate when agents write the code.
 page-layout: full
 ---
 
@@ -34,7 +34,7 @@ AI agents, the language models behind chatbots like ChatGPT set up to use softwa
 In our recent work, including our model of the 2026 Ebola outbreak in the Democratic Republic of the Congo, they have read data, implemented and optimised models, built the checks around them and reviewed code.
 The question is how we use the time this frees.
 Agents also push towards complex code that is hard to review, and make mistakes a person would not, which can be hard to spot.
-Collaborating when most changes come from agents is hard, and training, cost, equity and access to confidential data are all open questions.
+Collaborating when agents write the code is hard, and training, cost, equity and access to confidential data are all open questions.
 I will finish with what we think the field needs, from domain-specific evaluation to fair access and training.
 :::
 
