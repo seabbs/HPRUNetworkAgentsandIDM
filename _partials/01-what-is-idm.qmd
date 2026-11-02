@@ -4,8 +4,6 @@
 ::: {.column width="40%"}
 - A model of how an infection spreads, and of how cases get reported
 - Fitted to data that arrive late, incomplete and changing
-- A question first. The question decides which data matter
-- Fit, check, report with a date. Then again tomorrow
 :::
 ::: {.column width="60%"}
 ![](figures/agents-workflow.png){width="100%"

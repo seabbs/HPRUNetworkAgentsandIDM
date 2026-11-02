@@ -57,6 +57,17 @@ ax.annotate(
     ha="right",
     color=ink,
 )
+# The health-zone model, one pull request, merged 28 September 2026.
+zone = date(2026, 9, 28)
+zone_y = lines[min(range(len(days)), key=lambda i: abs(days[i] - zone))]
+ax.annotate(
+    "One pull request (#779)\nnests a health-zone model\nin the joint model",
+    (zone, zone_y),
+    xytext=(-235, -10),
+    textcoords="offset points",
+    color=ink,
+    arrowprops={"arrowstyle": "-", "color": muted},
+)
 ax.set_ylabel("Lines of Julia in src/", color=ink)
 ax.set_ylim(0, max(lines) * 1.15)
 ax.yaxis.set_major_formatter(lambda v, _: f"{v:,.0f}")

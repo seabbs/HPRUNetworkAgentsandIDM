@@ -4,10 +4,9 @@
 Draft. What it should land on is open in issue #5.
 -->
 
-- Infectious disease modelling turns late, messy data into estimates,
-  forecasts and scenarios
-- Agents are language models with tools, working in a loop
-- They can read data, implement, optimise and review. That frees our
-  time for judgement
-- They get things wrong, and evaluation is easy to fool. Review is still
-  needed
+- Agents can read data, implement, optimise and review models, and build
+  the infrastructure around them
+- That frees our time for review
+- They push towards complex code that is hard to review, and they get
+  things wrong
+- Evaluation is easy to fool

@@ -2,10 +2,10 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- At every step of the workflow, with people deciding and checking
 - Reading data. Implementing, optimising and reviewing model code
 - Building the infrastructure. Model checks, and refits on every push
 - Talking through model development. A rubber duck that answers back
+- Others go further. EpidemIQs runs from a question to a written report
 :::
 ::: {.column width="60%"}
 ![](figures/agents-workflow-agents.png){width="100%"
@@ -17,7 +17,8 @@ people sign over report."}
 
 ::: {.attribution}
 After Abbott et al.,
-[A workflow for infectious disease modelling][wf]
+[A workflow for infectious disease modelling][wf] ·
+Samaei et al. 2025, [arXiv:2510.00024](https://arxiv.org/abs/2510.00024)
 :::
 :::
 ::::
@@ -27,14 +28,13 @@ After Abbott et al.,
 :::: {.columns}
 ::: {.column width="40%"}
 - The DRC situation reports are French PDFs. Agents read every stream
-  from them, and recent reports get two blind reads
+- Recent reports are read twice, independently
 - Symptom onsets are published only as a figure. An agent-written
   digitiser recovers the counts
-- Cross-checked by other agents, and by digitisers written in Python and
-  Julia
+- Cross-checked by digitisers in Python and in Julia
 :::
 ::: {.column width="60%"}
-![](figures/agents-bvd-sitrep087-page3.png){width="92%"
+![](figures/agents-bvd-sitrep087-page3.png){height="600px"
 fig-align="center"
 fig-alt="Page 3 of INSP situation report 87, in French. A table of alerts
 by province, a bar chart of confirmed cases by date of symptom onset,
@@ -52,13 +52,12 @@ INSP SitRep 087, 9 August 2026,
 
 :::: {.columns}
 ::: {.column width="40%"}
-- **Implementation.** Agents write the tasks from a spec or a
-  conversation, then the code
-- **Optimisation.** Custom gradient rules for the renewal and
-  convolution kernels
-- **Theory.** An integral we needed solved analytically
-- **Review.** Several review agents before we read it. Our time goes on
-  review and judgement
+- **Implementation.** From a spec or a conversation, to tasks, to code
+- **Optimisation.** Custom gradient rules for the model kernels
+- **Theory.** The generalised gamma integral in primarycensored, solved
+  analytically
+- **Review.** Review agents before we read the code. Our time goes on
+  review
 :::
 ::: {.column width="60%"}
 ![](figures/agents-agent-2.png){width="100%"
@@ -68,11 +67,10 @@ the loop, a person reading all the code or only the outcome, and a merge
 that refits in CI and sends new tasks back to the top."}
 
 ::: {.attribution}
-[BVDOutbreakSize][bvd-repo]
-[#810](https://github.com/epiforecasts/BVDOutbreakSize/pull/810),
-[#902](https://github.com/epiforecasts/BVDOutbreakSize/pull/902) ·
-[ComposableRecurrences.jl #75](https://github.com/EpiAware/ComposableRecurrences.jl/pull/75) ·
-[primarycensored #334](https://github.com/epinowcast/primarycensored/pull/334)
+BVDOutbreakSize [#810](https://github.com/epiforecasts/BVDOutbreakSize/pull/810)
+and [#902](https://github.com/epiforecasts/BVDOutbreakSize/pull/902), 2026 ·
+ComposableRecurrences.jl [#75](https://github.com/EpiAware/ComposableRecurrences.jl/pull/75), 2026 ·
+primarycensored [#334](https://github.com/epinowcast/primarycensored/pull/334), 2026
 :::
 :::
 ::::

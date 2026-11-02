@@ -2,13 +2,10 @@
 
 :::: {.columns}
 ::: {.column width="40%"}
-- BVDOutbreakSize. 653 merged pull requests and about 32,000 lines of
-  Julia since 19 May. Hard to keep track of
+- BVDOutbreakSize. 653 merged pull requests since 19 May
 - Agents push towards complex, nested models and code
-- Not written the way a person would write it. Hard to review and hard to
-  hand on
-- Wrong observation models and forecast bugs, caught by plots and domain
-  knowledge
+- Not written the way a person would write it. Hard to follow and review
+- Wrong observation models and forecast bugs. We caught them
 :::
 ::: {.column width="60%"}
 ![](figures/agents-bvd-growth.png){width="100%"
@@ -19,31 +16,32 @@ mid September, jumping to 29,000 by the end of September, and reaching
 
 ::: {.attribution}
 [BVDOutbreakSize][bvd-repo] git history and GitHub search API, 2 November
-2026 · issues #297, #299, #445 and #606
+2026 · issues #297, #299 and #606 · the health-zone model,
+[#779](https://github.com/epiforecasts/BVDOutbreakSize/pull/779)
 :::
 :::
 ::::
 
-## Agents that search over models
+## Google's tree search topped the CDC forecast hubs
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Martinson et al. An LLM-guided tree search that writes forecasting
-  code. Ranked first in the CDC FluSight hub, 2025/26
+- An LLM-guided tree search that writes forecasting code. First in the
+  CDC FluSight hub, 2025/26
 - Most candidates adapt models already in the hubs
-- Bracher and Funk. The retrospective gain claimed earlier came from
-  data revisions leaking into the evaluation
-- 207,500 candidates scored. Compute and access few modelling groups
-  have
+- Aygün et al. claimed a gain in retrospect. It came from data revisions
+  leaking into the evaluation
+- 207,500 candidate models. My guess is few groups have that compute
 :::
 ::: {.column width="60%"}
-![](figures/agents-sai-arxiv.png){width="100%"
-fig-alt="The arXiv abstract page for Prospective multi-pathogen disease
-forecasting using autonomous LLM-guided tree search, by Martinson and
-colleagues, submitted 15 May 2026."}
+![](figures/agents-martinson2026-fig2.png){width="100%"
+fig-alt="Inputs of a problem statement, data, libraries and evaluation
+requirements feed a tree of candidate models, each node coloured by its
+score, with the best leaf circled and the forecasting code it produced,
+an SIR model fitted with scipy, shown as the output."}
 
 ::: {.attribution}
-Martinson et al. 2026,
+Figure 2 of Martinson et al. 2026,
 [arXiv:2605.16238](https://arxiv.org/abs/2605.16238) ·
 Aygün et al. 2026, Nature 654, 909 ·
 Bracher and Funk 2026,

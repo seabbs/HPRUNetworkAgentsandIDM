@@ -7,28 +7,35 @@ fig-alt="Two line graphs from the CDC EbolaResponse model of cumulative
 cases and beds in use in Liberia and Sierra Leone, rising steeply to
 about 1.4 million cases by January 2015."}
 
+::: {style="text-align: center;"}
 **Projections.** Ebola, West Africa, 2014
 :::
+:::
 ::: {.column width="33%"}
-![](figures/agents-funk2019-forecasts-panel.png){height="340px" fig-align="center"
-fig-alt="Weekly Ebola incidence in Western Area, Sierra Leone, with
-one-week-ahead forecasts as dots and grey credible bands."}
+![](figures/agents-mathis2024-flusight.png){height="340px" fig-align="center"
+fig-alt="Weekly US influenza hospital admissions in the 2022 to 2023
+season as black points, with the FluSight ensemble's four-week forecasts
+as blue lines and shaded 50, 80 and 95 percent intervals."}
 
-**Forecasts.** Ebola, Sierra Leone, 2014
+::: {style="text-align: center;"}
+**Forecasts.** US influenza, 2022/23
+:::
 :::
 ::: {.column width="33%"}
 ![](figures/agents-example-rt-panel.png){height="340px" fig-align="center"
 fig-alt="Four panels of the estimated reproduction number over time for
 Australia, France, Germany and South Korea."}
 
-**Real-time estimates.** $R_t$, COVID-19, 2020
+::: {style="text-align: center;"}
+**Real-time $R_t$.** COVID-19, 2020
+:::
 :::
 ::::
 
 ::: {.attribution}
-Meltzer et al. 2014, MMWR 63 Suppl 3 ·
-Funk et al. 2019, PLOS Comput Biol ·
-Abbott et al. 2020, Wellcome Open Res
+Meltzer et al. 2014, [MMWR 63 Suppl 3](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm) ·
+Mathis et al. 2024, [Nat Commun](https://doi.org/10.1038/s41467-024-50601-9) ·
+Abbott et al. 2020, [Wellcome Open Res](https://doi.org/10.12688/wellcomeopenres.16006.1)
 :::
 
 ## Ebola disease, Democratic Republic of the Congo, 2026
@@ -38,7 +45,7 @@ Abbott et al. 2020, Wellcome Open Res
 - Bundibugyo virus. Declared on 15 May 2026
 - McCabe et al. estimated outbreak size from exports to Uganda and from
   deaths. We replicated it the next day
-- Then a joint model of every stream in the daily situation reports
+- Then one model fitted to all of these streams together
 - Each stream alone gives a different size
 :::
 ::: {.column width="60%"}
@@ -48,9 +55,9 @@ stream, cases, confirmed, deaths and exports, and one for the joint fit,
 which sits inside the spread of the single-stream fits."}
 
 ::: {.attribution}
-McCabe et al. 2026, Imperial College London,
-[doi:10.25560/130007](https://doi.org/10.25560/130007) ·
-[BVDOutbreakSize][bvd-repo], data to 7 June 2026
+WHO 2026, [DON602](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602) ·
+McCabe et al. 2026, 18 May, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
+[BVDOutbreakSize][bvd-repo], first commit 19 May 2026, data to 7 June
 :::
 :::
 ::::
