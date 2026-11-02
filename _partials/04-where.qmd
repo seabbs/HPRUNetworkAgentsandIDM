@@ -121,7 +121,7 @@ and 12 a month."}
 fig-alt="A specification or a conversation leads to agents writing the
 tasks, which feed a loop of read, write, run and check. Passing code
 becomes a proposed change, which review agents send back into the loop
-and we review. Merging refits the model and raises new tasks. The avatars
+and we review. Merging raises new tasks. The avatars
 of seabbs-bot and sbfnk-bot sit by the loop as implementation agents, and
 those of seabbs-review-bot and sbfnk-review-bot by the review agents.
 Sam's photo sits by the specification and Seb's by the review. Seb's

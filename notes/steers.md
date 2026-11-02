@@ -509,3 +509,5 @@ of the talk plan.
 > It shows both the benefits and the dangers of working in this way (i.e. add the last bit).
 
 > In the title thing, the agents in the middle web feed into the model, not the agents we are talking to.
+
+> Does the "Merge and refit" box still make sense, in the "How we use agents to develop EpiNow2" slide?

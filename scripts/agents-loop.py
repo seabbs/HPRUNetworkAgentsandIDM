@@ -127,8 +127,8 @@ def agent_loop():
     # People review.
     box(ax, 9.3, 1.75, 1.6, 1.1, "We\nreview", colour=BRICK, fs=12)
     arrow(ax, (8.65, 2.3), (9.3, 2.3), colour=BRICK, lw=2)
-    # Merging refits the model and raises new tasks.
-    box(ax, 9.05, 4.7, 1.9, 1.1, "Merge\nand refit", colour=TEAL, fs=12)
+    # Merging raises new tasks.
+    box(ax, 9.05, 4.7, 1.9, 1.1, "Merge", colour=TEAL, fs=12)
     arrow(ax, (10.1, 2.85), (10.1, 4.7), colour=TEAL, lw=1.8)
     arrow(ax, (9.05, 5.25), (5.8, 5.25), colour=TEAL, lw=1.8, ls="--")
     # Who does the work: our implementation and review agents.
