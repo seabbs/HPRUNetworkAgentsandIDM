@@ -20,7 +20,7 @@ does the same for an earlier talk.
 ## How these slides were built
 
 One Claude Code session, running Claude Opus, built the deck on 2 November 2026 between about 12:50 and 19:30 UTC.
-I sent it 214 messages, most of them short steers sent while it was still working on the last one.
+I sent it 183 messages, most of them short steers sent while it was still working on the last one.
 It replied in about 520 model turns and made 587 tool calls.
 Most were shell commands (392), to render the deck, take screenshots, query GitHub and commit.
 The rest were file reads (161), web fetches (13), messages to a subagent (7), file writes (4), subagent launches (4), skills (2), tool searches (2) and questions back to me (2).

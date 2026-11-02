@@ -539,3 +539,7 @@ of the talk plan.
 > Watch caps make sense on titles.
 
 > Could we have a nice little slide after the thank you to summarise this? It is pretty cool, with i.e. quantified details, a summary of prompts etc.
+
+> What is a fun way we can share these on social media? Put them into a GIF, i.e. going through the slides, or something, a collage, other ideas?
+
+> Hmm, something a bit cooler than that? What about a flip through the slides with a graph of making them on the right-hand side or similar, with prompts flashing up, but not showing the in-dev slides?
