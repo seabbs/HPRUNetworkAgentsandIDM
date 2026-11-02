@@ -1,17 +1,17 @@
 ## How to collaborate in an agent-driven environment
 
 <!--
-Draft from the steer "we are finding it very hard". What has and has not
-worked is open in an issue for Sam and Seb.
+Reflections on why it is hard, from Sam's steers. Issue #9.
 -->
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Two of us, two bot accounts, one repository
-- People opened 21 of 658 merged pull requests
-- Hard to keep track of what the other person's agents changed
+- More changes than any of us can read
+- Hard to tell what a person wrote from what an agent wrote
+- Hard to know what the other person's agents changed, and why
 - Changes are cheap to write
 - Checking them costs as much as before
+- People have different levels of access to agents
 :::
 ::: {.column width="60%"}
 ![](figures/agents-bvd-authors.png){width="100%"

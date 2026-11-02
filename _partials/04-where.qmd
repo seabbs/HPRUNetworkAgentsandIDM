@@ -58,19 +58,21 @@ primarycensored [#334](https://github.com/epinowcast/primarycensored/pull/334), 
 :::
 ::::
 
-## Google's tree search topped the CDC forecast hubs
+## An agent that writes forecasting models
 
 :::: {.columns}
-::: {.column width="40%"}
-- An LLM-guided tree search that writes forecasting code
-- First in the CDC FluSight hub, 2025/26
-- Many prompts are drawn from models already in the hubs
-- Bracher and Funk found the gain Aygün et al. claimed in retrospect came
-  from data revisions leaking into the evaluation
-- 207,500 candidate models
-- My guess is few groups have that compute
+::: {.column width="45%"}
+- An LLM-guided tree search writes and scores forecasting code
+- It builds on existing domain expertise
+- Many prompts describe models that hub teams already built
+- A retrospective test claimed it beat the CDC ensemble
+- Domain experts found that gain came from data revisions leaking into
+  the test
+- Run live in 2025/26, its ensemble ranked first for flu, COVID-19 and
+  RSV
+- My guess is few groups could run 207,500 candidate models
 :::
-::: {.column width="60%"}
+::: {.column width="55%"}
 ![](figures/agents-martinson2026-fig2.png){width="100%"
 fig-alt="Inputs of a problem statement, data, libraries and evaluation
 requirements feed a tree of candidate models, each node coloured by its
@@ -78,12 +80,38 @@ score, with the best leaf circled and the forecasting code it produced,
 an SIR model fitted with scipy, shown as the output."}
 
 ::: {.attribution}
-Figure 2 of Martinson et al. 2026,
-[arXiv:2605.16238](https://arxiv.org/abs/2605.16238) ·
 Aygün et al. 2026,
 [Nature](https://doi.org/10.1038/s41586-026-10658-6) ·
 Bracher and Funk 2026,
-[arXiv:2608.05883](https://arxiv.org/abs/2608.05883)
+[arXiv:2608.05883](https://arxiv.org/abs/2608.05883) ·
+Martinson et al. 2026, Fig. 2,
+[arXiv:2605.16238](https://arxiv.org/abs/2605.16238)
+:::
+:::
+::::
+
+## Our outbreak model, built with agents
+
+:::: {.columns}
+::: {.column width="40%"}
+- Ebola disease caused by Bundibugyo virus, DRC, 2026
+- We replicated the first published estimate the next day
+- One model fitted to all the surveillance streams
+- Estimates for each province and health zone
+- Refitted as new data arrive, with forecasts scored each week
+:::
+::: {.column width="60%"}
+![](figures/agents-bvd-dashboard.png){width="100%"
+fig-alt="An interactive map of health zones in north-eastern DRC shaded by
+current reproduction number, most below one and one zone above, beside a
+national panel with a reproduction number of 0.80, its trend since March
+falling to about one, and weekly confirmed cases with a seven-day
+forecast."}
+
+::: {.attribution}
+McCabe et al. 2026, [doi:10.25560/130007](https://doi.org/10.25560/130007) ·
+[BVDOutbreakSize dashboard](https://epiforecasts.io/BVDOutbreakSize/stable/dashboard),
+data to 27 September 2026
 :::
 :::
 ::::

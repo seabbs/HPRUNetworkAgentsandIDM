@@ -136,3 +136,41 @@ Read as: a general first bullet on Challenges, and no #779 label on the chart.
 
 Read as: move the tree-search slide into the Where section, after
 Implementing.
+
+> Does tha ssldie have an accurate headinga? can we make the role of the
+> domain experts checking their process il.e the ufink paper qa little
+> clerarlyer/ more nyuanced
+
+Read as: retitle the tree-search slide without "Google" or "topped", and
+tell it in order. Retrospective claim (Aygün), leakage found by domain
+experts (Bracher and Funk), then the prospective result (Martinson).
+
+> Also the building on existing domain exerptise a bit clearler?
+
+> We could also have a ncier and better verison of our ouytbreak response
+> model as a slide as well as an excample of what you cna do perhaps?
+> After the google one?
+
+> This is not a good slide: How to collaborate in an agent- it hsould be
+> some refelctions in more detail on wyh it is hard i.e volume of changes,
+> understanding what is output from a persoan and what from an LLM.
+> Different levels of access to agents.
+> that kind of thing
+
+> We don't have anything about how to use tht time they give us? i.e a slide
+> with ehader? something like challeng pussh to do more of the same work but
+> really diffrerent kind of work i.e review, deep dive, big pciture thinking
+> etc etc? How to train fort that kind of work? buiold tools to make agents
+> work better do they look diofferen that the cuits of tools and mmethods we
+> have built hsitoricially?
+
+> Challgne is rapidly changing fifled and i.e a bubble what is true today may
+> not be ture in a few months or next year
+
+> Cut:  We have not solved it
+
+Read as: the summary says collaborating through agents is hard, and stops there.
+
+> Cut:  They get things wrong, and retrospective scores can leak new bulleet
+> They get things wrogn in ways that humans wouldn't and these errors can be
+> hard to spot.

@@ -1,16 +1,17 @@
 ## Challenges
 
 :::: {.columns}
-::: {.column width="40%"}
+::: {.column width="45%"}
 - Agents write a lot of complex code, quickly
 - Not written the way a person would, so hard to review
 - Odd bugs, caught by plots and domain knowledge
 - Training, when agents do the early career tasks
-- Collaborating through agents
 - Heavily subsidised for now
 - What happens when we pay the true cost?
+- The field moves fast, and may be a bubble
+- What is true today may not hold next year
 :::
-::: {.column width="60%"}
+::: {.column width="55%"}
 ![](figures/agents-complex-code.png){width="100%"
 fig-alt="Thirty lines of Julia from a hand-written gradient rule, with
 nested loops over patches and zones and many variables with bars over
