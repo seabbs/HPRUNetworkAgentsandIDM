@@ -266,3 +266,7 @@ Assistance, and the outbreak slide after the report.
 > A bullet on the agent-built dashboard, forecast evaluation allowing for
 > real-time evaluation, and the infrastructure built to allow public-domain
 > fitting and model checking?
+
+> Challenges: cut the code example. Can we make it a bit more visually
+> interesting, groups of challenges, coloured boxes etc.?
+> Some kind of meta-challenges with the current bullets in them etc.

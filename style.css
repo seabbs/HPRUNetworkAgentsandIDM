@@ -88,3 +88,32 @@
   border-radius: 50%;
   margin: 0 0 12px 0;
 }
+
+/* Grouped challenges as coloured boxes */
+.reveal .challenge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 16px;
+}
+.reveal .cbox {
+  border: 3px solid;
+  border-radius: 16px;
+  padding: 18px 28px;
+}
+.reveal .cbox p {
+  margin: 0 0 6px 0;
+  font-size: 0.9em;
+}
+.reveal .cbox ul {
+  margin: 0 0 0 1.1em;
+  font-size: 0.72em;
+}
+.reveal .cbox.teal { border-color: #1f6f8b; background: #e3eef2; }
+.reveal .cbox.slate { border-color: #4a5899; background: #e6e8f2; }
+.reveal .cbox.brick { border-color: #b5432f; background: #f5e6e3; }
+.reveal .cbox.grey { border-color: #6b7280; background: #f0f1f3; }
+.reveal .cbox.teal p strong { color: #1f6f8b; }
+.reveal .cbox.slate p strong { color: #4a5899; }
+.reveal .cbox.brick p strong { color: #b5432f; }
+.reveal .cbox.grey p strong { color: #4b5563; }

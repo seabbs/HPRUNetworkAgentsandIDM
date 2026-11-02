@@ -1,31 +1,33 @@
-## Challenges {.smaller}
+## Challenges
 
-:::: {.columns}
-::: {.column width="45%"}
+::::: {.challenge-grid}
+:::: {.cbox .teal}
+**Code we cannot easily check**
+
 - Agents write a lot of complex code, quickly
 - Not written the way a person would, so hard to review
 - Odd bugs, caught by plots and domain knowledge
+::::
+:::: {.cbox .slate}
+**How much to hand over**
+
 - How much agents should do on their own is an open question
 - Most tasks still need a person closely in the loop
 - Training, when agents do the early career tasks
+::::
+:::: {.cbox .brick}
+**Data and access**
+
 - Confidential data needs agents that run where the data are
 - Ideally a local agent and a local model
+- Equity, when access to agents and compute is uneven
+::::
+:::: {.cbox .grey}
+**Cost and change**
+
 - Heavily subsidised for now
 - What happens when we pay the true cost?
-- Equity, when access to agents and compute is uneven
 - The field moves fast, and may be a bubble
 - What is true today may not hold next year
-:::
-::: {.column width="55%"}
-![](figures/agents-complex-code.png){width="100%"
-fig-alt="Thirty lines of Julia from a hand-written gradient rule, with
-nested loops over patches and zones and many variables with bars over
-their names, such as I-bar, W-bar and M-bar-p."}
-
-::: {.attribution}
-[BVDOutbreakSize][bvd-repo], src/mooncake_rules.jl, 2 November 2026 ·
-issues [#605](https://github.com/epiforecasts/BVDOutbreakSize/issues/605)
-and [#606](https://github.com/epiforecasts/BVDOutbreakSize/issues/606)
-:::
-:::
 ::::
+:::::
