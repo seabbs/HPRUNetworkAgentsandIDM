@@ -38,7 +38,7 @@ Duck by Tom Morris,
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Our agents open pull requests as seabbs-bot and sbfnk-bot
+- Our agents open pull requests as seabbs&#8209;bot and sbfnk&#8209;bot
 - They fix bugs, simplify code, and add tests and benchmarks
 - Review bots read each pull request first
 - Then the other person reviews it, and a person merges
@@ -50,6 +50,10 @@ Duck by Tom Morris,
 seabbs-bot</div>
 <div><img src="figures/sbfnk-bot.jpg" alt="sbfnk-bot avatar">
 sbfnk-bot</div>
+<div><img src="figures/seabbs-review-bot.jpg"
+alt="seabbs-review-bot avatar">seabbs-review-bot</div>
+<div><img src="figures/sbfnk-review-bot.png"
+alt="sbfnk-review-bot avatar">sbfnk-review-bot</div>
 </div>
 ```
 :::

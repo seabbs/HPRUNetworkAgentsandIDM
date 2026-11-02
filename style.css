@@ -73,8 +73,8 @@
 /* The bot accounts on the closing slide */
 .reveal .bots {
   display: flex;
-  gap: 48px;
-  margin-top: 48px;
+  gap: 28px;
+  margin-top: 40px;
 }
 .reveal .bots div {
   display: flex;
@@ -84,7 +84,7 @@
   color: #6b7280;
 }
 .reveal .bots img {
-  height: 140px;
+  height: 110px;
   border-radius: 50%;
   margin: 0 0 12px 0;
 }

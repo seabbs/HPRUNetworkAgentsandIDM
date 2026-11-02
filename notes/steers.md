@@ -298,3 +298,6 @@ Read as: cite the article on the freed-time slide.
 
 > Split this into two slides, models then workflow? ("What is infectious
 > disease modelling?")
+
+> "How we use agents to develop EpiNow2" is missing the pictures of our
+> review bots.
