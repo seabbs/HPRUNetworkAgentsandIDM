@@ -177,3 +177,6 @@
 .reveal .stack-grid .cbox { padding: 10px 20px; }
 .reveal .stack-grid .cbox p { margin: 0 0 4px 0; font-size: 0.8em; }
 .reveal .stack-grid .cbox ul { margin: 0 0 0 1.1em; font-size: 0.62em; }
+
+/* A larger emoji before a box heading */
+.reveal .emoji { font-size: 1.3em; margin-right: 10px; vertical-align: -4px; }

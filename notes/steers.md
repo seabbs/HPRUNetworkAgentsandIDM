@@ -343,3 +343,6 @@ Read as: cite the article on the freed-time slide.
 
 > Can we break this into what, and why it is important? ("Empirical Research
 > Assistance ...") The Google model slide has too much text in a wall.
+
+> A bit dry. Can we have emojis or little pictures, in a nice way, on
+> Challenges?
