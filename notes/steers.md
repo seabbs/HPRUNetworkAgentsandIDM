@@ -511,3 +511,7 @@ of the talk plan.
 > In the title thing, the agents in the middle web feed into the model, not the agents we are talking to.
 
 > Does the "Merge and refit" box still make sense, in the "How we use agents to develop EpiNow2" slide?
+
+> Here, "Expert checks caught what the first test missed": it's a paper by non-domain experts.
+
+> "Agent-raised issues all look equally urgent" and are often hard to read.

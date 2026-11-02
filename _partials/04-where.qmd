@@ -210,7 +210,8 @@ data to 25 October 2026
 **Why it matters**
 
 - It builds on existing expertise
-- Expert checks caught what the first test missed
+- The first paper was by non-domain experts, and domain experts caught
+  what it missed
 - My guess is few groups could run 207,500 candidate models
 ::::
 :::::

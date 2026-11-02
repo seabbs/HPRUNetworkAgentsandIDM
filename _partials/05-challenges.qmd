@@ -7,7 +7,7 @@
 - Agents write a lot of complex code, quickly
 - Not written the way a person would, so code and docs are hard to review
 - Hard to see where a person made the decisions
-- Agent-raised issues all look equally urgent
+- Agent-raised issues all look equally urgent and are often hard to read
 - Odd bugs, caught by plots and domain knowledge
 ::::
 :::: {.cbox .slate}
