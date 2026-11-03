@@ -14,8 +14,8 @@
 Claude Code</div>
 <div><img src="figures/logos/openai.svg" alt="OpenAI logo">
 Codex</div>
-<div><img src="figures/logos/googlegemini.svg" alt="Gemini logo">
-Gemini CLI</div>
+<div><img src="figures/logos/antigravity.svg" alt="Antigravity logo">
+Antigravity CLI</div>
 <div><img src="figures/logos/githubcopilot.svg" alt="GitHub Copilot logo">
 Copilot</div>
 <div><img src="figures/logos/cursor.svg" alt="Cursor logo">
